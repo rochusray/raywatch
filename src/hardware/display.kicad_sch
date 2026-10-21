@@ -2313,6 +2313,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I²C: 0101101"
+		(exclude_from_sim no)
+		(at 91.44 128.016 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e4c5c62-e057-4ecf-a098-b5a9279275ad")
+	)
 	(junction
 		(at 176.53 95.25)
 		(diameter 0)
@@ -4066,7 +4076,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "14d69b73-ad99-4aac-87b3-1aeb9e4dd1c2")
+			(uuid "14d69b73-ad99-4aac-87b3-1aeb9e4dd1c3")
 		)
 		(instances
 			(project "raywatch"
@@ -4133,7 +4143,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "14d69b73-ad99-4aac-87b3-1aeb9e4dd1c2")
+			(uuid "14d69b73-ad99-4aac-87b3-1aeb9e4dd1c4")
 		)
 		(instances
 			(project "raywatch"
@@ -4337,7 +4347,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d06d0bd0-b1f4-4142-ba96-dda88ed088f8")
+			(uuid "d06d0bd0-b1f4-4142-ba96-dda88ed088f9")
 		)
 		(instances
 			(project "raywatch"
@@ -4404,7 +4414,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b4650eb-9530-4061-97d4-d739d4e07db3")
+			(uuid "4b4650eb-9530-4061-97d4-d739d4e07db4")
 		)
 		(instances
 			(project "raywatch"
