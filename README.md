@@ -2,7 +2,7 @@
 **An open-source, privacy-first smart(_er_)watch designed to be an all day, every day companion to help you navigate your way trugh life.**
 > **Project status:** Early-stage development.
 
-# Why Raywatch?
+## Why Raywatch?
 Most smartwatches are designed as an extension to your phone. Raywatch is build different.
 ## Core principles
 - **Longevity:** Raywatch is meant to be a robust, long living, repairable, watertight, reliable device.
@@ -34,3 +34,11 @@ Here is a list of hardware features Raywatch is planned to have:
 - NFC
 - Wireless charging
 - Solar powered charging
+
+## About Us
+We are a small developer collective based in Munich, Germany.
+### Our Values
+- **Against Discrimination:** We are completely against any kind of discrimination, including but not limited to racism, sexism, classism, ableism, and any discrimination against the LGBTQIA+ community and it's members.
+- **Against Fascism:** We are openly against fascism and any fascist regime.
+- **Against Exploitation:** We are strongly against any kind of exploitation of any human beings or other feeling beings.
+- **Openness:** All information should be public, except private information.
