@@ -15,4 +15,5 @@
   (lib (name "MSD-1-A")(type "KiCad")(uri "${KIPRJMOD}/symbols/MSD-1-A.kicad_sym")(options "")(descr ""))
   (lib (name "MAX30101EFD+T")(type "KiCad")(uri "${KIPRJMOD}/symbols/MAX30101EFD+T.kicad_sym")(options "")(descr ""))
   (lib (name "MMC34160PJ")(type "KiCad")(uri "${KIPRJMOD}/symbols/MMC34160PJ.kicad_sym")(options "")(descr ""))
+  (lib (name "ENS210-LQFM")(type "KiCad")(uri "${KIPRJMOD}/symbols/ENS210-LQFM.kicad_sym")(options "")(descr ""))
 )

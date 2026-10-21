@@ -178,6 +178,48 @@
 		)
 	)
 	(sheet
+		(at 21.59 134.62)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf067082-8f07-4e2a-8f09-1edc4b312956")
+		(property "Sheetname" "Humidity"
+			(at 21.59 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "humidity.kicad_sch"
+			(at 21.59 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 93.98)
 		(size 12.7 3.81)
 		(exclude_from_sim no)

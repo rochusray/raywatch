@@ -689,6 +689,10 @@
     [
       "9d8e2113-86ca-4807-a845-38f03d871655",
       "Magnetometer"
+    ],
+    [
+      "bf067082-8f07-4e2a-8f09-1edc4b312956",
+      "Humidity"
     ]
   ],
   "text_variables": {}
