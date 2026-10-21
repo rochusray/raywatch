@@ -594,6 +594,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I²C: 1000011"
+		(exclude_from_sim no)
+		(at 116.586 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac033627-fc78-4240-aaf3-8e13f5555851")
+	)
 	(junction
 		(at 119.38 104.14)
 		(diameter 0)

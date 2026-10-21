@@ -881,6 +881,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I²C: 1010111"
+		(exclude_from_sim no)
+		(at 108.204 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66c79104-2b65-4baf-9d3a-20fb62c8f56a")
+	)
 	(junction
 		(at 166.37 90.17)
 		(diameter 0)
@@ -1896,7 +1906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "MAX30101EFD+T"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX30101.pdf"
 			(at 125.73 87.63 0)
 			(effects
 				(font
