@@ -12,4 +12,5 @@
   (lib (name "WS2816C")(type "KiCad")(uri "${KIPRJMOD}/symbols/WS2816C.kicad_sym")(options "")(descr ""))
   (lib (name "ATECC608A-MAHDA-S")(type "KiCad")(uri "${KIPRJMOD}/symbols/ATECC608A-MAHDA-S.kicad_sym")(options "")(descr ""))
   (lib (name "LIS2DUX12TR")(type "KiCad")(uri "${KIPRJMOD}/symbols/LIS2DUX12TR.kicad_sym")(options "")(descr ""))
+  (lib (name "MSD-1-A")(type "KiCad")(uri "${KIPRJMOD}/symbols/MSD-1-A.kicad_sym")(options "")(descr ""))
 )

@@ -677,6 +677,10 @@
     [
       "c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd",
       "Accelerometer"
+    ],
+    [
+      "d3a87cc9-ac13-45e7-bf56-8d3ed6c53cc2",
+      "microSD"
     ]
   ],
   "text_variables": {}

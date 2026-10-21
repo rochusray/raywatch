@@ -10,7 +10,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 20.955 72.39)
+		(at 21.59 72.39)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26,7 +26,7 @@
 		)
 		(uuid "0522506d-d6b7-4115-aecc-a1b886294452")
 		(property "Sheetname" "Display"
-			(at 20.955 71.6784 0)
+			(at 21.59 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,7 +35,7 @@
 			)
 		)
 		(property "Sheetfile" "display.kicad_sch"
-			(at 20.955 76.7846 0)
+			(at 21.59 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 20.955 82.55)
+		(at 21.59 83.185)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "0600b049-21d1-41d4-ba88-3a8142850263")
 		(property "Sheetname" "LEDs"
-			(at 20.955 81.8384 0)
+			(at 21.59 82.4734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,7 +77,7 @@
 			)
 		)
 		(property "Sheetfile" "leds.kicad_sch"
-			(at 20.955 86.9446 0)
+			(at 21.59 87.5796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94,7 +94,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 90.805)
+		(at 21.59 93.98)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -110,7 +110,7 @@
 		)
 		(uuid "c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd")
 		(property "Sheetname" "Accelerometer"
-			(at 21.59 90.0934 0)
+			(at 21.59 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,7 +119,7 @@
 			)
 		)
 		(property "Sheetfile" "accelerometer.kicad_sch"
-			(at 21.59 95.1996 0)
+			(at 21.59 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +136,49 @@
 		)
 	)
 	(sheet
-		(at 20.955 62.23)
+		(at 21.59 104.14)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3a87cc9-ac13-45e7-bf56-8d3ed6c53cc2")
+		(property "Sheetname" "microSD"
+			(at 21.59 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microsd.kicad_sch"
+			(at 21.59 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 62.23)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -152,7 +194,7 @@
 		)
 		(uuid "dd50c693-c2d1-4da4-86ca-2eae732704f9")
 		(property "Sheetname" "Buttons"
-			(at 20.955 61.5184 0)
+			(at 21.59 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,7 +203,7 @@
 			)
 		)
 		(property "Sheetfile" "buttons.kicad_sch"
-			(at 20.955 66.6246 0)
+			(at 21.59 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -178,7 +220,7 @@
 		)
 	)
 	(sheet
-		(at 20.955 52.07)
+		(at 21.59 52.07)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -194,7 +236,7 @@
 		)
 		(uuid "fa39c797-7f88-47af-b50c-765e69cbd658")
 		(property "Sheetname" "MC: Microcontroller"
-			(at 20.955 51.3584 0)
+			(at 21.59 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,7 +245,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 20.955 56.4646 0)
+			(at 21.59 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
