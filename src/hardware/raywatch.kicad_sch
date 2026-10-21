@@ -136,6 +136,48 @@
 		)
 	)
 	(sheet
+		(at 21.59 124.46)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d8e2113-86ca-4807-a845-38f03d871655")
+		(property "Sheetname" "Magnetometer"
+			(at 21.59 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnetometer.kicad_sch"
+			(at 21.59 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 93.98)
 		(size 12.7 3.81)
 		(exclude_from_sim no)

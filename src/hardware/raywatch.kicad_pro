@@ -685,6 +685,10 @@
     [
       "92973ecd-838d-4692-844f-05a1efeb365a",
       "Heartrate & O₂"
+    ],
+    [
+      "9d8e2113-86ca-4807-a845-38f03d871655",
+      "Magnetometer"
     ]
   ],
   "text_variables": {}
