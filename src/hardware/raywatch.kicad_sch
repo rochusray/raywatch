@@ -10,6 +10,48 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 21.59 62.23)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd50c693-c2d1-4da4-86ca-2eae732704f9")
+		(property "Sheetname" "Buttons"
+			(at 21.59 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 21.59 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 52.07)
 		(size 12.7 3.81)
 		(exclude_from_sim no)

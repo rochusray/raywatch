@@ -657,6 +657,10 @@
     [
       "fbcfcd28-2a3e-42e7-898f-b06e02d68038",
       "GPIO"
+    ],
+    [
+      "dd50c693-c2d1-4da4-86ca-2eae732704f9",
+      "Buttons"
     ]
   ],
   "text_variables": {}
