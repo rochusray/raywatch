@@ -9,4 +9,5 @@
   (lib (name "SR4W035")(type "KiCad")(uri "${KIPRJMOD}/symbols/SR4W035.kicad_sym")(options "")(descr ""))
   (lib (name "TXS0108EQWRKSRQ1")(type "KiCad")(uri "${KIPRJMOD}/symbols/TXS0108EQWRKSRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "W3102")(type "KiCad")(uri "${KIPRJMOD}/symbols/W3102.kicad_sym")(options "")(descr ""))
+  (lib (name "WS2816C")(type "KiCad")(uri "${KIPRJMOD}/symbols/WS2816C.kicad_sym")(options "")(descr ""))
 )

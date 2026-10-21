@@ -1,0 +1,28 @@
+(kicad_symbol_lib
+  (version 20231120)
+  (generator "kicad_symbol_editor")
+  (symbol "WS2816C-1313-4P"
+    (property "Reference" "D" (at 0 5.08 0) (effects (font (size 1.0 1.0))))
+    (property "Value" "WS2816C-1313-4P" (at 0 3.81 0) (effects (font (size 1.0 1.0))))
+    (property "Footprint" "WS2816C:WS2816C-1313-4P" (at 0 0 0) (effects (font (size 1.0 1.0)) hide))
+    (property "Datasheet" "https://www.gainer-led.com/uploads/42875/files/WS2816B-1313-4P-WS2816C-1313-4P.pdf" (at 0 0 0) (effects (font (size 1.0 1.0)) hide))
+    (symbol "WS2816C-1313-4P_0_1"
+      (rectangle (start -3.81 2.54) (end 3.81 -2.54)
+        (stroke (width 0.254) (type default)) (fill (type background)))
+    )
+    (symbol "WS2816C-1313-4P_1_1"
+      (pin power_in line (at -6.35 1.27 0) (length 2.54)
+        (name "VDD" (effects (font (size 1.0 1.0))))
+        (number "1" (effects (font (size 1.0 1.0)))))
+      (pin output line (at 6.35 1.27 180) (length 2.54)
+        (name "DO" (effects (font (size 1.0 1.0))))
+        (number "2" (effects (font (size 1.0 1.0)))))
+      (pin power_in line (at 6.35 -1.27 180) (length 2.54)
+        (name "GND" (effects (font (size 1.0 1.0))))
+        (number "3" (effects (font (size 1.0 1.0)))))
+      (pin input line (at -6.35 -1.27 0) (length 2.54)
+        (name "DI" (effects (font (size 1.0 1.0))))
+        (number "4" (effects (font (size 1.0 1.0)))))
+    )
+  )
+)

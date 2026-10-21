@@ -52,6 +52,48 @@
 		)
 	)
 	(sheet
+		(at 20.955 82.55)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0600b049-21d1-41d4-ba88-3a8142850263")
+		(property "Sheetname" "LEDs"
+			(at 20.955 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 20.955 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 20.955 62.23)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
