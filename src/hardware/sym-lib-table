@@ -5,4 +5,7 @@
   (lib (name "2026-10-20_22-02-28")(type "KiCad")(uri "${KIPRJMOD}/symbols/2026-10-20_22-02-28.kicad_sym")(options "")(descr ""))
   (lib (name "2026-10-21_14-05-48")(type "KiCad")(uri "${KIPRJMOD}/symbols/2026-10-21_14-05-48.kicad_sym")(options "")(descr ""))
   (lib (name "2026-10-21_14-28-45")(type "KiCad")(uri "${KIPRJMOD}/symbols/2026-10-21_14-28-45.kicad_sym")(options "")(descr ""))
+  (lib (name "046809612110846+")(type "KiCad")(uri "${KIPRJMOD}/symbols/046809612110846+.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-10-21_15-51-24")(type "KiCad")(uri "${KIPRJMOD}/symbols/2026-10-21_15-51-24.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-10-21_16-01-06")(type "KiCad")(uri "${KIPRJMOD}/symbols/2026-10-21_16-01-06.kicad_sym")(options "")(descr ""))
 )
