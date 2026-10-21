@@ -94,6 +94,48 @@
 		)
 	)
 	(sheet
+		(at 21.59 90.805)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd")
+		(property "Sheetname" "Accelerometer"
+			(at 21.59 90.0934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "accelerometer.kicad_sch"
+			(at 21.59 95.1996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 20.955 62.23)
 		(size 12.7 3.81)
 		(exclude_from_sim no)

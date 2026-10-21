@@ -673,6 +673,10 @@
     [
       "c4ab4722-2dd5-484a-86b3-dc6635eabcb4",
       "TPM"
+    ],
+    [
+      "c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd",
+      "Accelerometer"
     ]
   ],
   "text_variables": {}
