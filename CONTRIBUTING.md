@@ -11,3 +11,4 @@ You can contribute in many ways, like helping to grow a community around this pr
 - ✔️ Use LLMs for research purposes / looking up things.
 ## You may not:
 - ❌ Use AI in your contributions.
+- ❌ Train AI on data from this repository.
