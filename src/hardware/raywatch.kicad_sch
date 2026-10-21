@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed")
 	(paper "A4")
+	(title_block
+		(title "Raywatch")
+		(date "2026-10-21")
+	)
 	(lib_symbols)
 	(sheet
 		(at 21.59 52.07)
