@@ -693,6 +693,10 @@
     [
       "bf067082-8f07-4e2a-8f09-1edc4b312956",
       "Humidity"
+    ],
+    [
+      "34ecb33f-48ad-4657-abe2-b4caffc19e6d",
+      "Vibration Motor"
     ]
   ],
   "text_variables": {}

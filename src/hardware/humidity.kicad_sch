@@ -934,7 +934,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "42554d31-a867-49c8-b2e0-5a83ceebc876")
+			(uuid "42554d31-a867-49c8-b2e0-5a83ceebc877")
 		)
 		(instances
 			(project "raywatch"
