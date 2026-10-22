@@ -971,6 +971,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "088e2bcd-955e-4096-86fe-28a028761a27")
 		(property "Reference" "C?"
 			(at 109.22 101.5999 0)
@@ -1312,21 +1313,21 @@
 		(fields_autoplaced yes)
 		(uuid "849ee151-93cd-4a6d-9ad5-5278c4636ea8")
 		(property "Reference" "C?"
-			(at 194.31 88.8999 0)
+			(at 201.93 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 194.31 91.4399 0)
+			(at 201.93 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -1786,21 +1787,21 @@
 		(fields_autoplaced yes)
 		(uuid "b7c906da-38df-440d-92f8-6796984c4bf9")
 		(property "Reference" "C?"
-			(at 181.61 88.8999 0)
+			(at 189.23 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "4.7µF"
-			(at 181.61 91.4399 0)
+			(at 189.23 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""

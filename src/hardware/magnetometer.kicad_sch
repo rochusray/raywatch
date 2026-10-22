@@ -1065,7 +1065,7 @@
 		(fields_autoplaced yes)
 		(uuid "08ebd27f-4e4a-4d7a-aa3d-a4d7f09e26c9")
 		(property "Reference" "C?"
-			(at 114.3 100.3301 0)
+			(at 114.3 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,7 +1074,7 @@
 			)
 		)
 		(property "Value" "4.7µF"
-			(at 114.3 97.7901 0)
+			(at 114.3 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)

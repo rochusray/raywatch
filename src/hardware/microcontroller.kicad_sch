@@ -6622,7 +6622,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c6c7de9-3fae-4969-b9a2-0c0afa167056")
 		(property "Reference" "U?"
-			(at 128.27 25.4 0)
+			(at 128.27 24.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6630,7 +6630,7 @@
 			)
 		)
 		(property "Value" "SR4W035"
-			(at 128.27 27.94 0)
+			(at 128.27 26.67 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7018,6 +7018,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3331fada-b8d2-4da7-a98c-d9ae7ace12d2")
 		(property "Reference" "#PWR03"
 			(at 149.86 175.26 0)
@@ -7088,7 +7089,7 @@
 		(fields_autoplaced yes)
 		(uuid "35241149-d078-49f8-814b-4de9a433e73c")
 		(property "Reference" "U?"
-			(at 256.54 22.86 0)
+			(at 256.54 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,7 +7097,7 @@
 			)
 		)
 		(property "Value" "PCA9306DQER"
-			(at 256.54 25.4 0)
+			(at 256.54 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,23 +7320,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3919398e-5d45-455c-a409-888fa8b71b37")
 		(property "Reference" "C2"
-			(at 204.47 121.9199 0)
+			(at 212.09 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "2.2µF"
-			(at 204.47 123.952 0)
+			(at 212.09 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8121,6 +8123,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "54bcbd10-e891-4298-aa09-0370dc6c81a0")
 		(property "Reference" "L?"
 			(at 83.82 41.9099 0)
@@ -8363,21 +8366,21 @@
 		(fields_autoplaced yes)
 		(uuid "6362782b-3065-4d09-ad52-47ce902a9291")
 		(property "Reference" "C12"
-			(at 191.77 121.9199 0)
+			(at 199.39 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10nF"
-			(at 191.77 124.4599 0)
+			(at 199.39 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9182,11 +9185,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 274.32 34.29 0)
+			(at 276.86 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9307,21 +9311,21 @@
 		(fields_autoplaced yes)
 		(uuid "7ed80476-cee5-48bf-a179-8c37ecbbf456")
 		(property "Reference" "C?"
-			(at 219.71 36.8299 0)
+			(at 212.09 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100pF"
-			(at 219.71 39.3699 0)
+			(at 212.09 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9612,23 +9616,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "97ecc36e-7a7d-4892-bcaf-a4fc17b3a989")
 		(property "Reference" "Y1"
-			(at 38.1001 152.4 90)
+			(at 36.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "32.768kHz"
-			(at 35.5601 152.4 90)
+			(at 36.83 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9895,6 +9898,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a21e6704-891b-4432-ae17-cf28ccf1b4d3")
 		(property "Reference" "C8"
 			(at 179.07 88.8999 0)
@@ -10572,6 +10576,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "af8cf6dd-333d-4e7a-8fc6-e912e976d0bb")
 		(property "Reference" "C7"
 			(at 193.04 88.8999 0)
@@ -10949,6 +10954,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c41d032c-29c6-4668-aabc-ba7decc231d0")
 		(property "Reference" "L?"
 			(at 96.52 41.9099 0)
@@ -12359,9 +12365,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f8593260-cd20-41e1-a391-60c34e6c2e7e")
 		(property "Reference" "TP?"
-			(at 33.02 134.62 0)
+			(at 33.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12369,7 +12376,7 @@
 			)
 		)
 		(property "Value" "TestPoint_2Pole"
-			(at 33.02 132.08 0)
+			(at 33.02 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12438,12 +12445,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.8301 166.37 90)
+			(at 36.83 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""

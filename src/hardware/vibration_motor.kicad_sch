@@ -1941,21 +1941,21 @@
 		(fields_autoplaced yes)
 		(uuid "c5598b95-fae2-4a4d-b453-943d77801a6e")
 		(property "Reference" "C18"
-			(at 128.27 113.0299 0)
+			(at 120.65 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1µF"
-			(at 128.27 115.5699 0)
+			(at 120.65 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""

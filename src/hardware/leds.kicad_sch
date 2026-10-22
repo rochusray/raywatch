@@ -5471,11 +5471,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 48.26 31.75 0)
+			(at 45.72 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6766,21 +6767,21 @@
 		(fields_autoplaced yes)
 		(uuid "3fb67955-8f58-4c14-83be-b6ab99fb8640")
 		(property "Reference" "C?"
-			(at 97.79 167.6399 0)
+			(at 105.41 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10pF"
-			(at 97.79 170.1799 0)
+			(at 105.41 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7382,11 +7383,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 165.1 0)
+			(at 43.18 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""

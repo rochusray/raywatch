@@ -3473,11 +3473,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 151.13 0)
+			(at 104.14 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3842,67 +3843,67 @@
 			)
 		)
 		(pin "6"
-			(uuid "407bd012-bd0a-43cb-9a52-48db8d2deba3")
+			(uuid "407bd012-bd0a-43cb-9a52-48db8d2deba4")
 		)
 		(pin "13"
-			(uuid "ab95282e-9b99-4726-856a-6abb11d9dc02")
+			(uuid "ab95282e-9b99-4726-856a-6abb11d9dc03")
 		)
 		(pin "9"
-			(uuid "6ff2a657-d1b7-497f-8b6f-235286befc06")
+			(uuid "6ff2a657-d1b7-497f-8b6f-235286befc07")
 		)
 		(pin "7"
-			(uuid "61f27b1d-c349-408c-a30a-707802e30c1c")
+			(uuid "61f27b1d-c349-408c-a30a-707802e30c1d")
 		)
 		(pin "5"
-			(uuid "afe5c3f7-d85b-4357-88d0-8e524d7a633f")
+			(uuid "afe5c3f7-d85b-4357-88d0-8e524d7a6340")
 		)
 		(pin "4"
-			(uuid "7ee0df8b-31af-4d05-8525-ca8620cc009c")
+			(uuid "7ee0df8b-31af-4d05-8525-ca8620cc009d")
 		)
 		(pin "19"
-			(uuid "3eb8708d-5380-489e-b94c-763d08cda5f0")
+			(uuid "3eb8708d-5380-489e-b94c-763d08cda5f1")
 		)
 		(pin "16"
-			(uuid "0285e350-b393-4ef7-b85b-7365450ef1f8")
+			(uuid "0285e350-b393-4ef7-b85b-7365450ef1f9")
 		)
 		(pin "1"
-			(uuid "5d762006-eb3a-4c82-88ff-40b991ee47dc")
+			(uuid "5d762006-eb3a-4c82-88ff-40b991ee47dd")
 		)
 		(pin "10"
-			(uuid "13c92fa0-41b0-4ad2-b3b4-388596231b37")
+			(uuid "13c92fa0-41b0-4ad2-b3b4-388596231b38")
 		)
 		(pin "2"
-			(uuid "e01dbb1c-4273-4f05-94cf-bd924d82c261")
+			(uuid "e01dbb1c-4273-4f05-94cf-bd924d82c262")
 		)
 		(pin "18"
-			(uuid "4506977c-1aff-415e-a189-4f0d793dca1b")
+			(uuid "4506977c-1aff-415e-a189-4f0d793dca1c")
 		)
 		(pin "3"
-			(uuid "191463b1-5212-4219-8ee2-8e062c31f4b3")
+			(uuid "191463b1-5212-4219-8ee2-8e062c31f4b4")
 		)
 		(pin "15"
-			(uuid "9d2c2c5f-e0fb-404a-acad-c0ac5c7a576c")
+			(uuid "9d2c2c5f-e0fb-404a-acad-c0ac5c7a576d")
 		)
 		(pin "17"
-			(uuid "7d1ca3be-0704-4a89-bd3b-f7aae012b28c")
+			(uuid "7d1ca3be-0704-4a89-bd3b-f7aae012b28d")
 		)
 		(pin "12"
-			(uuid "83b4f1e3-e727-4598-94c9-3c46a5af8c1d")
+			(uuid "83b4f1e3-e727-4598-94c9-3c46a5af8c1e")
 		)
 		(pin "8"
-			(uuid "1685057d-b58b-4f37-8ce5-c1401b0f811a")
+			(uuid "1685057d-b58b-4f37-8ce5-c1401b0f811b")
 		)
 		(pin "11"
-			(uuid "6db367e7-17ac-4e20-ac56-b52344657b37")
+			(uuid "6db367e7-17ac-4e20-ac56-b52344657b38")
 		)
 		(pin "14"
-			(uuid "e8182cdd-25ab-4e3c-900b-a3c6dca1d4a5")
+			(uuid "e8182cdd-25ab-4e3c-900b-a3c6dca1d4a6")
 		)
 		(pin "20"
-			(uuid "879978eb-4620-409d-b448-8e1c4bf25c7f")
+			(uuid "879978eb-4620-409d-b448-8e1c4bf25c80")
 		)
 		(pin "21"
-			(uuid "54c06257-f528-4d5d-b970-d336ec102a79")
+			(uuid "54c06257-f528-4d5d-b970-d336ec102a7a")
 		)
 		(instances
 			(project "raywatch"
@@ -4001,6 +4002,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a93d8529-db9f-4a4f-b7f8-ba017980c135")
 		(property "Reference" "J?"
 			(at 198.12 62.23 0)

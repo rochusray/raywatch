@@ -1471,11 +1471,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 85.09 0)
+			(at 105.41 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -1746,11 +1747,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 85.09 0)
+			(at 191.77 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -2560,11 +2562,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 64.77 0)
+			(at 191.77 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -2697,11 +2700,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 123.19 0)
+			(at 105.41 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -2903,11 +2907,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 104.14 0)
+			(at 105.41 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3867,11 +3872,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 64.77 0)
+			(at 105.41 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4073,11 +4079,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 142.24 0)
+			(at 191.77 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4207,11 +4214,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 104.14 0)
+			(at 191.77 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4473,11 +4481,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 123.19 0)
+			(at 191.77 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5363,11 +5372,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 142.24 0)
+			(at 105.41 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""

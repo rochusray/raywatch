@@ -1698,6 +1698,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "046011a2-655f-4248-81c9-129f779288b1")
 		(property "Reference" "#PWR0280"
 			(at 166.37 137.16 0)
@@ -2103,6 +2104,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1d1bece6-a5a7-45c4-a36f-882dff13a641")
 		(property "Reference" "#PWR0251"
 			(at 68.58 80.01 0)
@@ -3859,6 +3861,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8c550005-8b3c-4a42-87e4-5dcc07faea01")
 		(property "Reference" "#PWR0281"
 			(at 166.37 139.7 0)
@@ -3925,6 +3928,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8c67a95e-f9e4-4972-9c66-ab87aaa9ad0a")
 		(property "Reference" "#PWR0271"
 			(at 166.37 80.01 0)
@@ -4061,6 +4065,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "97076314-e8e9-43c2-93b3-53047c5690f1")
 		(property "Reference" "#PWR0261"
 			(at 68.58 139.7 0)
@@ -4531,6 +4536,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c77c82ab-8db9-4134-87fd-0f503b6c60f3")
 		(property "Reference" "#PWR0252"
 			(at 68.58 77.47 0)
@@ -4902,6 +4908,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "da3e5a11-9b32-4ff3-b049-0da6fcce02e9")
 		(property "Reference" "#PWR0270"
 			(at 166.37 77.47 0)
@@ -5203,6 +5210,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f366174a-ca54-4355-9015-07b98ba444c7")
 		(property "Reference" "#PWR0260"
 			(at 68.58 137.16 0)
