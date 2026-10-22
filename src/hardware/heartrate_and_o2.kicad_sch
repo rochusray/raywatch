@@ -182,7 +182,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX30101.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1547,7 +1547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX30101.pdf"
 			(at 147.32 96.52 0)
 			(effects
 				(font
