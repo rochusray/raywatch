@@ -701,6 +701,46 @@
     [
       "500b48f3-f083-4626-a865-624bdd615c7c",
       "LoRa"
+    ],
+    [
+      "6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6",
+      "Power"
+    ],
+    [
+      "94d294dd-af54-43f7-9e9b-15472c788437",
+      "Solar"
+    ],
+    [
+      "d00e072b-2be1-497b-8423-3eead973d996",
+      "Wireless Charging"
+    ],
+    [
+      "ea548096-571e-4714-85a9-e9074f4e04cd",
+      "5V Converter"
+    ],
+    [
+      "b445ea2b-ce97-4fc9-a9bc-efa2f143df72",
+      "3.3V Converter"
+    ],
+    [
+      "965e2c2b-77bd-439d-8b14-adaa270f722d",
+      "3.0V Converter"
+    ],
+    [
+      "07fbbbca-9aa4-472c-8a7d-14bd6423f6c5",
+      "1.8V Converter"
+    ],
+    [
+      "e601ae13-e808-457e-9f3e-dffc594463cc",
+      "Charging Controller"
+    ],
+    [
+      "7d73f677-e1d3-42ef-8813-aac813c5814d",
+      "Battery Protection"
+    ],
+    [
+      "27d482b0-7b63-432c-88d1-098048a1418a",
+      "Battery Gauge"
     ]
   ],
   "text_variables": {}

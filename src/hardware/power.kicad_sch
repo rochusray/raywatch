@@ -1,0 +1,389 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bcd930da-98c3-4302-bf9b-0adae019863c")
+	(paper "A4")
+	(title_block
+		(date "2026-10-21")
+	)
+	(lib_symbols)
+	(sheet
+		(at 83.82 88.9)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07fbbbca-9aa4-472c-8a7d-14bd6423f6c5")
+		(property "Sheetname" "1.8V Converter"
+			(at 83.82 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1v8_converter.kicad_sch"
+			(at 83.82 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.005 100.33)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27d482b0-7b63-432c-88d1-098048a1418a")
+		(property "Sheetname" "Battery Gauge"
+			(at 40.005 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_gauge.kicad_sch"
+			(at 40.005 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.005 89.535)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d73f677-e1d3-42ef-8813-aac813c5814d")
+		(property "Sheetname" "Battery Protection"
+			(at 40.005 88.8234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_protection.kicad_sch"
+			(at 40.005 93.9296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.005 67.945)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94d294dd-af54-43f7-9e9b-15472c788437")
+		(property "Sheetname" "Solar"
+			(at 40.005 67.2334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar.kicad_sch"
+			(at 40.005 72.3396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 78.74)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "965e2c2b-77bd-439d-8b14-adaa270f722d")
+		(property "Sheetname" "3.0V Converter"
+			(at 83.82 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v0_converter.kicad_sch"
+			(at 83.82 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 68.58)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b445ea2b-ce97-4fc9-a9bc-efa2f143df72")
+		(property "Sheetname" "3.3V Converter"
+			(at 83.82 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v3_converter.kicad_sch"
+			(at 83.82 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.005 57.785)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d00e072b-2be1-497b-8423-3eead973d996")
+		(property "Sheetname" "Wireless Charging"
+			(at 40.005 57.0734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wireless_charging.kicad_sch"
+			(at 40.005 62.1796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.005 78.74)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e601ae13-e808-457e-9f3e-dffc594463cc")
+		(property "Sheetname" "Charging Controller"
+			(at 40.005 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "charging_controller.kicad_sch"
+			(at 40.005 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 57.785)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea548096-571e-4714-85a9-e9074f4e04cd")
+		(property "Sheetname" "5V Converter"
+			(at 83.82 57.0734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v_converter.kicad_sch"
+			(at 83.82 62.1796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6"
+					(page "18")
+				)
+			)
+		)
+	)
+)
