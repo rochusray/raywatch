@@ -2467,6 +2467,16 @@
 		)
 		(uuid "40723853-79bd-4c6b-8cfd-0774522b8614")
 	)
+	(text "tcxoVoltage: 0x02 (1.8V)"
+		(exclude_from_sim no)
+		(at 74.422 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85b17636-4c82-4cac-95e0-2c9fc5fcedc2")
+	)
 	(junction
 		(at 100.33 92.71)
 		(diameter 0)
