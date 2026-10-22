@@ -2096,108 +2096,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LIS2DUX12TR:LIS2DUX12TR")
-		(at 190.5 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1955bf7e-285c-408a-9770-a3b99862dd09")
-		(property "Reference" "U?"
-			(at 229.87 66.0399 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LIS2DUX12TR"
-			(at 229.87 68.5799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LGA-12_2.0X2.0X0.74_LIS2DUX12_STM"
-			(at 190.5 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2dux12.pdf"
-			(at 190.5 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "4b798ff7-a5cd-4ba4-8ad9-7bab34bfeedf")
-		)
-		(pin "12"
-			(uuid "b4c7a619-e0bb-4ddf-9b15-8592121cac9f")
-		)
-		(pin "7"
-			(uuid "05ba08c8-c960-4797-a54b-891bd068e767")
-		)
-		(pin "9"
-			(uuid "73624ffe-163c-4752-a734-2fe7710d7667")
-		)
-		(pin "1"
-			(uuid "1f0a7972-5ae4-4fc4-9746-2c1b2c8966e6")
-		)
-		(pin "3"
-			(uuid "c4626e25-2300-4de3-ae25-fa456a3e4eac")
-		)
-		(pin "8"
-			(uuid "119f7d09-6003-48a5-b88a-7ee9c1a4df4f")
-		)
-		(pin "6"
-			(uuid "51e10e81-b4a5-4ce4-a521-39476df87e75")
-		)
-		(pin "10"
-			(uuid "40d37d6c-f461-4f44-818e-456ee285d9f9")
-		)
-		(pin "2"
-			(uuid "758e574a-3f19-4a48-bc1c-39463e5f6732")
-		)
-		(pin "11"
-			(uuid "b192b31b-dcc4-49e8-b8ff-96fa9363a38e")
-		)
-		(pin "5"
-			(uuid "b0d578f0-8172-4882-9c67-4baaddff99e4")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 64.77 80.01 90)
 		(unit 1)
@@ -2258,6 +2156,108 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd"
 					(reference "#PWR0251")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIS2DUX12TR:LIS2DUX12TR")
+		(at 92.71 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d73635c-de31-4c2b-bd03-2c3ef018627f")
+		(property "Reference" "U?"
+			(at 132.08 125.7299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LIS2DUX12TR"
+			(at 132.08 128.2699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LGA-12_2.0X2.0X0.74_LIS2DUX12_STM"
+			(at 92.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2dux12.pdf"
+			(at 92.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ba64289d-f650-4736-b180-989639930541")
+		)
+		(pin "1"
+			(uuid "60700f32-ced0-452e-aee6-b9bd8017ef98")
+		)
+		(pin "3"
+			(uuid "7ba78f91-9aba-4393-901b-bfe8e8bf2a3b")
+		)
+		(pin "10"
+			(uuid "873bb436-cff6-474c-9adb-1a7ed529c58a")
+		)
+		(pin "5"
+			(uuid "16a99e16-6855-4352-9428-5a4e2eb78b2a")
+		)
+		(pin "8"
+			(uuid "33436605-40d3-4882-9673-9e4e1f27e6c1")
+		)
+		(pin "9"
+			(uuid "d4237954-8c6a-4572-9193-228d70ef6069")
+		)
+		(pin "6"
+			(uuid "2a8451f5-a4d1-4bd6-9036-2b4ba0bcad33")
+		)
+		(pin "12"
+			(uuid "01c0f987-5b08-497d-b415-9844dd522d74")
+		)
+		(pin "7"
+			(uuid "472f36fc-3ae5-4eda-9abb-64462f65af0f")
+		)
+		(pin "2"
+			(uuid "e35c4f6f-366a-4c1c-989b-9e329c5f2bdd")
+		)
+		(pin "11"
+			(uuid "66bd5d83-a557-4aca-b564-929f033dd529")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -2595,6 +2595,108 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd"
 					(reference "#PWR0288")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIS2DUX12TR:LIS2DUX12TR")
+		(at 190.5 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e56a797-a394-478d-8fd3-e189516d1b51")
+		(property "Reference" "U?"
+			(at 229.87 66.0399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LIS2DUX12TR"
+			(at 229.87 68.5799 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LGA-12_2.0X2.0X0.74_LIS2DUX12_STM"
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2dux12.pdf"
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "12e575c5-228c-4c2e-8554-5de1bc21c20d")
+		)
+		(pin "1"
+			(uuid "c84b3f7f-b98e-44ec-bbf1-2793b6003c91")
+		)
+		(pin "3"
+			(uuid "21f07832-0f35-42d7-b081-9999d75ee237")
+		)
+		(pin "10"
+			(uuid "76940775-ed89-46c0-8e20-9fa95b5f16f3")
+		)
+		(pin "5"
+			(uuid "bee662d4-fb00-4007-b125-b3c968983239")
+		)
+		(pin "8"
+			(uuid "40efd242-12d2-4be7-9074-8d10cfab12ae")
+		)
+		(pin "9"
+			(uuid "545544d6-6d3f-4ed7-827a-71ff208346e6")
+		)
+		(pin "6"
+			(uuid "260514f9-da6f-4cf7-9820-d63f4b66faff")
+		)
+		(pin "12"
+			(uuid "87022903-ec81-4fe4-9941-520ff1060e14")
+		)
+		(pin "7"
+			(uuid "a152f226-9a9d-4b03-90da-5731bf9d359e")
+		)
+		(pin "2"
+			(uuid "7338b29e-337e-4283-a8eb-785349cfd318")
+		)
+		(pin "11"
+			(uuid "1c4429ac-e989-4b93-a52d-877ee05e7602")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -3200,108 +3302,6 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd"
 					(reference "#PWR0282")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LIS2DUX12TR:LIS2DUX12TR")
-		(at 92.71 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7654b5af-40a0-46da-80a6-c66f9f7ca902")
-		(property "Reference" "U?"
-			(at 132.08 66.0399 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LIS2DUX12TR"
-			(at 132.08 68.5799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LGA-12_2.0X2.0X0.74_LIS2DUX12_STM"
-			(at 92.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2dux12.pdf"
-			(at 92.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "485b985a-0811-4770-be8c-5829def51efd")
-		)
-		(pin "12"
-			(uuid "908f1a8f-76fb-4ee0-bb11-0b0cabd52473")
-		)
-		(pin "7"
-			(uuid "6a29e617-fee8-415e-923c-eba2f7256f15")
-		)
-		(pin "9"
-			(uuid "f4235f61-333e-4548-bec5-177d1017b3f1")
-		)
-		(pin "1"
-			(uuid "642059c4-1201-4be7-a4c3-6216f9643bf7")
-		)
-		(pin "3"
-			(uuid "bd533f01-c817-4c9f-a72c-a0e70278ac42")
-		)
-		(pin "8"
-			(uuid "c641b9c2-ec04-41a0-8a3b-875e0647784c")
-		)
-		(pin "6"
-			(uuid "5b4f3620-6390-4c9a-bef7-96caee25efe7")
-		)
-		(pin "10"
-			(uuid "9064cf39-90fb-4971-b46c-95381110b68e")
-		)
-		(pin "2"
-			(uuid "91c5d742-c1b3-4fed-bf32-a3b48a9f8ddc")
-		)
-		(pin "11"
-			(uuid "556585ab-84b6-403a-970f-85294bcfedc3")
-		)
-		(pin "5"
-			(uuid "977458f6-c8cd-4510-a074-ff41f49e6377")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd"
-					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -4054,108 +4054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LIS2DUX12TR:LIS2DUX12TR")
-		(at 92.71 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95180802-5e3a-4a69-a572-a07f6cfd8656")
-		(property "Reference" "U?"
-			(at 132.08 125.7299 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LIS2DUX12TR"
-			(at 132.08 128.2699 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LGA-12_2.0X2.0X0.74_LIS2DUX12_STM"
-			(at 92.71 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2dux12.pdf"
-			(at 92.71 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8507588c-0d2e-4fae-a578-f1b330049f38")
-		)
-		(pin "12"
-			(uuid "949ca0f7-7019-4147-bcd2-44005af70494")
-		)
-		(pin "7"
-			(uuid "686f0b48-672e-43d9-aa93-dc8f112d0f74")
-		)
-		(pin "9"
-			(uuid "b932e990-38e3-4c80-a7f8-a9ea487eb57d")
-		)
-		(pin "1"
-			(uuid "40d93e12-4106-4bdb-93b4-38936a469cae")
-		)
-		(pin "3"
-			(uuid "d1e4dc2b-3d14-40b2-894b-c943d110b25b")
-		)
-		(pin "8"
-			(uuid "78ca0224-e4c2-4cbd-8987-d9bec8ba733b")
-		)
-		(pin "6"
-			(uuid "663f9b31-f0a1-495a-8c41-de4078091cdd")
-		)
-		(pin "10"
-			(uuid "c7be66c0-67d2-4ec2-9b6c-25ea15ff61e3")
-		)
-		(pin "2"
-			(uuid "cba35d54-cf8a-4c9d-b5c3-1fd827ec2ac2")
-		)
-		(pin "11"
-			(uuid "5e0b0738-4ecf-4881-96f2-ec794be841df")
-		)
-		(pin "5"
-			(uuid "27bd9fe8-3f76-47f3-bed9-6d80df813de7")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 64.77 139.7 90)
 		(unit 1)
@@ -4559,108 +4457,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LIS2DUX12TR:LIS2DUX12TR")
-		(at 190.5 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf2c5af4-1e16-459f-a09c-2e293d394218")
-		(property "Reference" "U?"
-			(at 229.87 125.7299 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LIS2DUX12TR"
-			(at 229.87 128.2699 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LGA-12_2.0X2.0X0.74_LIS2DUX12_STM"
-			(at 190.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2dux12.pdf"
-			(at 190.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "fc3f2ab6-8b66-4df5-a38e-6972bea608f8")
-		)
-		(pin "12"
-			(uuid "464f672f-ab60-4e50-b042-8d713be9068f")
-		)
-		(pin "7"
-			(uuid "45ae715e-a409-48c8-ad0f-797dd6823530")
-		)
-		(pin "9"
-			(uuid "2126c986-684a-4de2-aa96-7e85b3bf89f2")
-		)
-		(pin "1"
-			(uuid "f7ecb639-6ffe-4a98-ad97-649f6bafd604")
-		)
-		(pin "3"
-			(uuid "f5c78d09-0ca8-4068-a700-e3486b060276")
-		)
-		(pin "8"
-			(uuid "5b515682-1213-4a4c-b8d5-497830ebeed3")
-		)
-		(pin "6"
-			(uuid "ba4c4c59-353c-4da0-a363-376809b532c3")
-		)
-		(pin "10"
-			(uuid "7500a171-288d-448f-a141-17bf990a89f2")
-		)
-		(pin "2"
-			(uuid "281abea8-2c66-4613-a3da-dff87ee5a916")
-		)
-		(pin "11"
-			(uuid "7d3b341d-0ddc-4193-9e6e-dcde7adf8d5c")
-		)
-		(pin "5"
-			(uuid "6e113aad-ddbe-4b7c-b338-61508d34b839")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 92.71 64.77 90)
 		(unit 1)
@@ -4930,6 +4726,108 @@
 		)
 	)
 	(symbol
+		(lib_id "LIS2DUX12TR:LIS2DUX12TR")
+		(at 190.5 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccec7e74-3f6f-4ae1-a08e-e58f9ee56f28")
+		(property "Reference" "U?"
+			(at 229.87 125.7299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LIS2DUX12TR"
+			(at 229.87 128.2699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LGA-12_2.0X2.0X0.74_LIS2DUX12_STM"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2dux12.pdf"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "150a4bc9-c080-4914-b515-ed778d1a399d")
+		)
+		(pin "1"
+			(uuid "21644148-4d19-4903-aa23-7abbbf198cc9")
+		)
+		(pin "3"
+			(uuid "53125582-df7d-4792-afdb-23648282ab19")
+		)
+		(pin "10"
+			(uuid "1b9f8e9c-a828-453c-acf1-bb7dfd2777f8")
+		)
+		(pin "5"
+			(uuid "34434513-ea7a-44bd-bf6e-67cc9ed35e97")
+		)
+		(pin "8"
+			(uuid "dc53e941-0c69-47f6-878f-f8627059969e")
+		)
+		(pin "9"
+			(uuid "7b9adf30-d967-4469-ac0d-0020c000570e")
+		)
+		(pin "6"
+			(uuid "233f4fd5-ae66-47f2-8a07-4cfd8ea4c012")
+		)
+		(pin "12"
+			(uuid "7562c225-17ed-4cb2-b957-b2feb7a634a2")
+		)
+		(pin "7"
+			(uuid "a124e4ef-f81a-43c5-b2e6-f251711c3f7e")
+		)
+		(pin "2"
+			(uuid "00a6b598-3240-4cee-a921-9637be61e035")
+		)
+		(pin "11"
+			(uuid "3ee91d86-ea6b-4356-a441-684e43da2c2e")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 90.17 270)
 		(unit 1)
@@ -5190,6 +5088,108 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd"
 					(reference "#PWR0259")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIS2DUX12TR:LIS2DUX12TR")
+		(at 92.71 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0d0eeee-4796-48ba-b57a-24e39a6312df")
+		(property "Reference" "U?"
+			(at 132.08 66.0399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LIS2DUX12TR"
+			(at 132.08 68.5799 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LGA-12_2.0X2.0X0.74_LIS2DUX12_STM"
+			(at 92.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2dux12.pdf"
+			(at 92.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8dfd4c45-481f-4c3c-b102-6a8821c0ba95")
+		)
+		(pin "1"
+			(uuid "67a4b5e4-317c-4057-9213-f7ed995d6097")
+		)
+		(pin "3"
+			(uuid "5aa22cbf-76ac-4107-9f1c-e68bb0c3dfca")
+		)
+		(pin "10"
+			(uuid "fc2b47fa-a3ca-4750-9a01-0100f301e96b")
+		)
+		(pin "5"
+			(uuid "bb27c324-9382-44c7-86f4-e8c49611125f")
+		)
+		(pin "8"
+			(uuid "4b7dd1f2-c10e-4ff1-aef6-7ce5379183a7")
+		)
+		(pin "9"
+			(uuid "ca450080-5391-4385-ac28-5b8581941fa8")
+		)
+		(pin "6"
+			(uuid "cd7c1bf5-a7a2-487e-8db0-7751cb08313b")
+		)
+		(pin "12"
+			(uuid "f2a2d250-d281-4653-a752-b1086eca8e86")
+		)
+		(pin "7"
+			(uuid "2527c568-20ed-43b5-b720-7be05ef853f8")
+		)
+		(pin "2"
+			(uuid "bff7bccf-e2c1-4ad5-98ce-748d7f68ca35")
+		)
+		(pin "11"
+			(uuid "e98aee32-206c-4a91-a367-cb486184574c")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd"
+					(reference "U?")
 					(unit 1)
 				)
 			)

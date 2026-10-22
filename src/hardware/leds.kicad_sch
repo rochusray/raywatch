@@ -147,45 +147,46 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SN74AHCT1G125DBVR:SN74AHCT1G125DBVR"
+		(symbol "SN74AHCT1G125DBVR_1"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 20.32 10.16 0)
+				(at -12.7 11.16 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "SN74AHCT1G125DBVR"
-				(at 20.32 7.62 0)
+				(at -12.7 -14.16 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "DBV5"
+			(property "Footprint" "SN74AHCT1G125DBVR:SOT95P280X145-5N"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/sn74ahct1g125"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
@@ -199,167 +200,184 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "MF" "Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "SN74AHCT1G125DBVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DBV5 DBV5-M DBV5-L"
+			(property "Description_1" "Single 4.5-V to 5.5-V buffer with TTL-compatible CMOS inputs and 3-state outputs"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "SN74AHCT1G125DBVR_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -22.86)
+			(property "Package" "SOT-23-5 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy 7.62 -22.86) (xy 33.02 -22.86)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SN74AHCT1G125DBVR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy 33.02 -22.86) (xy 33.02 5.08)
+			)
+			(property "MP" "SN74AHCT1G125DBVR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SN74AHCT1G125DBVR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AHCT1G125DBVR_1_0_0"
+				(rectangle
+					(start -12.7 -10.16)
+					(end 12.7 10.16)
 					(stroke
-						(width 0.127)
+						(width 0.41)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin input line
-					(at 0 0 0)
-					(length 7.62)
-					(name "*OE"
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "~{OE}"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at 0 -2.54 0)
-					(length 7.62)
+					(at -17.78 0 0)
+					(length 5.08)
 					(name "A"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 0 -12.7 0)
-					(length 7.62)
+					(at 17.78 7.62 180)
+					(length 5.08)
 					(name "VCC"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 40.64 0 180)
-					(length 7.62)
+					(at 17.78 2.54 180)
+					(length 5.08)
 					(name "Y"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -856,10 +874,10 @@
 		)
 	)
 	(junction
-		(at 31.75 172.72)
+		(at 101.6 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b0a5dfb0-ad87-4269-9704-3d6dc9fbbd91")
+		(uuid "ec96ce34-b030-4a2b-91ae-7ceef3120228")
 	)
 	(no_connect
 		(at 256.54 125.73)
@@ -2677,6 +2695,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 165.1) (xy 101.6 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25f2f4a-14ed-4078-94e1-3b150db6129e")
+	)
+	(wire
+		(pts
 			(xy 45.72 81.28) (xy 45.72 92.71)
 		)
 		(stroke
@@ -2734,16 +2762,6 @@
 			(type default)
 		)
 		(uuid "d78be25f-7175-4d47-aa25-0cfc7801f319")
-	)
-	(wire
-		(pts
-			(xy 39.37 172.72) (xy 31.75 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7908cf2-6e77-4a23-83b5-244c9d178299")
 	)
 	(wire
 		(pts
@@ -2807,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 160.02) (xy 90.17 160.02)
+			(xy 81.28 170.18) (xy 91.44 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3136,7 +3154,7 @@
 		(uuid "2fc9171e-3fe2-4c46-a864-c4911eb09919")
 	)
 	(label "LEDDI5V"
-		(at 90.17 160.02 180)
+		(at 91.44 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3147,7 +3165,7 @@
 	)
 	(global_label "LEDDIN"
 		(shape input)
-		(at 39.37 162.56 180)
+		(at 45.72 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3157,7 +3175,7 @@
 		)
 		(uuid "19432ae5-7b83-4609-87c3-d70d031913c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.7324 162.56 0)
+			(at 36.0824 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6053,7 +6071,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 180.34 0)
+		(at 101.6 172.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6063,7 +6081,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a4c26b5-dc17-405d-8a47-fc5fae082da7")
 		(property "Reference" "#PWR098"
-			(at 31.75 186.69 0)
+			(at 101.6 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6090,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 185.42 0)
+			(at 101.6 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +6098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 180.34 0)
+			(at 101.6 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 180.34 0)
+			(at 101.6 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +6116,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 180.34 0)
+			(at 101.6 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6738,7 +6756,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 31.75 176.53 0)
+		(at 101.6 168.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6748,7 +6766,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fb67955-8f58-4c14-83be-b6ab99fb8640")
 		(property "Reference" "C?"
-			(at 27.94 175.2599 0)
+			(at 97.79 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +6775,7 @@
 			)
 		)
 		(property "Value" "10pF"
-			(at 27.94 177.7999 0)
+			(at 97.79 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,7 +6784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.7848 180.34 0)
+			(at 100.6348 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,7 +6793,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 176.53 0)
+			(at 101.6 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,7 +6802,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 31.75 176.53 0)
+			(at 101.6 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7345,7 +7363,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 160.02 0)
+		(at 45.72 170.18 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7355,7 +7373,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d01ef52-fea2-4b68-8f66-123c1d6682fd")
 		(property "Reference" "#PWR096"
-			(at 39.37 153.67 0)
+			(at 45.72 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +7382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 154.94 0)
+			(at 45.72 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +7390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 160.02 0)
+			(at 45.72 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,7 +7399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 160.02 0)
+			(at 45.72 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,7 +7408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 160.02 0)
+			(at 45.72 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8715,84 +8733,6 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
 					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SN74AHCT1G125DBVR:SN74AHCT1G125DBVR")
-		(at 39.37 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c625c4b-9ce4-42b7-bc0f-28cec11c38ff")
-		(property "Reference" "U?"
-			(at 59.69 149.86 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SN74AHCT1G125DBVR"
-			(at 59.69 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DBV5"
-			(at 39.37 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74ahct1g125"
-			(at 39.37 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "95e5bc1f-c615-4847-a69c-136d636fe48e")
-		)
-		(pin "1"
-			(uuid "6af3c74d-e02b-488a-b536-a7e2218c06fe")
-		)
-		(pin "4"
-			(uuid "32b70197-4e13-48fa-803f-f226a5bed1e2")
-		)
-		(pin "3"
-			(uuid "9b48e964-aef1-45c1-8ff9-2249cd17d0a0")
-		)
-		(pin "5"
-			(uuid "d2514e1c-bc74-42ab-8bc6-94d0a9701bc5")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -12383,6 +12323,165 @@
 		)
 	)
 	(symbol
+		(lib_name "SN74AHCT1G125DBVR_1")
+		(lib_id "SN74AHCT1G125DBVR:SN74AHCT1G125DBVR")
+		(at 63.5 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a47f4bf-9d7d-4b2d-9268-fddda18e0549")
+		(property "Reference" "U?"
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHCT1G125DBVR"
+			(at 63.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SN74AHCT1G125DBVR:SOT95P280X145-5N"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Single 4.5-V to 5.5-V buffer with TTL-compatible CMOS inputs and 3-state outputs"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-5 Texas Instruments"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SN74AHCT1G125DBVR/Texas+Instruments/view-part/?ref=snap"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SN74AHCT1G125DBVR"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SN74AHCT1G125DBVR/Texas+Instruments/view-part/?ref=eda"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a63b1486-2ed3-49f8-8c9f-a9113f0adae1")
+		)
+		(pin "4"
+			(uuid "1e23571a-e880-4c3a-be9e-ec5136b1457f")
+		)
+		(pin "5"
+			(uuid "a960a45d-2daa-492f-bd66-c8513222fd08")
+		)
+		(pin "2"
+			(uuid "3f3ac8b3-62f1-43a6-8d5d-5e45775bac8e")
+		)
+		(pin "3"
+			(uuid "2e045c79-7038-464c-8064-fff6ae565974")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WS2816C:WS2816C-1313-4P")
 		(at 90.17 127 0)
 		(unit 1)
@@ -14930,7 +15029,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 31.75 172.72 0)
+		(at 101.6 165.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14940,7 +15039,7 @@
 		(fields_autoplaced yes)
 		(uuid "c88d3cf9-a4af-4d1e-bb42-529b594583c1")
 		(property "Reference" "#PWR099"
-			(at 31.75 176.53 0)
+			(at 101.6 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14949,7 +15048,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 31.75 167.64 0)
+			(at 101.6 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14957,7 +15056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 172.72 0)
+			(at 101.6 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14966,7 +15065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 172.72 0)
+			(at 101.6 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14975,7 +15074,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 31.75 172.72 0)
+			(at 101.6 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15541,7 +15640,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 177.8 0)
+		(at 81.28 180.34 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15551,7 +15650,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfc6e4f4-d00d-424e-8fc3-690307413ddd")
 		(property "Reference" "#PWR097"
-			(at 39.37 184.15 0)
+			(at 81.28 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15560,7 +15659,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 182.88 0)
+			(at 81.28 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15568,7 +15667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 177.8 0)
+			(at 81.28 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15577,7 +15676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 177.8 0)
+			(at 81.28 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15586,7 +15685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 177.8 0)
+			(at 81.28 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -147,45 +147,46 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ENS210-LQFM:ENS210-LQFM"
+		(symbol "ENS210-LQFM_1"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 20.32 12.7 0)
+				(at -10.16 5.842 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "ENS210-LQFM"
-				(at 20.32 10.16 0)
+				(at -10.16 -10.16 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SON-04-ENS210_2X2_AMS"
+			(property "Footprint" "ENS210-LQFM:XDCR_ENS210-LQFM"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "ENS210-LQFM"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
@@ -199,167 +200,225 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "MF" "ScioSense B.V"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "ENS210-LQFM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SON-04-ENS210_2X2_AMS SON-04-ENS210_2X2_AMS-M SON-04-ENS210_2X2_AMS-L"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "ENS210-LQFM_0_1"
-				(polyline
-					(pts
-						(xy 7.62 7.62) (xy 7.62 -25.4)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ENS210-LQFM/ScioSense/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ENS210-LQFM/ScioSense/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ENS210-LQFM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Digital relative humidity and temperature sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Sciosense"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ENS210-LQFM_1_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 5.08)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 -25.4) (xy 33.02 -25.4)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 7.62) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -25.4) (xy 33.02 7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
+				(pin input clock
+					(at -15.24 0 0)
+					(length 5.08)
 					(name "SCL"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
 					(name "SDA"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 0 -10.16 0)
-					(length 7.62)
+					(at 15.24 2.54 180)
+					(length 5.08)
 					(name "VDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -17.78 0)
-					(length 7.62)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
 					(name "VSS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -20.32 0)
-					(length 7.62)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(hide yes)
 					(name "VSS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -596,7 +655,7 @@
 	)
 	(text "I²C: 1000011"
 		(exclude_from_sim no)
-		(at 116.586 95.504 0)
+		(at 127.254 101.854 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -605,24 +664,24 @@
 		(uuid "ac033627-fc78-4240-aaf3-8e13f5555851")
 	)
 	(junction
-		(at 119.38 104.14)
+		(at 168.91 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db391b4d-18ee-4216-800a-20ddd7b6b41c")
+		(uuid "2d1d3067-be98-4690-830f-f5543c8054b6")
 	)
 	(wire
 		(pts
-			(xy 119.38 104.14) (xy 134.62 104.14)
+			(xy 162.56 101.6) (xy 168.91 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d81ef8ee-ec08-44eb-aabc-aed776c9f5f9")
+		(uuid "4b7c6a9e-8593-4105-ade8-cf7c6441f621")
 	)
 	(global_label "SCL1V8"
 		(shape input)
-		(at 134.62 93.98 180)
+		(at 132.08 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -632,7 +691,7 @@
 		)
 		(uuid "2a95314b-f2f4-441b-a1a8-1c15a9251380")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.6196 93.98 0)
+			(at 122.0796 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -644,7 +703,7 @@
 	)
 	(global_label "SDA1V8"
 		(shape bidirectional)
-		(at 134.62 96.52 180)
+		(at 132.08 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -654,7 +713,7 @@
 		)
 		(uuid "f1c34b47-da4e-4669-9d0d-7734a679fe23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.4478 96.52 0)
+			(at 120.9078 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -666,7 +725,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 119.38 104.14 0)
+		(at 168.91 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -675,7 +734,7 @@
 		(fields_autoplaced yes)
 		(uuid "16aecd86-7cb7-4cce-8a02-aa6193c574ba")
 		(property "Reference" "#PWR0309"
-			(at 119.38 107.95 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -684,7 +743,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 119.38 99.06 0)
+			(at 168.91 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 104.14 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,7 +760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 104.14 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -710,7 +769,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 119.38 104.14 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -731,122 +790,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 134.62 111.76 270)
+		(lib_name "ENS210-LQFM_1")
+		(lib_id "ENS210-LQFM:ENS210-LQFM")
+		(at 147.32 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "46decc78-e7e7-45a4-95d6-f31b9ad0bc83")
-		(property "Reference" "#PWR0308"
-			(at 128.27 111.76 0)
+		(uuid "81a86b9e-cab5-4208-900c-e1ebb5666902")
+		(property "Reference" "U?"
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 130.81 111.7599 90)
+		(property "Value" "ENS210-LQFM"
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.62 111.76 0)
+		(property "Footprint" "ENS210-LQFM:XDCR_ENS210-LQFM"
+			(at 147.32 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 111.76 0)
+			(at 147.32 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42554d31-a867-49c8-b2e0-5a83ceebc876")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/bf067082-8f07-4e2a-8f09-1edc4b312956"
-					(reference "#PWR0308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ENS210-LQFM:ENS210-LQFM")
-		(at 134.62 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "473a8292-ce7b-4927-a493-603cd9f90e83")
-		(property "Reference" "U?"
-			(at 168.91 101.5999 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ENS210-LQFM"
-			(at 168.91 104.1399 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SON-04-ENS210_2X2_AMS"
-			(at 134.62 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8389/ENS210.pdf"
-			(at 134.62 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 134.62 93.98 0)
+			(at 147.32 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,20 +844,140 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "7fe14835-e2d1-4271-bf87-2fd3d1769460")
+		(property "MF" "ScioSense B.V"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "aa5d2123-ebc2-4a5f-9fdf-1c42add4dac4")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ENS210-LQFM/ScioSense/view-part/?ref=eda"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "5"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ENS210-LQFM/ScioSense/view-part/?ref=snap"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ENS210-LQFM"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Digital relative humidity and temperature sensor"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Sciosense"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "5"
-			(uuid "409e46fe-ea6c-454c-8219-c9969afea992")
+			(uuid "af391e3d-83ba-48ff-8512-98b35594b19c")
+		)
+		(pin "2"
+			(uuid "a0dde966-3eaa-4a99-b2f8-7cadad171af6")
+		)
+		(pin "4"
+			(uuid "ff0ec8f3-8a5c-42d4-9c2b-8e7b51dba4f2")
 		)
 		(pin "1"
-			(uuid "1fc3de73-c543-49b6-9a8a-bc67100452e0")
+			(uuid "4e524b5d-549c-4f8e-9a8d-fe202be3c938")
 		)
 		(pin "3"
-			(uuid "2c58fe3a-69e0-43c7-bbc1-e8fa32f268ed")
+			(uuid "fa439660-8bcb-43fe-b196-cebfbd21adba")
 		)
 		(instances
 			(project "raywatch"
@@ -880,7 +990,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 114.3 270)
+		(at 162.56 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -889,7 +999,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d68fddb-7e92-43b3-990a-4883101c8912")
 		(property "Reference" "#PWR0307"
-			(at 128.27 114.3 0)
+			(at 162.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,16 +1008,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 114.2999 90)
+			(at 162.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 114.3 0)
+			(at 162.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -916,7 +1025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 114.3 0)
+			(at 162.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -925,7 +1034,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 114.3 0)
+			(at 162.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -947,7 +1056,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 107.95 0)
+		(at 168.91 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -956,7 +1065,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed2785cf-823a-45c1-bda3-2d2d37cbab29")
 		(property "Reference" "C?"
-			(at 123.19 106.6799 0)
+			(at 172.72 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,7 +1074,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 123.19 109.2199 0)
+			(at 172.72 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,7 +1083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.3452 111.76 0)
+			(at 169.8752 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,7 +1092,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 107.95 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,7 +1101,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 119.38 107.95 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1126,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 111.76 0)
+		(at 168.91 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1026,7 +1135,7 @@
 		(fields_autoplaced yes)
 		(uuid "f36d0ab8-ed71-484e-8f17-24f02f8d540a")
 		(property "Reference" "#PWR0310"
-			(at 119.38 118.11 0)
+			(at 168.91 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,7 +1144,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 116.84 0)
+			(at 168.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,7 +1152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 111.76 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +1161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 111.76 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,7 +1170,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 111.76 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
