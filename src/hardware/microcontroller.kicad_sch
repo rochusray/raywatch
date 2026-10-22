@@ -5548,7 +5548,7 @@
 			)
 		)
 	)
-	(global_label "LTRCS"
+	(global_label "LORACS"
 		(shape output)
 		(at 143.51 157.48 0)
 		(fields_autoplaced yes)
@@ -5560,7 +5560,7 @@
 		)
 		(uuid "457f9d1f-2388-4d63-93a2-b04db6141a8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.2404 157.48 0)
+			(at 153.6919 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,11 +6565,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 52.07 0)
+			(at 97.79 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7438,11 +7439,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 27.94 0)
+			(at 173.99 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7497,21 +7499,21 @@
 		(fields_autoplaced yes)
 		(uuid "41653667-fce1-48de-a12f-0d6f0533f40f")
 		(property "Reference" "C5"
-			(at 179.07 121.9199 0)
+			(at 186.69 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "2.2nF"
-			(at 179.07 124.4599 0)
+			(at 186.69 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7817,21 +7819,21 @@
 		(fields_autoplaced yes)
 		(uuid "492bac67-8902-4716-a8ce-b55d88ce4105")
 		(property "Reference" "C1"
-			(at 167.64 121.9199 0)
+			(at 175.26 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "2.2µF"
-			(at 167.64 124.4599 0)
+			(at 175.26 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7932,12 +7934,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 49.5299 90)
+			(at 106.68 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8986,11 +8987,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 57.15 0)
+			(at 173.99 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10322,11 +10324,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 52.07 0)
+			(at 85.09 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10455,11 +10458,12 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 215.9 21.59 0)
+			(at 218.44 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10521,12 +10525,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 52.0699 90)
+			(at 106.68 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -12070,12 +12073,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 54.6099 90)
+			(at 106.68 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -12204,12 +12206,11 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 234.95 36.8299 90)
+			(at 237.49 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""

@@ -820,11 +820,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 118.11 0)
+			(at 137.16 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

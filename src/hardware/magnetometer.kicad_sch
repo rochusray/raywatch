@@ -1144,11 +1144,12 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 168.91 80.01 0)
+			(at 171.45 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1276,11 +1277,12 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 180.34 80.01 0)
+			(at 182.88 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1342,11 +1344,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 118.11 0)
+			(at 156.21 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

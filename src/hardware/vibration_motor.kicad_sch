@@ -1418,11 +1418,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 85.09 0)
+			(at 172.72 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""

@@ -3205,11 +3205,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 48.26 67.31 0)
+			(at 50.8 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3543,11 +3544,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 208.28 85.09 0)
+			(at 210.82 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3675,11 +3677,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 83.82 85.09 0)
+			(at 86.36 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3741,11 +3744,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 85.09 0)
+			(at 193.04 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4029,11 +4033,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 137.16 85.09 0)
+			(at 139.7 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4095,11 +4100,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 48.26 120.65 0)
+			(at 50.8 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4581,11 +4587,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 208.28 49.53 0)
+			(at 210.82 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4845,11 +4852,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 48.26 49.53 0)
+			(at 50.8 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5051,11 +5059,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 154.94 49.53 0)
+			(at 157.48 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5265,11 +5274,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 119.38 67.31 0)
+			(at 121.92 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5958,11 +5968,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 172.72 31.75 0)
+			(at 175.26 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6024,11 +6035,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 120.65 0)
+			(at 193.04 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6223,11 +6235,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 208.28 67.31 0)
+			(at 210.82 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6289,11 +6302,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 101.6 102.87 0)
+			(at 104.14 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6912,11 +6926,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 243.84 120.65 0)
+			(at 246.38 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7184,11 +7199,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 48.26 85.09 0)
+			(at 50.8 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7316,11 +7332,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 49.53 0)
+			(at 193.04 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7450,11 +7467,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 83.82 67.31 0)
+			(at 86.36 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7730,11 +7748,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 172.72 67.31 0)
+			(at 175.26 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7870,11 +7889,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 101.6 67.31 0)
+			(at 104.14 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8076,11 +8096,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 66.04 102.87 0)
+			(at 68.58 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8216,11 +8237,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 66.04 49.53 0)
+			(at 68.58 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8348,11 +8370,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 154.94 85.09 0)
+			(at 157.48 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8414,11 +8437,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 66.04 67.31 0)
+			(at 68.58 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8480,11 +8504,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 83.82 120.65 0)
+			(at 86.36 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8620,11 +8645,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 172.72 120.65 0)
+			(at 175.26 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8892,11 +8918,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.06 49.53 0)
+			(at 228.6 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8958,11 +8985,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 83.82 49.53 0)
+			(at 86.36 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9444,11 +9472,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 133.35 0)
+			(at 259.08 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9510,11 +9539,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.06 31.75 0)
+			(at 228.6 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9650,11 +9680,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 101.6 120.65 0)
+			(at 104.14 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9716,11 +9747,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 154.94 67.31 0)
+			(at 157.48 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9782,11 +9814,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 66.04 120.65 0)
+			(at 68.58 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9988,11 +10021,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 243.84 31.75 0)
+			(at 246.38 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10054,11 +10088,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 119.38 85.09 0)
+			(at 121.92 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10334,11 +10369,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 119.38 102.87 0)
+			(at 121.92 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10540,11 +10576,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 101.6 31.75 0)
+			(at 104.14 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10680,11 +10717,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.06 120.65 0)
+			(at 228.6 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10820,11 +10858,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 243.84 49.53 0)
+			(at 246.38 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10886,11 +10925,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 154.94 31.75 0)
+			(at 157.48 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10952,11 +10992,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 172.72 85.09 0)
+			(at 175.26 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11306,11 +11347,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 137.16 102.87 0)
+			(at 139.7 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11446,11 +11488,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 172.72 49.53 0)
+			(at 175.26 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11932,11 +11975,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 137.16 31.75 0)
+			(at 139.7 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12643,11 +12687,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 31.75 0)
+			(at 193.04 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12841,11 +12886,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 48.26 102.87 0)
+			(at 50.8 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13055,11 +13101,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 243.84 67.31 0)
+			(at 246.38 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13475,11 +13522,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 101.6 49.53 0)
+			(at 104.14 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13607,11 +13655,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 101.6 85.09 0)
+			(at 104.14 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13747,11 +13796,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.06 102.87 0)
+			(at 228.6 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13887,11 +13937,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.06 85.09 0)
+			(at 228.6 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14085,11 +14136,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 172.72 102.87 0)
+			(at 175.26 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14225,11 +14277,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 119.38 49.53 0)
+			(at 121.92 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14497,11 +14550,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 243.84 85.09 0)
+			(at 246.38 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14703,11 +14757,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.06 67.31 0)
+			(at 228.6 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14983,11 +15038,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 119.38 31.75 0)
+			(at 121.92 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15116,11 +15172,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 243.84 102.87 0)
+			(at 246.38 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15322,11 +15379,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 67.31 0)
+			(at 193.04 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15661,11 +15719,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 185.42 0)
+			(at 83.82 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -15867,11 +15926,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 119.38 120.65 0)
+			(at 121.92 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16065,11 +16125,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 66.04 31.75 0)
+			(at 68.58 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16411,11 +16472,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 208.28 102.87 0)
+			(at 210.82 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16617,11 +16679,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 154.94 120.65 0)
+			(at 157.48 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16683,11 +16746,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 83.82 31.75 0)
+			(at 86.36 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16823,11 +16887,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 137.16 67.31 0)
+			(at 139.7 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16889,11 +16954,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 154.94 102.87 0)
+			(at 157.48 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -17103,11 +17169,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 208.28 120.65 0)
+			(at 210.82 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -17235,11 +17302,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 66.04 85.09 0)
+			(at 68.58 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -17441,11 +17509,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 208.28 31.75 0)
+			(at 210.82 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -18067,11 +18136,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 137.16 49.53 0)
+			(at 139.7 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -18133,11 +18203,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 83.82 102.87 0)
+			(at 86.36 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -18339,11 +18410,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 102.87 0)
+			(at 193.04 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -18405,11 +18477,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 137.16 120.65 0)
+			(at 139.7 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

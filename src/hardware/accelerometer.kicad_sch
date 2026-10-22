@@ -2351,12 +2351,11 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 88.9 54.6099 90)
+			(at 91.44 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2488,12 +2487,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 124.4599 90)
+			(at 189.23 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3129,12 +3127,11 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 88.9 114.2999 90)
+			(at 91.44 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3196,12 +3193,11 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 186.69 54.6099 90)
+			(at 189.23 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3532,12 +3528,11 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 186.69 114.2999 90)
+			(at 189.23 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3666,12 +3661,11 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 88.9 124.4599 90)
+			(at 91.44 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4347,12 +4341,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 64.7699 90)
+			(at 189.23 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4481,12 +4474,11 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 88.9 64.7699 90)
+			(at 91.44 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""

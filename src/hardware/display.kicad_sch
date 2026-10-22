@@ -2396,16 +2396,8 @@
 		(uuid "06e5f8ce-ca01-4d0c-948b-4261d4580af7")
 	)
 	(no_connect
-		(at 147.32 87.63)
-		(uuid "3444f2e2-2940-43e5-9bf0-efadbc18be40")
-	)
-	(no_connect
 		(at 106.68 92.71)
 		(uuid "c5334308-3f58-4e25-a4ac-9a3213f5680d")
-	)
-	(no_connect
-		(at 106.68 90.17)
-		(uuid "d189f88c-17f6-48de-986a-baea2e556faa")
 	)
 	(wire
 		(pts
@@ -2509,16 +2501,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 85.09) (xy 186.69 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6167f9fa-d5d1-4aa6-8cf0-6fcee423800b")
-	)
-	(wire
-		(pts
 			(xy 147.32 95.25) (xy 176.53 95.25)
 		)
 		(stroke
@@ -2556,6 +2538,16 @@
 			(type default)
 		)
 		(uuid "72491a1a-60bd-441f-a392-e07986be0d90")
+	)
+	(wire
+		(pts
+			(xy 147.32 85.09) (xy 186.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c76d02-9317-449d-9e86-eb5aeb6178ed")
 	)
 	(wire
 		(pts
@@ -2857,6 +2849,28 @@
 			)
 		)
 	)
+	(global_label "HRINT"
+		(shape output)
+		(at 106.68 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "692b97c4-8912-43d2-9976-7f2fa730bc0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.1914 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCDTE"
 		(shape output)
 		(at 106.68 87.63 180)
@@ -2875,6 +2889,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HRINT1V8"
+		(shape input)
+		(at 147.32 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99cc64eb-bfdd-4f07-8440-890cfa415bac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.3162 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3407,11 +3443,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 171.45 123.19 0)
+			(at 173.99 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3741,11 +3778,12 @@
 			)
 		)
 		(property "Value" "+3V0"
-			(at 165.1 102.87 0)
+			(at 162.56 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4351,12 +4389,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 69.8499 90)
+			(at 97.79 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
