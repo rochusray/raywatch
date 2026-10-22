@@ -1254,12 +1254,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 113.03 93.98 0)
+		(property "Value" "+4V5"
+			(at 115.57 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""

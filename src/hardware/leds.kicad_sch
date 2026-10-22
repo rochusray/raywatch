@@ -3143,7 +3143,7 @@
 		)
 		(uuid "fffa6949-0ab4-4d08-bdaf-fd919e9a7d70")
 	)
-	(label "LEDDI5V"
+	(label "LEDDI4V5"
 		(at 34.29 39.37 0)
 		(effects
 			(font
@@ -3153,7 +3153,7 @@
 		)
 		(uuid "2fc9171e-3fe2-4c46-a864-c4911eb09919")
 	)
-	(label "LEDDI5V"
+	(label "LEDDI4V5"
 		(at 91.44 170.18 180)
 		(effects
 			(font
@@ -3204,7 +3204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 50.8 71.1199 0)
 			(effects
 				(font
@@ -3543,7 +3543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 210.82 88.8999 0)
 			(effects
 				(font
@@ -3676,7 +3676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 86.36 88.8999 0)
 			(effects
 				(font
@@ -3743,7 +3743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 193.04 88.8999 0)
 			(effects
 				(font
@@ -4032,7 +4032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 139.7 88.8999 0)
 			(effects
 				(font
@@ -4099,7 +4099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 50.8 124.4599 0)
 			(effects
 				(font
@@ -4586,7 +4586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 210.82 53.3399 0)
 			(effects
 				(font
@@ -4851,7 +4851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 50.8 53.3399 0)
 			(effects
 				(font
@@ -5058,7 +5058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 157.48 53.3399 0)
 			(effects
 				(font
@@ -5273,7 +5273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 121.92 71.1199 0)
 			(effects
 				(font
@@ -5480,7 +5480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 45.72 35.5599 0)
 			(effects
 				(font
@@ -5967,7 +5967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 175.26 35.5599 0)
 			(effects
 				(font
@@ -6034,7 +6034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 193.04 124.4599 0)
 			(effects
 				(font
@@ -6234,7 +6234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 210.82 71.1199 0)
 			(effects
 				(font
@@ -6301,7 +6301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 104.14 106.6799 0)
 			(effects
 				(font
@@ -6925,7 +6925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 246.38 124.4599 0)
 			(effects
 				(font
@@ -7198,7 +7198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 50.8 88.8999 0)
 			(effects
 				(font
@@ -7331,7 +7331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 193.04 53.3399 0)
 			(effects
 				(font
@@ -7466,7 +7466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 86.36 71.1199 0)
 			(effects
 				(font
@@ -7747,7 +7747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 175.26 71.1199 0)
 			(effects
 				(font
@@ -7888,7 +7888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 104.14 71.1199 0)
 			(effects
 				(font
@@ -8095,7 +8095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 68.58 106.6799 0)
 			(effects
 				(font
@@ -8236,7 +8236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 68.58 53.3399 0)
 			(effects
 				(font
@@ -8369,7 +8369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 157.48 88.8999 0)
 			(effects
 				(font
@@ -8436,7 +8436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 68.58 71.1199 0)
 			(effects
 				(font
@@ -8503,7 +8503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 86.36 124.4599 0)
 			(effects
 				(font
@@ -8644,7 +8644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 175.26 124.4599 0)
 			(effects
 				(font
@@ -8917,7 +8917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 228.6 53.3399 0)
 			(effects
 				(font
@@ -8984,7 +8984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 86.36 53.3399 0)
 			(effects
 				(font
@@ -9538,7 +9538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 228.6 35.5599 0)
 			(effects
 				(font
@@ -9679,7 +9679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 104.14 124.4599 0)
 			(effects
 				(font
@@ -9746,7 +9746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 157.48 71.1199 0)
 			(effects
 				(font
@@ -9813,7 +9813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 68.58 124.4599 0)
 			(effects
 				(font
@@ -10020,7 +10020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 246.38 35.5599 0)
 			(effects
 				(font
@@ -10087,7 +10087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 121.92 88.8999 0)
 			(effects
 				(font
@@ -10368,7 +10368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 121.92 106.6799 0)
 			(effects
 				(font
@@ -10575,7 +10575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 104.14 35.5599 0)
 			(effects
 				(font
@@ -10716,7 +10716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 228.6 124.4599 0)
 			(effects
 				(font
@@ -10857,7 +10857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 246.38 53.3399 0)
 			(effects
 				(font
@@ -10924,7 +10924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 157.48 35.5599 0)
 			(effects
 				(font
@@ -10991,7 +10991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 175.26 88.8999 0)
 			(effects
 				(font
@@ -11346,7 +11346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 139.7 106.6799 0)
 			(effects
 				(font
@@ -11487,7 +11487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 175.26 53.3399 0)
 			(effects
 				(font
@@ -11974,7 +11974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 139.7 35.5599 0)
 			(effects
 				(font
@@ -12686,7 +12686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 193.04 35.5599 0)
 			(effects
 				(font
@@ -12885,7 +12885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 50.8 106.6799 0)
 			(effects
 				(font
@@ -13100,7 +13100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 246.38 71.1199 0)
 			(effects
 				(font
@@ -13521,7 +13521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 104.14 53.3399 0)
 			(effects
 				(font
@@ -13654,7 +13654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 104.14 88.8999 0)
 			(effects
 				(font
@@ -13795,7 +13795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 228.6 106.6799 0)
 			(effects
 				(font
@@ -13936,7 +13936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 228.6 88.8999 0)
 			(effects
 				(font
@@ -14135,7 +14135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 175.26 106.6799 0)
 			(effects
 				(font
@@ -14276,7 +14276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 121.92 53.3399 0)
 			(effects
 				(font
@@ -14549,7 +14549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 246.38 88.8999 0)
 			(effects
 				(font
@@ -14756,7 +14756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 228.6 71.1199 0)
 			(effects
 				(font
@@ -15037,7 +15037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 121.92 35.5599 0)
 			(effects
 				(font
@@ -15105,7 +15105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+4V5"
 			(at 101.6 160.02 0)
 			(effects
 				(font
@@ -15171,7 +15171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 246.38 106.6799 0)
 			(effects
 				(font
@@ -15378,7 +15378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 193.04 71.1199 0)
 			(effects
 				(font
@@ -15925,7 +15925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 121.92 124.4599 0)
 			(effects
 				(font
@@ -16124,7 +16124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 68.58 35.5599 0)
 			(effects
 				(font
@@ -16471,7 +16471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 210.82 106.6799 0)
 			(effects
 				(font
@@ -16678,7 +16678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 157.48 124.4599 0)
 			(effects
 				(font
@@ -16745,7 +16745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 86.36 35.5599 0)
 			(effects
 				(font
@@ -16886,7 +16886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 139.7 71.1199 0)
 			(effects
 				(font
@@ -16953,7 +16953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 157.48 106.6799 0)
 			(effects
 				(font
@@ -17168,7 +17168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 210.82 124.4599 0)
 			(effects
 				(font
@@ -17301,7 +17301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 68.58 88.8999 0)
 			(effects
 				(font
@@ -17508,7 +17508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 210.82 35.5599 0)
 			(effects
 				(font
@@ -18135,7 +18135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 139.7 53.3399 0)
 			(effects
 				(font
@@ -18202,7 +18202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 86.36 106.6799 0)
 			(effects
 				(font
@@ -18409,7 +18409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 193.04 106.6799 0)
 			(effects
 				(font
@@ -18476,7 +18476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4V5"
 			(at 139.7 124.4599 0)
 			(effects
 				(font

@@ -360,7 +360,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ea548096-571e-4714-85a9-e9074f4e04cd")
-		(property "Sheetname" "5V Converter"
+		(property "Sheetname" "4.5V Converter"
 			(at 83.82 57.0734 0)
 			(effects
 				(font
@@ -369,7 +369,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "5v_converter.kicad_sch"
+		(property "Sheetfile" "4v5_converter.kicad_sch"
 			(at 83.82 62.1796 0)
 			(effects
 				(font
