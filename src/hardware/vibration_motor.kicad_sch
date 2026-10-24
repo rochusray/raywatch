@@ -1484,7 +1484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBAT"
+		(property "Value" "VSYS"
 			(at 177.8 105.41 0)
 			(effects
 				(font

@@ -1552,7 +1552,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
+		(symbol "power:LINE"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1564,8 +1564,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1573,8 +1573,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
+			(property "Value" "LINE"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1590,7 +1590,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1599,7 +1599,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
+			(property "Description" "Power symbol creates a global label with name \"LINE\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1608,7 +1608,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "flag power"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1617,8 +1617,46 @@
 					(hide yes)
 				)
 			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
+			(symbol "LINE_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LINE_1_1"
+				(pin power_in line
 					(at 0 0 90)
 					(length 0)
 					(name "~"
@@ -1634,20 +1672,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -1677,12 +1701,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2648bef6-f56d-4df2-8d26-3fe01e75fbf0")
-	)
-	(junction
-		(at 181.61 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e60c1c1-1ef2-42e5-806f-dcca87e4ba74")
 	)
 	(junction
 		(at 224.79 82.55)
@@ -1779,6 +1797,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7080bec-ba01-4168-a61e-f45f1f849786")
+	)
+	(junction
+		(at 181.61 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec236bb9-ad71-4b06-8cf0-7bd67949d0d5")
 	)
 	(wire
 		(pts
@@ -2212,16 +2236,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 102.87) (xy 43.18 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0b66c3d-4bb5-44fb-960b-43a2cae395f6")
-	)
-	(wire
-		(pts
 			(xy 66.04 100.33) (xy 72.39 100.33)
 		)
 		(stroke
@@ -2599,28 +2613,6 @@
 			(justify right bottom)
 		)
 		(uuid "f8b341fb-85c1-43bd-b911-e724e98400d9")
-	)
-	(global_label "SOLAR"
-		(shape passive)
-		(at 43.18 102.87 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2037d2ff-581f-40dd-9d2c-61d3fce9bf3a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 95.0694 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "WCDET"
 		(shape output)
@@ -3338,7 +3330,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "power:LINE")
 		(at 181.61 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3346,9 +3338,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "295991d5-9549-46c9-aff5-d6a6862231ba")
-		(property "Reference" "#FLG02"
-			(at 181.61 100.965 0)
+		(uuid "26bd617b-57c1-47ed-8d1a-a5df21edfcd9")
+		(property "Reference" "#PWR0369"
+			(at 181.61 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
+		(property "Value" "VIN"
 			(at 181.61 97.79 0)
 			(effects
 				(font
@@ -3373,7 +3365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 181.61 102.87 0)
 			(effects
 				(font
@@ -3382,7 +3374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
+		(property "Description" "Power symbol creates a global label with name \"LINE\""
 			(at 181.61 102.87 0)
 			(effects
 				(font
@@ -3392,12 +3384,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "62e32aa9-8db9-48e9-ba5e-8214f42c2692")
+			(uuid "012a6295-19fc-4328-b8c5-75d5e7453841")
 		)
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6/d00e072b-2be1-497b-8423-3eead973d996"
-					(reference "#FLG02")
+					(reference "#PWR0369")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:LINE")
+		(at 43.18 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28c9b477-a970-45ee-8bb6-9e9cfc015e46")
+		(property "Reference" "#PWR0370"
+			(at 43.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSOLAR"
+			(at 43.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"LINE\""
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8094b0d9-3e26-40cb-b020-bf7fd247738c")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6/d00e072b-2be1-497b-8423-3eead973d996"
+					(reference "#PWR0370")
 					(unit 1)
 				)
 			)
@@ -4262,6 +4320,72 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6/d00e072b-2be1-497b-8423-3eead973d996"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:LINE")
+		(at 58.42 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83187d0e-8131-43ea-8b8e-851ba5bf25e5")
+		(property "Reference" "#PWR0368"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LINE"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"LINE\""
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c5226dc-5c7d-4def-8b31-8d410f6f032f")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6/d00e072b-2be1-497b-8423-3eead973d996"
+					(reference "#PWR0368")
 					(unit 1)
 				)
 			)
@@ -5469,72 +5593,6 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6/d00e072b-2be1-497b-8423-3eead973d996"
 					(reference "#PWR0348")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 58.42 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fedcf84c-d5c8-424f-ae3f-527ff308b6fd")
-		(property "Reference" "#FLG01"
-			(at 58.42 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 58.42 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 58.42 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "550ce3ad-2a52-4103-86b0-437bd494c3ae")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6/d00e072b-2be1-497b-8423-3eead973d996"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
