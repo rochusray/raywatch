@@ -1647,7 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 153.67) (xy 97.79 153.67)
+			(xy 82.55 156.21) (xy 97.79 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1747,7 +1747,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 151.13) (xy 97.79 151.13)
+			(xy 82.55 153.67) (xy 97.79 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1867,7 +1867,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 156.21) (xy 97.79 156.21)
+			(xy 82.55 158.75) (xy 97.79 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +2037,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 162.56) (xy 97.79 162.56)
+			(xy 82.55 147.32) (xy 97.79 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2306,7 +2306,7 @@
 		(uuid "1d18d7db-3e25-4838-b121-f32a53b0e3a0")
 	)
 	(label "GPIO_EXT"
-		(at 97.79 162.56 180)
+		(at 97.79 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2336,7 +2336,7 @@
 		(uuid "2253df09-6660-4226-af72-a6ff22a0fe88")
 	)
 	(label "GPIO_EXT"
-		(at 97.79 156.21 180)
+		(at 97.79 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2856,7 +2856,7 @@
 		(uuid "a3856d37-668a-4c29-b686-832331fd823a")
 	)
 	(label "GPIO_EXT"
-		(at 97.79 151.13 180)
+		(at 97.79 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3106,7 +3106,7 @@
 		(uuid "f661a5f8-1279-4d99-916a-f47cf0f6e023")
 	)
 	(label "GPIO_EXT"
-		(at 97.79 153.67 180)
+		(at 97.79 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3147,7 +3147,7 @@
 	)
 	(global_label "SOLARSTAT"
 		(shape input)
-		(at 82.55 162.56 180)
+		(at 82.55 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3157,7 +3157,7 @@
 		)
 		(uuid "174e34d2-ce7b-4db4-a42a-36b7da3867ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.4048 162.56 0)
+			(at 69.4048 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +3367,7 @@
 	)
 	(global_label "\\ENCHARGE"
 		(shape output)
-		(at 82.55 156.21 180)
+		(at 82.55 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3377,7 +3377,7 @@
 		)
 		(uuid "4b67304d-8420-4cb2-a765-28b1d175c474")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.8605 156.21 0)
+			(at 68.8605 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3433,7 @@
 	)
 	(global_label "CHARGESTAT2"
 		(shape input)
-		(at 82.55 153.67 180)
+		(at 82.55 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3443,7 +3443,7 @@
 		)
 		(uuid "5451845c-ed55-4c96-9c5d-ba72930da6f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.7439 153.67 0)
+			(at 66.7439 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3697,7 @@
 	)
 	(global_label "CHARGESTAT1"
 		(shape input)
-		(at 82.55 151.13 180)
+		(at 82.55 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3707,7 +3707,7 @@
 		)
 		(uuid "a0773e59-f69f-47f6-85d6-38867784a004")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.7439 151.13 0)
+			(at 66.7439 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

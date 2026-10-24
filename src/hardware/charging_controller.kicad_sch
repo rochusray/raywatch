@@ -2069,7 +2069,7 @@
 			)
 		)
 	)
-	(global_label "FASTCHARGE1"
+	(global_label "FASTCHARGE"
 		(shape input)
 		(at 132.08 119.38 0)
 		(fields_autoplaced yes)
@@ -2081,7 +2081,7 @@
 		)
 		(uuid "3967d464-e8b0-4ccd-b50b-20aca61dc1b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.0071 119.38 0)
+			(at 146.7976 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
