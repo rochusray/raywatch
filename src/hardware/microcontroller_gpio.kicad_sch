@@ -2037,6 +2037,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 162.56) (xy 97.79 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca96361f-ebe7-4c6c-9ea4-cd8f978b806d")
+	)
+	(wire
+		(pts
 			(xy 82.55 119.38) (xy 97.79 119.38)
 		)
 		(stroke
@@ -2296,7 +2306,7 @@
 		(uuid "1d18d7db-3e25-4838-b121-f32a53b0e3a0")
 	)
 	(label "GPIO_EXT"
-		(at 132.08 87.63 180)
+		(at 97.79 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3134,6 +3144,28 @@
 			(justify right bottom)
 		)
 		(uuid "ff7c72d6-d5d1-4f5e-a2a5-882c723cfad6")
+	)
+	(global_label "SOLARSTAT"
+		(shape input)
+		(at 82.55 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "174e34d2-ce7b-4db4-a42a-36b7da3867ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.4048 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HRINT"
 		(shape input)
