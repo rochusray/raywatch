@@ -6215,16 +6215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "NP0"
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
+		(property "Class" "NP0"
 			(at 55.88 43.18 0)
 			(effects
 				(font
@@ -6321,42 +6312,6 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" ""
-			(at 52.07 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
-			(at 52.07 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
-			(at 52.07 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 52.07 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f2eeea12-4f31-4f57-949a-5b1b831dbbf7")
 		)
@@ -6427,25 +6382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "C0G/NP0"
-			(at 171.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
-			(at 171.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
+		(property "Class" "C0G/NP0"
 			(at 171.45 36.83 0)
 			(effects
 				(font
@@ -6750,16 +6687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "X6S"
-			(at 165.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
+		(property "Class" "X6S"
 			(at 165.1 90.17 0)
 			(effects
 				(font
@@ -6854,42 +6782,6 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" ""
-			(at 43.18 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
-			(at 43.18 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
-			(at 43.18 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 43.18 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "41f2321c-432a-4764-8086-7ca406539b58")
 		)
@@ -6952,42 +6844,6 @@
 		)
 		(property "Description" "Inductor"
 			(at 49.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Additional Requirements" ""
-			(at 49.53 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
-			(at 49.53 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
-			(at 49.53 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 49.53 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,7 +7215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Class"
 			(at 208.28 123.19 0)
 			(effects
 				(font
@@ -7369,15 +7225,6 @@
 			)
 		)
 		(property "Additional Requirements" "X6T"
-			(at 208.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
 			(at 208.28 123.19 0)
 			(effects
 				(font
@@ -7543,16 +7390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "X7R"
-			(at 182.88 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
+		(property "Class" "X7R"
 			(at 182.88 123.19 0)
 			(effects
 				(font
@@ -7649,16 +7487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "X7R"
-			(at 144.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
+		(property "Class" "X7R"
 			(at 144.78 90.17 0)
 			(effects
 				(font
@@ -7747,7 +7576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, High Q"
 			(at 43.18 43.18 0)
 			(effects
 				(font
@@ -7756,16 +7585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "NP0, High Q"
-			(at 43.18 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
+		(property "Class" "NP0"
 			(at 43.18 43.18 0)
 			(effects
 				(font
@@ -7863,16 +7683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "X6T"
-			(at 171.45 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
+		(property "Class" "X6T"
 			(at 171.45 123.19 0)
 			(effects
 				(font
@@ -8171,42 +7982,6 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" ""
-			(at 82.55 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
-			(at 82.55 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
-			(at 82.55 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 82.55 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9187fd8c-8467-4893-ba7f-c7ee3f65d101")
 		)
@@ -8411,16 +8186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "X7R"
-			(at 195.58 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
+		(property "Class" "X7R"
 			(at 195.58 123.19 0)
 			(effects
 				(font
@@ -8430,15 +8196,6 @@
 			)
 		)
 		(property "Rated Voltage" "6.3V"
-			(at 195.58 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
 			(at 195.58 123.19 0)
 			(effects
 				(font
@@ -8517,25 +8274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "C0G/NP0"
-			(at 171.45 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
-			(at 171.45 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
+		(property "Class" "C0G/NP0"
 			(at 171.45 48.26 0)
 			(effects
 				(font
@@ -9492,42 +9231,6 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" ""
-			(at 36.83 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
-			(at 36.83 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
-			(at 36.83 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 36.83 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3e3a27e6-7b98-4695-99ea-6de9943d7d03")
 		)
@@ -9663,25 +9366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "Cl = 6~9pF"
-			(at 36.83 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
-			(at 36.83 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
+		(property "Cl" "6~9pF"
 			(at 36.83 157.48 90)
 			(effects
 				(font
@@ -9774,16 +9459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "X5R"
-			(at 88.9 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
+		(property "Class" "X5R"
 			(at 88.9 36.83 0)
 			(effects
 				(font
@@ -9947,16 +9623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "X7R"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
+		(property "Class" "X7R"
 			(at 175.26 90.17 0)
 			(effects
 				(font
@@ -10053,25 +9720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "Cl = 6~9pF"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
+		(property "Cl" "6~9pF"
 			(at 45.72 133.35 0)
 			(effects
 				(font
@@ -10626,16 +10275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "X7R"
-			(at 189.23 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
+		(property "Class" "X7R"
 			(at 189.23 90.17 0)
 			(effects
 				(font
@@ -11004,42 +10644,6 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" ""
-			(at 95.25 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
-			(at 95.25 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
-			(at 95.25 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 95.25 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "22c07f81-0ac1-4054-84ec-57c734ee1746")
 		)
@@ -11177,7 +10781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "650mΩ"
+		(property "Resistance" "650mΩ"
 			(at 167.64 109.22 90)
 			(effects
 				(font
@@ -11187,15 +10791,6 @@
 			)
 		)
 		(property "Rated Current" "120mA"
-			(at 167.64 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
 			(at 167.64 109.22 90)
 			(effects
 				(font
@@ -11275,42 +10870,6 @@
 		)
 		(property "Description" "Inductor"
 			(at 62.23 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Additional Requirements" ""
-			(at 62.23 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
-			(at 62.23 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
-			(at 62.23 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 62.23 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11445,42 +11004,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 43.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Additional Requirements" ""
-			(at 43.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
-			(at 43.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
-			(at 43.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
 			(at 43.18 121.92 0)
 			(effects
 				(font
@@ -11692,16 +11215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "C0G"
-			(at 68.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
+		(property "Class" "C0G"
 			(at 68.58 43.18 0)
 			(effects
 				(font
@@ -11934,16 +11448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "X7R"
-			(at 203.2 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Current" ""
+		(property "Class" "X7R"
 			(at 203.2 90.17 0)
 			(effects
 				(font
@@ -12306,7 +11811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Additional Requirements" "120Ω at 100MHz, 500mΩ Max"
+		(property "Resistance" "120Ω at 100MHz, 500mΩ Max"
 			(at 175.26 109.22 90)
 			(effects
 				(font
@@ -12316,24 +11821,6 @@
 			)
 		)
 		(property "Rated Current" "200mA"
-			(at 175.26 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rated Voltage" ""
-			(at 175.26 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
 			(at 175.26 109.22 90)
 			(effects
 				(font
