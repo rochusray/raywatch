@@ -1979,7 +1979,7 @@
 				)
 			)
 		)
-		(property "Value" "202µH"
+		(property "Value" "2.2µH"
 			(at 148.59 77.47 90)
 			(effects
 				(font
