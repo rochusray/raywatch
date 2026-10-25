@@ -737,6 +737,10 @@
     [
       "27d482b0-7b63-432c-88d1-098048a1418a",
       "Battery Gauge"
+    ],
+    [
+      "0e8527e5-475a-4be8-8e89-500ec2c68fe4",
+      "Battery"
     ]
   ],
   "text_variables": {}
