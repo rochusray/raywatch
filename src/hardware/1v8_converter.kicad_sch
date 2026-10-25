@@ -818,10 +818,22 @@
 		)
 	)
 	(junction
+		(at 165.1 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97c84073-365e-422c-9070-42fb4e8e375a")
+	)
+	(junction
 		(at 139.7 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dbde8ca-3cc9-4975-a221-be6762a97275")
+	)
+	(junction
+		(at 165.1 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6f63dce-720f-40a4-9562-863c1cc00433")
 	)
 	(junction
 		(at 165.1 96.52)
@@ -854,6 +866,16 @@
 			(type default)
 		)
 		(uuid "36afbb83-830b-4708-a3f5-5c5ca7546de2")
+	)
+	(wire
+		(pts
+			(xy 165.1 104.14) (xy 165.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67333f7d-5000-463f-96fc-64c260e703d7")
 	)
 	(symbol
 		(lib_id "power:GND")
