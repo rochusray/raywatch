@@ -8,8 +8,534 @@
 		(date "2026-10-21")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 116.332 145.542)
+		(end 119.888 154.432)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 89bb53a6-4d3e-40c0-a2fb-e3fc9ff2ebaf)
+	)
+	(text "+3V0"
+		(exclude_from_sim no)
+		(at 194.31 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00097069-d6c3-4e25-955a-f52a7ed1b29e")
+	)
+	(text "Battery"
+		(exclude_from_sim no)
+		(at 123.444 150.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06d0c6bc-26f6-40c8-a731-ed6a14d01310")
+	)
+	(text "VBAT"
+		(exclude_from_sim no)
+		(at 120.65 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "08e9ba2c-843f-4657-ae89-c1e4d014a910")
+	)
+	(text "-BATT"
+		(exclude_from_sim no)
+		(at 114.046 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ac7c034-2136-472c-8d15-64520c4ffdc7")
+	)
+	(text "VSYS"
+		(exclude_from_sim no)
+		(at 155.194 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7910603b-388f-43b3-86e9-3a6d06e81a47")
+	)
+	(text "VIN"
+		(exclude_from_sim no)
+		(at 119.888 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8662ac1a-6a93-4bd8-a106-110c6a5d22cc")
+	)
+	(text "+1V8"
+		(exclude_from_sim no)
+		(at 194.31 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96920bd0-5a11-45e3-bb67-3ae6cd7ffc16")
+	)
+	(text "+BATT"
+		(exclude_from_sim no)
+		(at 121.92 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af5117cf-3483-4b43-a501-f4fdc99200c2")
+	)
+	(text "VSOLAR"
+		(exclude_from_sim no)
+		(at 121.92 73.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b971e5e8-57b7-4e19-b1d7-9231be30a1cb")
+	)
+	(text "+BATT"
+		(exclude_from_sim no)
+		(at 121.92 127.508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc18e543-61c2-4d38-bfbe-5c2c925d86fa")
+	)
+	(text "Wireless Charging\nCoil"
+		(exclude_from_sim no)
+		(at 101.6 76.962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb80d0f4-b295-477f-a55f-9c97b8934045")
+	)
+	(text "+4V5"
+		(exclude_from_sim no)
+		(at 194.31 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "edec3718-6539-46f5-9da2-db14a774ee70")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 107.95 133.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f602580f-7ad7-452d-8b7c-8bddfcabc40e")
+	)
+	(text "+3V3"
+		(exclude_from_sim no)
+		(at 194.31 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb18d099-4dff-4377-ad7c-a37b02a3611e")
+	)
+	(polyline
+		(pts
+			(xy 102.87 81.28) (xy 111.506 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148cd3b0-0248-49ac-b20c-c100d3c77062")
+	)
+	(polyline
+		(pts
+			(xy 102.87 82.55) (xy 102.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15feff12-db2f-4a14-b989-045bd41f39ca")
+	)
+	(polyline
+		(pts
+			(xy 118.872 139.954) (xy 118.872 145.542)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17496e90-3591-4757-a257-ef241a1fa3eb")
+	)
+	(polyline
+		(pts
+			(xy 117.348 139.954) (xy 117.348 145.542)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194a1b89-2117-4bbb-8d29-9cf3247a1b77")
+	)
+	(polyline
+		(pts
+			(xy 102.362 82.55) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4ae73f-376f-45fa-be3a-37290f5a2d4a")
+	)
+	(polyline
+		(pts
+			(xy 102.362 79.248) (xy 102.362 84.582)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d69df21-0330-4f0f-8d47-ed15f7c1e741")
+	)
+	(polyline
+		(pts
+			(xy 107.95 129.54) (xy 107.95 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36cd5382-580b-4ca8-b31d-4eba04a0e96d")
+	)
+	(polyline
+		(pts
+			(xy 102.616 84.836) (xy 100.584 84.836)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37474e02-56db-46c2-a4b8-bb0bb5114560")
+	)
+	(polyline
+		(pts
+			(xy 100.584 78.994) (xy 100.584 84.836)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49322a2e-e632-4a91-946f-31ea1974a672")
+	)
+	(polyline
+		(pts
+			(xy 100.838 84.582) (xy 100.838 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6500cb-f8ca-4dd1-bd32-1a4c8a7ad8f9")
+	)
+	(polyline
+		(pts
+			(xy 150.876 78.74) (xy 194.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52674023-f244-4273-93ca-cd1d46118d01")
+	)
+	(polyline
+		(pts
+			(xy 117.348 129.54) (xy 107.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62714010-8058-41bf-9461-64c07351b29e")
+	)
+	(polyline
+		(pts
+			(xy 162.306 89.662) (xy 159.004 89.662)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca3a4dd-dad5-4b06-b828-b015da0b5b93")
+	)
+	(polyline
+		(pts
+			(xy 150.876 99.822) (xy 150.876 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71036654-24db-4c03-9819-a0d56ca4a0f5")
+	)
+	(polyline
+		(pts
+			(xy 118.11 68.58) (xy 118.11 77.724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74df2ff6-844d-4703-964b-6ded07dad8aa")
+	)
+	(polyline
+		(pts
+			(xy 118.11 104.14) (xy 118.11 114.554)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a90890-826e-463f-9271-63a93710b304")
+	)
+	(polyline
+		(pts
+			(xy 175.514 99.822) (xy 194.31 99.822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a21fb70-0166-4919-b65c-74df9a6a1a69")
+	)
+	(polyline
+		(pts
+			(xy 111.506 82.55) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c4246c-d279-4e3e-bc8a-c764c6f80436")
+	)
+	(polyline
+		(pts
+			(xy 100.838 79.248) (xy 102.362 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ca0825-b627-4bef-8321-a9aaaa1b9b6c")
+	)
+	(polyline
+		(pts
+			(xy 100.584 78.994) (xy 102.616 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91428e97-0387-4e95-9211-e51ab6db0f34")
+	)
+	(polyline
+		(pts
+			(xy 117.348 131.572) (xy 117.348 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2251ecc-4715-4a75-864e-edb2119675bc")
+	)
+	(polyline
+		(pts
+			(xy 102.87 81.28) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6203bc6-a905-46ed-81b0-06738e1cc6bc")
+	)
+	(polyline
+		(pts
+			(xy 118.11 86.36) (xy 118.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7641cb0-e57a-4cb9-b0b3-6f9e316618bb")
+	)
+	(polyline
+		(pts
+			(xy 100.33 85.09) (xy 100.33 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4c161c-937d-477c-b00f-8f8ae1ddbf28")
+	)
+	(polyline
+		(pts
+			(xy 118.872 122.936) (xy 118.872 131.572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e9a65b-01a1-46d4-a6da-efb0eb04d5e4")
+	)
+	(polyline
+		(pts
+			(xy 159.004 89.662) (xy 159.004 109.982)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52df931-f4bd-43ef-917f-fa643ebba588")
+	)
+	(polyline
+		(pts
+			(xy 102.616 78.994) (xy 102.616 84.836)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83b6ee9-30c8-4e95-a290-e52741d7661c")
+	)
+	(polyline
+		(pts
+			(xy 124.714 99.822) (xy 162.306 99.822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc72c82d-2818-49b2-9f73-3bfbd43d0d9e")
+	)
+	(polyline
+		(pts
+			(xy 175.514 89.408) (xy 194.31 89.408)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c022ebcf-bcb6-4b27-900f-60ea47b5789a")
+	)
+	(polyline
+		(pts
+			(xy 100.33 78.74) (xy 102.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf63e619-dc34-4714-b4b2-cf136bdcaf3b")
+	)
+	(polyline
+		(pts
+			(xy 102.362 81.28) (xy 102.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5376eab-799c-4623-af29-dfa3866eac07")
+	)
+	(polyline
+		(pts
+			(xy 106.934 132.08) (xy 108.966 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d14c48-a7b6-45ec-8c88-526285fbb18d")
+	)
+	(polyline
+		(pts
+			(xy 102.87 85.09) (xy 100.33 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41092db-b91d-479c-92d2-2b796fe21451")
+	)
+	(polyline
+		(pts
+			(xy 175.514 109.982) (xy 194.31 109.982)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec238928-ca20-4b5e-9c86-e493c1aa5a87")
+	)
+	(polyline
+		(pts
+			(xy 159.004 109.982) (xy 162.306 109.982)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f194bd18-9af6-4eb5-b3ed-5c65ef830c86")
+	)
+	(polyline
+		(pts
+			(xy 102.362 84.582) (xy 100.838 84.582)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d647e6-4fea-4735-94ca-8afcb1202127")
+	)
+	(polyline
+		(pts
+			(xy 102.87 78.74) (xy 102.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa50d3f8-ad4d-4c37-9a40-eb934bfd8704")
+	)
 	(sheet
-		(at 83.82 88.9)
+		(at 162.56 107.95)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25,7 +551,7 @@
 		)
 		(uuid "07fbbbca-9aa4-472c-8a7d-14bd6423f6c5")
 		(property "Sheetname" "1.8V Converter"
-			(at 83.82 88.1884 0)
+			(at 162.56 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +560,7 @@
 			)
 		)
 		(property "Sheetfile" "1v8_converter.kicad_sch"
-			(at 83.82 93.2946 0)
+			(at 162.56 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +577,7 @@
 		)
 	)
 	(sheet
-		(at 40.005 100.33)
+		(at 111.76 116.84)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -67,7 +593,7 @@
 		)
 		(uuid "27d482b0-7b63-432c-88d1-098048a1418a")
 		(property "Sheetname" "Battery Gauge"
-			(at 40.005 99.6184 0)
+			(at 111.76 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +602,7 @@
 			)
 		)
 		(property "Sheetfile" "battery_gauge.kicad_sch"
-			(at 40.005 104.7246 0)
+			(at 111.76 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,7 +619,7 @@
 		)
 	)
 	(sheet
-		(at 40.005 89.535)
+		(at 111.76 133.985)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -109,7 +635,7 @@
 		)
 		(uuid "7d73f677-e1d3-42ef-8813-aac813c5814d")
 		(property "Sheetname" "Battery Protection"
-			(at 40.005 88.8234 0)
+			(at 111.76 133.2734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118,7 +644,7 @@
 			)
 		)
 		(property "Sheetfile" "battery_protection.kicad_sch"
-			(at 40.005 93.9296 0)
+			(at 111.76 138.3796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -135,7 +661,7 @@
 		)
 	)
 	(sheet
-		(at 40.005 67.945)
+		(at 111.887 62.23)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -151,7 +677,7 @@
 		)
 		(uuid "94d294dd-af54-43f7-9e9b-15472c788437")
 		(property "Sheetname" "Solar"
-			(at 40.005 67.2334 0)
+			(at 111.887 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160,7 +686,7 @@
 			)
 		)
 		(property "Sheetfile" "solar.kicad_sch"
-			(at 40.005 72.3396 0)
+			(at 111.887 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -177,7 +703,7 @@
 		)
 	)
 	(sheet
-		(at 83.82 78.74)
+		(at 162.56 97.79)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -193,7 +719,7 @@
 		)
 		(uuid "965e2c2b-77bd-439d-8b14-adaa270f722d")
 		(property "Sheetname" "3.0V Converter"
-			(at 83.82 78.0284 0)
+			(at 162.56 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,7 +728,7 @@
 			)
 		)
 		(property "Sheetfile" "3v0_converter.kicad_sch"
-			(at 83.82 83.1346 0)
+			(at 162.56 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -219,7 +745,7 @@
 		)
 	)
 	(sheet
-		(at 83.82 68.58)
+		(at 162.56 87.63)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -235,7 +761,7 @@
 		)
 		(uuid "b445ea2b-ce97-4fc9-a9bc-efa2f143df72")
 		(property "Sheetname" "3.3V Converter"
-			(at 83.82 67.8684 0)
+			(at 162.56 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -244,7 +770,7 @@
 			)
 		)
 		(property "Sheetfile" "3v3_converter.kicad_sch"
-			(at 83.82 72.9746 0)
+			(at 162.56 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,7 +787,7 @@
 		)
 	)
 	(sheet
-		(at 40.005 57.785)
+		(at 111.633 80.01)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -277,7 +803,7 @@
 		)
 		(uuid "d00e072b-2be1-497b-8423-3eead973d996")
 		(property "Sheetname" "Wireless Charging"
-			(at 40.005 57.0734 0)
+			(at 111.633 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -286,7 +812,7 @@
 			)
 		)
 		(property "Sheetfile" "wireless_charging.kicad_sch"
-			(at 40.005 62.1796 0)
+			(at 111.633 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,7 +829,7 @@
 		)
 	)
 	(sheet
-		(at 40.005 78.74)
+		(at 111.76 97.79)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -319,7 +845,7 @@
 		)
 		(uuid "e601ae13-e808-457e-9f3e-dffc594463cc")
 		(property "Sheetname" "Charging Controller"
-			(at 40.005 78.0284 0)
+			(at 111.76 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,7 +854,7 @@
 			)
 		)
 		(property "Sheetfile" "charging_controller.kicad_sch"
-			(at 40.005 83.1346 0)
+			(at 111.76 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
