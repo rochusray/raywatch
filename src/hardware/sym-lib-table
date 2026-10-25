@@ -31,6 +31,6 @@
   (lib (name "TPS7A2018PDQNR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS7A2018PDQNR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS7A2030PDQNR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS7A2030PDQNR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS61099YFFT")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS61099YFFT.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS63900DSKR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS63900DSKR.kicad_sym")(options "")(descr ""))
   (lib (name "WE-WPCC_RX_1COIL")(type "KiCad")(uri "${KIPRJMOD}/symbols/WE-WPCC_RX_1COIL.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS7A2033DQNR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS7A2033DQNR.kicad_sym")(options "")(descr ""))
 )
