@@ -1064,7 +1064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08ebd27f-4e4a-4d7a-aa3d-a4d7f09e26c9")
-		(property "Reference" "C53"
+		(property "Reference" "C51"
 			(at 114.3 97.7899 0)
 			(effects
 				(font
@@ -1118,7 +1118,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/9d8e2113-86ca-4807-a845-38f03d871655"
-					(reference "C53")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -1134,7 +1134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1afdd525-1dd0-4e38-9d2a-6425cdddacaa")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR0307"
 			(at 168.91 88.9 0)
 			(effects
 				(font
@@ -1184,7 +1184,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/9d8e2113-86ca-4807-a845-38f03d871655"
-					(reference "#PWR0311")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -1200,7 +1200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fecfc34-55a1-4e4f-bfd8-b7c59351c55a")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0305"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -1250,7 +1250,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/9d8e2113-86ca-4807-a845-38f03d871655"
-					(reference "#PWR0309")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -1266,7 +1266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bc41a09-2e1c-466c-ae42-db2f6c2fa8f8")
-		(property "Reference" "#PWR0313"
+		(property "Reference" "#PWR0309"
 			(at 180.34 88.9 0)
 			(effects
 				(font
@@ -1316,7 +1316,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/9d8e2113-86ca-4807-a845-38f03d871655"
-					(reference "#PWR0313")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -1332,7 +1332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33953468-11f7-4171-a715-8797a55b8d2f")
-		(property "Reference" "#PWR0310"
+		(property "Reference" "#PWR0306"
 			(at 153.67 119.38 0)
 			(effects
 				(font
@@ -1382,7 +1382,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/9d8e2113-86ca-4807-a845-38f03d871655"
-					(reference "#PWR0310")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -1398,7 +1398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4950ee8e-7717-4317-964a-68ee3777ec9b")
-		(property "Reference" "#PWR0312"
+		(property "Reference" "#PWR0308"
 			(at 168.91 106.68 0)
 			(effects
 				(font
@@ -1448,7 +1448,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/9d8e2113-86ca-4807-a845-38f03d871655"
-					(reference "#PWR0312")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -1464,7 +1464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "696f5e50-0ad1-48e1-8957-73a26a206006")
-		(property "Reference" "C54"
+		(property "Reference" "C52"
 			(at 172.72 95.2499 0)
 			(effects
 				(font
@@ -1518,7 +1518,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/9d8e2113-86ca-4807-a845-38f03d871655"
-					(reference "C54")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -1534,7 +1534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74beb3b1-8e31-4ebf-8ba7-be624532bc5f")
-		(property "Reference" "#PWR0314"
+		(property "Reference" "#PWR0310"
 			(at 180.34 106.68 0)
 			(effects
 				(font
@@ -1584,7 +1584,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/9d8e2113-86ca-4807-a845-38f03d871655"
-					(reference "#PWR0314")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -1820,7 +1820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea24c4ae-de2b-469d-aaf4-d80a032b7e2e")
-		(property "Reference" "C55"
+		(property "Reference" "C53"
 			(at 184.15 95.2499 0)
 			(effects
 				(font
@@ -1874,7 +1874,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/9d8e2113-86ca-4807-a845-38f03d871655"
-					(reference "C55")
+					(reference "C53")
 					(unit 1)
 				)
 			)

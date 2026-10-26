@@ -1868,7 +1868,7 @@
 		(uuid "014aeedd-f850-4841-8212-c36a871698b4")
 	)
 	(label "GPIO"
-		(at 97.79 97.79 180)
+		(at 133.35 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1907,16 +1907,6 @@
 		)
 		(uuid "06c084fe-677c-46bb-ad94-95bd1c941725")
 	)
-	(label "TAMPC"
-		(at 129.54 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0e3e90ac-1f8c-4c1e-88d3-7452147e7b78")
-	)
 	(label "GPIO_EXT"
 		(at 97.79 102.87 180)
 		(effects
@@ -1928,7 +1918,7 @@
 		(uuid "10ac4bc6-fd4d-4b70-b582-b013849ae059")
 	)
 	(label "GPIO_EXT"
-		(at 132.08 67.31 180)
+		(at 97.79 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1938,7 +1928,7 @@
 		(uuid "1546027a-c122-4500-a96e-8251bf87ef5b")
 	)
 	(label "GPIO_EXT"
-		(at 132.08 69.85 180)
+		(at 97.79 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2087,16 +2077,6 @@
 		)
 		(uuid "3c40cafa-ada9-4247-90f2-3d8db7492aca")
 	)
-	(label "GPIO"
-		(at 97.79 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "40679e46-33ce-4001-ad3a-5f18f9cf6a17")
-	)
 	(label "GPIO_EXT"
 		(at 97.79 125.73 180)
 		(effects
@@ -2138,7 +2118,7 @@
 		(uuid "49ddb449-4c4a-432b-9ed8-9e8bc878d54c")
 	)
 	(label "GPIO_EXT"
-		(at 132.08 62.23 180)
+		(at 97.79 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2218,7 +2198,7 @@
 		(uuid "5a2ee563-7c65-4ae9-9289-998f3630b090")
 	)
 	(label "GPIO"
-		(at 97.79 92.71 180)
+		(at 133.35 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2287,16 +2267,6 @@
 		)
 		(uuid "6ae4e9e8-62e6-4ece-b833-09787e5cc46d")
 	)
-	(label "TAMPC"
-		(at 92.71 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6c8b2f79-2359-4d60-a762-87714ada0cbe")
-	)
 	(label "SPIDATA"
 		(at 97.79 176.53 180)
 		(effects
@@ -2348,16 +2318,6 @@
 		(uuid "775e045d-e495-43dc-9114-8bcb1919af57")
 	)
 	(label "GPIO"
-		(at 97.79 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "79cc47ef-6eff-4b3b-be6d-4831735e1642")
-	)
-	(label "GPIO"
 		(at 97.79 135.89 180)
 		(effects
 			(font
@@ -2386,16 +2346,6 @@
 			(justify right bottom)
 		)
 		(uuid "8760ec74-1135-4a41-bb3d-16ead06d81bb")
-	)
-	(label "TAMPC"
-		(at 92.71 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "88112d64-8087-4f28-8ad2-6a078ec58791")
 	)
 	(label "GPIO_EXT"
 		(at 267.97 123.19 180)
@@ -2426,16 +2376,6 @@
 			(justify left bottom)
 		)
 		(uuid "97494da2-269e-43e5-acd8-438ed2c51b93")
-	)
-	(label "TAMPC"
-		(at 129.54 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "98d921ce-2c76-4a7c-8ea9-1baa4dc3a469")
 	)
 	(label "GPIO_EXT"
 		(at 201.93 54.61 0)
@@ -2548,7 +2488,7 @@
 		(uuid "c104e136-e696-4977-80f3-256701cf48f8")
 	)
 	(label "GPIO_EXT"
-		(at 132.08 64.77 180)
+		(at 97.79 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4154,7 +4094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1245b70b-1368-47cc-a169-cc568b8efcfc")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR041"
 			(at 251.46 29.21 0)
 			(effects
 				(font
@@ -4205,7 +4145,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "#PWR045")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4222,7 +4162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "176f33c4-0999-488e-addc-a2c1f326b55f")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR048"
 			(at 261.62 143.51 0)
 			(effects
 				(font
@@ -4273,7 +4213,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "#PWR052")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4289,7 +4229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25fc0d59-4968-4746-aa7c-ad210dab0b64")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 210.82 91.44 90)
 			(effects
 				(font
@@ -4341,7 +4281,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4358,7 +4298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35b63b88-32ce-4960-bb31-dabdf1058f06")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR047"
 			(at 261.62 138.43 0)
 			(effects
 				(font
@@ -4409,7 +4349,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "#PWR051")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4425,7 +4365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40e1b0a8-a862-4ef5-85f1-55bce281db8f")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 210.82 27.94 90)
 			(effects
 				(font
@@ -4477,7 +4417,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4493,7 +4433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42d39f75-5055-4275-bbd5-de7e068916e7")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR038"
 			(at 204.47 101.6 0)
 			(effects
 				(font
@@ -4543,7 +4483,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "#PWR042")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4559,7 +4499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48dffce8-2c69-4d2e-941a-7404202295fc")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR045"
 			(at 251.46 92.71 0)
 			(effects
 				(font
@@ -4610,7 +4550,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "#PWR049")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4627,7 +4567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61294179-0c7d-4a13-a6e3-dcc66dcbbf8c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR040"
 			(at 218.44 110.49 0)
 			(effects
 				(font
@@ -4678,7 +4618,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "#PWR044")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4694,7 +4634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "633c3512-88ea-4c60-90d9-3c773593afe5")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR039"
 			(at 208.28 46.99 0)
 			(effects
 				(font
@@ -4745,7 +4685,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "#PWR043")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4761,7 +4701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a2b88c6-ced7-4fe2-b5f1-53f82c8af5f3")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR037"
 			(at 204.47 38.1 0)
 			(effects
 				(font
@@ -4811,7 +4751,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "#PWR041")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4827,7 +4767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f012b43-145c-40ad-ab95-8cf4e58db8fd")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR046"
 			(at 251.46 95.25 0)
 			(effects
 				(font
@@ -4878,7 +4818,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "#PWR050")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4894,7 +4834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab4ee169-8343-4820-b55f-5e2a8cc0b1cb")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR042"
 			(at 251.46 31.75 0)
 			(effects
 				(font
@@ -4945,7 +4885,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "#PWR046")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4962,7 +4902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c43e2a98-ed3a-480b-9312-155dde4c45c4")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR043"
 			(at 261.62 74.93 0)
 			(effects
 				(font
@@ -5013,7 +4953,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "#PWR047")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5030,7 +4970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca58ade9-1963-4033-a89f-458a06aa9f21")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR044"
 			(at 261.62 80.01 0)
 			(effects
 				(font
@@ -5081,7 +5021,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/fbcfcd28-2a3e-42e7-898f-b06e02d68038"
-					(reference "#PWR048")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
