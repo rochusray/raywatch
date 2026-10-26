@@ -680,7 +680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-LLGA-5-3_INF"
+		(property "Footprint" "Project:PG-LLGA-5-3_INF"
 			(at 133.35 91.44 0)
 			(effects
 				(font

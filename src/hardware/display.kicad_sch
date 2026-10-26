@@ -1990,14 +1990,6 @@
 		(color 0 0 0 0)
 		(uuid "9770771e-c934-4848-80ae-4ac8a475da44")
 	)
-	(no_connect
-		(at 147.32 90.17)
-		(uuid "06e5f8ce-ca01-4d0c-948b-4261d4580af7")
-	)
-	(no_connect
-		(at 106.68 92.71)
-		(uuid "c5334308-3f58-4e25-a4ac-9a3213f5680d")
-	)
 	(wire
 		(pts
 			(xy 172.72 97.79) (xy 186.69 97.79)
@@ -2421,6 +2413,50 @@
 		(uuid "692b97c4-8912-43d2-9976-7f2fa730bc0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 98.1914 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXP3INT1V8"
+		(shape input)
+		(at 147.32 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7445b141-a2b3-4da0-a848-9d2916d0b279")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.5537 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXPINT3"
+		(shape output)
+		(at 106.68 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79294178-04b0-4d47-881f-6380058b5ade")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.9539 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
