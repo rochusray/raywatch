@@ -1990,6 +1990,14 @@
 		(color 0 0 0 0)
 		(uuid "9770771e-c934-4848-80ae-4ac8a475da44")
 	)
+	(no_connect
+		(at 147.32 90.17)
+		(uuid "34571eca-fda4-4ebf-84fb-807be29bef46")
+	)
+	(no_connect
+		(at 106.68 92.71)
+		(uuid "7ae0a95b-cb85-440a-8494-bff720e8a144")
+	)
 	(wire
 		(pts
 			(xy 172.72 97.79) (xy 186.69 97.79)
@@ -2334,6 +2342,28 @@
 			)
 		)
 	)
+	(global_label "HRINT"
+		(shape output)
+		(at 106.68 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47d847c4-07ba-4b4b-bea3-863337b80464")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.1914 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD\\RESET"
 		(shape input)
 		(at 106.68 80.01 180)
@@ -2400,72 +2430,6 @@
 			)
 		)
 	)
-	(global_label "HRINT"
-		(shape output)
-		(at 106.68 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "692b97c4-8912-43d2-9976-7f2fa730bc0c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.1914 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXP3INT1V8"
-		(shape input)
-		(at 147.32 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7445b141-a2b3-4da0-a848-9d2916d0b279")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.5537 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXPINT3"
-		(shape output)
-		(at 106.68 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79294178-04b0-4d47-881f-6380058b5ade")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.9539 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LCDTE"
 		(shape output)
 		(at 106.68 87.63 180)
@@ -2498,7 +2462,7 @@
 			)
 			(justify left)
 		)
-		(uuid "99cc64eb-bfdd-4f07-8440-890cfa415bac")
+		(uuid "f1f86d66-91d5-4c6c-83bb-0b9a9ad6bf67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 159.3162 87.63 0)
 			(effects

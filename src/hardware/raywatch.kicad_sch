@@ -136,48 +136,6 @@
 		)
 	)
 	(sheet
-		(at 21.59 164.846)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3ebf0f4e-35e5-4b39-baf3-58da333dab7c")
-		(property "Sheetname" "Camera"
-			(at 21.59 164.1344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "camera.kicad_sch"
-			(at 21.59 169.2406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
-					(page "25")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 21.59 154.94)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -514,7 +472,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 175.26)
+		(at 21.59 164.846)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -530,7 +488,7 @@
 		)
 		(uuid "f2f5da81-6e74-45e5-9c07-b66eda9b7e5d")
 		(property "Sheetname" "Microphone"
-			(at 21.59 174.5484 0)
+			(at 21.59 164.1344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -539,7 +497,7 @@
 			)
 		)
 		(property "Sheetfile" "microphone.kicad_sch"
-			(at 21.59 179.6546 0)
+			(at 21.59 169.2406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
