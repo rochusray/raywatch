@@ -1461,7 +1461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "071400e7-a409-46da-b5f5-df14116e0f95")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR054"
 			(at 107.95 86.36 0)
 			(effects
 				(font
@@ -1512,7 +1512,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR048")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -1528,7 +1528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0edc782b-3243-4200-9846-c821fa14a073")
-		(property "Reference" "R4"
+		(property "Reference" "R17"
 			(at 125.73 111.76 90)
 			(effects
 				(font
@@ -1544,7 +1544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 119.888 90)
 			(effects
 				(font
@@ -1580,7 +1580,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "R4")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1596,7 +1596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "106114b7-ac07-4e44-8b41-3eca89997e86")
-		(property "Reference" "C?"
+		(property "Reference" "C20"
 			(at 135.89 52.0699 0)
 			(effects
 				(font
@@ -1614,7 +1614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 131.1148 49.53 0)
 			(effects
 				(font
@@ -1650,7 +1650,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "C?")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -1666,7 +1666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17b79838-f974-4116-b14d-7852ffd75091")
-		(property "Reference" "C16"
+		(property "Reference" "C23"
 			(at 135.89 110.4899 0)
 			(effects
 				(font
@@ -1684,7 +1684,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 131.1148 107.95 0)
 			(effects
 				(font
@@ -1720,7 +1720,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "C16")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -1737,7 +1737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ca641d4-84e4-45a7-8cfb-a002ab2a348d")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR079"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -1788,7 +1788,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR061")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -1805,7 +1805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f31d1b8-da12-46c7-beb8-d0143e1a0b69")
-		(property "Reference" "R?"
+		(property "Reference" "R21"
 			(at 171.45 92.71 90)
 			(effects
 				(font
@@ -1821,7 +1821,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.45 100.838 90)
 			(effects
 				(font
@@ -1857,7 +1857,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -1874,7 +1874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "278c27a6-6451-4369-88d4-eb890235a170")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR071"
 			(at 165.1 111.76 0)
 			(effects
 				(font
@@ -1924,7 +1924,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR073")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -1940,7 +1940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e9e20df-74c1-4978-a2f7-eb110a70d282")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR066"
 			(at 132.08 111.76 0)
 			(effects
 				(font
@@ -1990,7 +1990,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR056")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -2006,7 +2006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4698094b-282d-442f-a26b-7c3eb31dec54")
-		(property "Reference" "R3"
+		(property "Reference" "R16"
 			(at 125.73 92.71 90)
 			(effects
 				(font
@@ -2022,7 +2022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 100.838 90)
 			(effects
 				(font
@@ -2058,7 +2058,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "R3")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2075,7 +2075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ecd622b-0911-408d-b4ed-2f3ca685dfe5")
-		(property "Reference" "SW?"
+		(property "Reference" "SW6"
 			(at 184.15 52.07 0)
 			(effects
 				(font
@@ -2130,7 +2130,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW?")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -2147,7 +2147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f8d57af-2e4a-40c4-a480-0fa1d4e00420")
-		(property "Reference" "R?"
+		(property "Reference" "R20"
 			(at 171.45 73.66 90)
 			(effects
 				(font
@@ -2163,7 +2163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.45 81.788 90)
 			(effects
 				(font
@@ -2199,7 +2199,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "R?")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2215,7 +2215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54536236-8ea5-409e-aeeb-b0d2eb3c605e")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR058"
 			(at 113.03 69.85 0)
 			(effects
 				(font
@@ -2265,7 +2265,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR045")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2282,7 +2282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5502a0e1-ab5e-41f0-a84a-53eb68e13df0")
-		(property "Reference" "C?"
+		(property "Reference" "C27"
 			(at 161.29 91.4399 0)
 			(effects
 				(font
@@ -2300,7 +2300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.0652 88.9 0)
 			(effects
 				(font
@@ -2336,7 +2336,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "C?")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -2352,7 +2352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55915704-d152-4fb3-ab26-2d20436065c7")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR059"
 			(at 113.03 90.17 0)
 			(effects
 				(font
@@ -2402,7 +2402,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR049")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2419,7 +2419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "574ad54e-47d5-4b5c-aa55-098d04e2b45a")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR068"
 			(at 165.1 53.34 0)
 			(effects
 				(font
@@ -2469,7 +2469,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR070")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2485,7 +2485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58ddfaf5-892c-487b-83a1-0367ad86036c")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR065"
 			(at 132.08 92.71 0)
 			(effects
 				(font
@@ -2535,7 +2535,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR053")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -2552,7 +2552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "597ea6c6-e6fc-4e7d-aef3-5d145191e72b")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR078"
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -2603,7 +2603,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR060")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -2620,7 +2620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5adab3f6-b57d-4cda-9d2d-764ca7b7a451")
-		(property "Reference" "C?"
+		(property "Reference" "C26"
 			(at 161.29 72.3899 0)
 			(effects
 				(font
@@ -2638,7 +2638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.0652 69.85 0)
 			(effects
 				(font
@@ -2674,7 +2674,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "C?")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2690,7 +2690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c1eb981-1c22-4be4-be61-5b5e0bbfc954")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR056"
 			(at 107.95 124.46 0)
 			(effects
 				(font
@@ -2741,7 +2741,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR054")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2758,7 +2758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d778ee8-8720-49bc-baf4-84c1e0b79ca7")
-		(property "Reference" "R?"
+		(property "Reference" "R19"
 			(at 171.45 53.34 90)
 			(effects
 				(font
@@ -2774,7 +2774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.45 61.468 90)
 			(effects
 				(font
@@ -2810,7 +2810,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "R?")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2897,7 +2897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b80687e-8552-42c6-b8d0-f1e9bcd17784")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR055"
 			(at 107.95 105.41 0)
 			(effects
 				(font
@@ -2948,7 +2948,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR051")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2964,7 +2964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ec1b360-1d84-4f8c-bab0-a58b5da39bf6")
-		(property "Reference" "C14"
+		(property "Reference" "C21"
 			(at 135.89 72.3899 0)
 			(effects
 				(font
@@ -2982,7 +2982,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 131.1148 69.85 0)
 			(effects
 				(font
@@ -3018,7 +3018,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "C14")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3035,7 +3035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7423a709-5f99-482a-8dc3-fe39e1047bbe")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR076"
 			(at 184.15 128.27 0)
 			(effects
 				(font
@@ -3085,7 +3085,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR068")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -3102,7 +3102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77871f67-cc61-4960-ac8b-68eb181c139a")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR072"
 			(at 165.1 130.81 0)
 			(effects
 				(font
@@ -3152,7 +3152,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR074")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3169,7 +3169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78329563-f5e7-45a7-a427-90bb2423e427")
-		(property "Reference" "SW?"
+		(property "Reference" "SW8"
 			(at 184.15 91.44 0)
 			(effects
 				(font
@@ -3224,7 +3224,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW?")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -3241,7 +3241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "783bcd44-7772-4a9f-8416-5ddd9f1b6c94")
-		(property "Reference" "SW?"
+		(property "Reference" "SW10"
 			(at 184.15 129.54 0)
 			(effects
 				(font
@@ -3296,7 +3296,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW?")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -3313,7 +3313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dc0ca1d-820d-42c3-bc24-458e7ecb8391")
-		(property "Reference" "C?"
+		(property "Reference" "C28"
 			(at 161.29 110.4899 0)
 			(effects
 				(font
@@ -3331,7 +3331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.0652 107.95 0)
 			(effects
 				(font
@@ -3367,7 +3367,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "C?")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -3383,7 +3383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dc39bb5-afe6-49f5-ad2b-628fa728a0a7")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR060"
 			(at 113.03 109.22 0)
 			(effects
 				(font
@@ -3433,7 +3433,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR052")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -3449,7 +3449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "807594e1-2f84-4204-8f65-c7d4e07ef72f")
-		(property "Reference" "R5"
+		(property "Reference" "R18"
 			(at 125.73 130.81 90)
 			(effects
 				(font
@@ -3465,7 +3465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 138.938 90)
 			(effects
 				(font
@@ -3501,7 +3501,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "R5")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3517,7 +3517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8098b87a-429a-4fda-935d-649403435fc0")
-		(property "Reference" "C15"
+		(property "Reference" "C22"
 			(at 135.89 91.4399 0)
 			(effects
 				(font
@@ -3535,7 +3535,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 131.1148 88.9 0)
 			(effects
 				(font
@@ -3571,7 +3571,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "C15")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3588,7 +3588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "887d993b-5935-4c14-a5f4-552609914fcd")
-		(property "Reference" "R?"
+		(property "Reference" "R23"
 			(at 171.45 130.81 90)
 			(effects
 				(font
@@ -3604,7 +3604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.45 138.938 90)
 			(effects
 				(font
@@ -3640,7 +3640,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "R?")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3656,7 +3656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a60b15d-2da6-443a-85fe-6e713f717583")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR067"
 			(at 132.08 130.81 0)
 			(effects
 				(font
@@ -3706,7 +3706,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR059")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -3723,7 +3723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dd9b887-79c8-41b5-ad12-2849cab089dd")
-		(property "Reference" "R?"
+		(property "Reference" "R22"
 			(at 171.45 111.76 90)
 			(effects
 				(font
@@ -3739,7 +3739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.45 119.888 90)
 			(effects
 				(font
@@ -3775,7 +3775,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "R?")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3792,7 +3792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a81d6d4e-819f-4469-a6cc-e05b1e5352b4")
-		(property "Reference" "C?"
+		(property "Reference" "C25"
 			(at 161.29 52.0699 0)
 			(effects
 				(font
@@ -3810,7 +3810,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.0652 49.53 0)
 			(effects
 				(font
@@ -3846,7 +3846,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "C?")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3862,7 +3862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae044d57-e83c-4b1d-8643-e2341287cd62")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR053"
 			(at 107.95 66.04 0)
 			(effects
 				(font
@@ -3913,7 +3913,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR046")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4000,7 +4000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba796bdb-e23c-460f-8d07-1df27239c9e3")
-		(property "Reference" "R?"
+		(property "Reference" "R14"
 			(at 125.73 53.34 90)
 			(effects
 				(font
@@ -4016,7 +4016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 61.468 90)
 			(effects
 				(font
@@ -4052,7 +4052,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "R?")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4069,7 +4069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf00d917-4f98-4451-b3ba-c76528f720f0")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR082"
 			(at 189.23 143.51 0)
 			(effects
 				(font
@@ -4120,7 +4120,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR064")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -4137,7 +4137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3f422c8-04cd-4590-aa0a-4ad90730854e")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR073"
 			(at 184.15 69.85 0)
 			(effects
 				(font
@@ -4187,7 +4187,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR065")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4204,7 +4204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6fa93b3-fc94-4d22-8c04-ba5849477910")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR080"
 			(at 189.23 105.41 0)
 			(effects
 				(font
@@ -4255,7 +4255,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR062")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -4272,7 +4272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c85de45e-dece-4b20-9bcb-5f1e0813181b")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR074"
 			(at 184.15 90.17 0)
 			(effects
 				(font
@@ -4322,7 +4322,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR066")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4338,7 +4338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc886f1d-96bc-4bce-abbc-93d7162cfcff")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR064"
 			(at 132.08 73.66 0)
 			(effects
 				(font
@@ -4388,7 +4388,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR050")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4404,7 +4404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc8c340c-ad50-4c5b-a565-15e72a98cc5f")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR061"
 			(at 113.03 128.27 0)
 			(effects
 				(font
@@ -4454,7 +4454,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR055")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4471,7 +4471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd74dbd6-7a18-4346-b874-e89b5a06a26d")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR081"
 			(at 189.23 124.46 0)
 			(effects
 				(font
@@ -4522,7 +4522,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR063")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -4539,7 +4539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce1fdad8-a116-49c8-907a-a00c3f805c94")
-		(property "Reference" "SW?"
+		(property "Reference" "SW9"
 			(at 184.15 110.49 0)
 			(effects
 				(font
@@ -4594,7 +4594,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW?")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -4611,7 +4611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfd78e14-c562-4f1b-b482-4d21a1d57d30")
-		(property "Reference" "SW?"
+		(property "Reference" "SW7"
 			(at 184.15 72.39 0)
 			(effects
 				(font
@@ -4666,7 +4666,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW?")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -4683,7 +4683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1b45d14-a130-47ac-b7bc-d5432a0df59d")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR075"
 			(at 184.15 109.22 0)
 			(effects
 				(font
@@ -4733,7 +4733,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR067")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -4749,7 +4749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d28895e5-1bcf-41a4-b50d-6555f4c9d3bd")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR062"
 			(at 113.03 147.32 0)
 			(effects
 				(font
@@ -4799,7 +4799,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR058")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4816,7 +4816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d75d6097-2186-4d4f-a9d1-0814a2ece95d")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR069"
 			(at 165.1 73.66 0)
 			(effects
 				(font
@@ -4866,7 +4866,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR071")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -4882,7 +4882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da5bd125-58ce-41ca-b184-7bd359753c06")
-		(property "Reference" "R2"
+		(property "Reference" "R15"
 			(at 125.73 73.66 90)
 			(effects
 				(font
@@ -4898,7 +4898,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 81.788 90)
 			(effects
 				(font
@@ -4934,7 +4934,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "R2")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4950,7 +4950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db0ff4e1-3372-4c1e-92b8-3219474d1e22")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR063"
 			(at 132.08 53.34 0)
 			(effects
 				(font
@@ -5000,7 +5000,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR047")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5017,7 +5017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcb38229-9801-4884-b88e-6f37aaea30c0")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR077"
 			(at 184.15 147.32 0)
 			(effects
 				(font
@@ -5067,7 +5067,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR069")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -5084,7 +5084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de5023ab-f055-4cb5-b199-269bbc0ddeca")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR070"
 			(at 165.1 92.71 0)
 			(effects
 				(font
@@ -5134,7 +5134,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR072")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -5151,7 +5151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e60cf18b-6be7-4ec9-903d-9f9cc3561c56")
-		(property "Reference" "C?"
+		(property "Reference" "C29"
 			(at 161.29 129.5399 0)
 			(effects
 				(font
@@ -5169,7 +5169,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.0652 127 0)
 			(effects
 				(font
@@ -5205,7 +5205,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "C?")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -5221,7 +5221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0407894-7c2d-4e85-9f2c-3a19c7db77d7")
-		(property "Reference" "C17"
+		(property "Reference" "C24"
 			(at 135.89 129.5399 0)
 			(effects
 				(font
@@ -5239,7 +5239,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 131.1148 127 0)
 			(effects
 				(font
@@ -5275,7 +5275,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "C17")
+					(reference "C24")
 					(unit 1)
 				)
 			)

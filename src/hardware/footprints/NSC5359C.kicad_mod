@@ -13,7 +13,6 @@
   (fp_text value "NSC5359C-32M" (at 0 1.55) (layer "F.Fab")
     (effects (font (size 0.55 0.55) (thickness 0.09)))
   )
-  ; F.SilkS body outline segments are kept clear of the solder pads.
   (fp_line (start -0.42 -0.88) (end 0.42 -0.88)
     (stroke (width 0.12) (type default)) (layer "F.SilkS"))
   (fp_line (start -0.42 0.88) (end 0.42 0.88)
@@ -22,7 +21,6 @@
     (stroke (width 0.12) (type default)) (layer "F.SilkS"))
   (fp_line (start 1.08 -0.12) (end 1.08 0.12)
     (stroke (width 0.12) (type default)) (layer "F.SilkS"))
-  ; Small pin-1 cue in the central keep-clear region.
   (fp_line (start -0.47 0.02) (end -0.30 0.02)
     (stroke (width 0.12) (type default)) (layer "F.SilkS"))
   (fp_line (start -0.30 0.02) (end -0.47 0.16)
@@ -31,8 +29,6 @@
     (stroke (width 0.12) (type default)) (layer "F.SilkS"))
   (fp_rect (start -1.45 -1.25) (end 1.45 1.25)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
-  ; Manufacturer recommended land pattern: pads 0.60 x 0.80 mm, X pitch 1.80 mm, Y pitch 1.20 mm.
-  ; Top view pin mapping: 4 upper-left, 3 upper-right, 1 lower-left, 2 lower-right.
   (pad "1" smd roundrect (at -0.9 0.6) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.08))
   (pad "2" smd roundrect (at 0.9 0.6) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.08))
   (pad "3" smd roundrect (at 0.9 -0.6) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.08))

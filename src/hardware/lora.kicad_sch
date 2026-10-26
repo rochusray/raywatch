@@ -1100,296 +1100,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "PMOS P-MOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2230,6 +1940,286 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TPS22916BYFPR:TPS22916BYFPR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.1993 8.6391 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TPS22916BYFPR"
+				(at -10.2605 -10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TPS22916BYFPR:IC_TPS22916BYFPR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CREATOR" "DIZAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "DSBGA-4 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPS22916BYFPR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VERIFIER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22916BYFPR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TPS22916BYFPR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "5.5-V, 2-A, 60-mΩ, 10-nA leakage load switch with output discharge"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPS22916BYFPR_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "ON"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2735,7 +2725,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 63.5) (xy 69.85 63.5)
+			(xy 69.85 30.734) (xy 78.74 30.734)
 		)
 		(stroke
 			(width 0)
@@ -3014,7 +3004,7 @@
 		(uuid "764f703a-6f8d-461d-93ca-db06656dfbcd")
 	)
 	(label "LORA3V3"
-		(at 69.85 63.5 180)
+		(at 78.74 30.734 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3155,7 +3145,7 @@
 	)
 	(global_label "LORAEN"
 		(shape input)
-		(at 55.88 55.88 180)
+		(at 39.37 35.814 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3165,7 +3155,7 @@
 		)
 		(uuid "8ac66eb4-362f-41f5-980d-2991b7a28f6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.6981 55.88 0)
+			(at 29.1881 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0134965e-c6e2-4936-be5a-7f433c88e2e5")
-		(property "Reference" "C?"
+		(property "Reference" "C65"
 			(at 139.7 100.3299 0)
 			(effects
 				(font
@@ -3247,7 +3237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 136.8552 105.41 0)
 			(effects
 				(font
@@ -3310,7 +3300,222 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "C?")
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS22916BYFPR:TPS22916BYFPR")
+		(at 54.61 35.814 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02bdbba0-f8bf-4118-ad7f-504dbaddd054")
+		(property "Reference" "U20"
+			(at 54.61 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS22916BYFPR"
+			(at 54.61 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:IC_TPS22916BYFPR"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.5mm"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "DIZAR"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "DSBGA-4 Texas Instruments"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS22916BYFPR/Texas+Instruments/view-part/?ref=eda"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22916BYFPR/Texas+Instruments/view-part/?ref=snap"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS22916BYFPR"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "5.5-V, 2-A, 60-mΩ, 10-nA leakage load switch with output discharge"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "B1"
+			(uuid "65448193-0d3c-4b73-98d3-4f0fc9370a04")
+		)
+		(pin "A2"
+			(uuid "32ed5be7-241c-47a2-94e3-0b8757b6dd58")
+		)
+		(pin "B2"
+			(uuid "db39e4c5-fb17-4b59-a57a-4fd0cbd64585")
+		)
+		(pin "A1"
+			(uuid "d8ae2eae-14b6-4e1b-bddf-45721a4ee0a7")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -3319,6 +3524,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 107.95 68.58 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3326,15 +3532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b4a1d8c-95e0-4f18-b06a-9ac981785e53")
-		(property "Reference" "C?"
-			(at 107.95 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10pF"
+		(property "Reference" "C63"
 			(at 107.95 76.2 90)
 			(effects
 				(font
@@ -3342,8 +3540,16 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 104.14 69.5452 0)
+		(property "Value" "10pF"
+			(at 107.95 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 104.14 67.6148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,7 +3584,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "C?")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -3394,7 +3600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17c53d2b-6c36-4a9d-a06a-64f48d798b0f")
-		(property "Reference" "R?"
+		(property "Reference" "R33"
 			(at 67.31 125.7299 0)
 			(effects
 				(font
@@ -3412,7 +3618,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 66.548 127 90)
 			(effects
 				(font
@@ -3448,7 +3654,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "R?")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3464,7 +3670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19940af5-2e7b-458d-953f-15d0969e93af")
-		(property "Reference" "U?"
+		(property "Reference" "U21"
 			(at 158.75 102.87 0)
 			(effects
 				(font
@@ -3480,7 +3686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFP20P0X0X31-0_JOT"
+		(property "Footprint" "Project:QFP20P0X0X31-0_JOT"
 			(at 139.7 113.03 0)
 			(effects
 				(font
@@ -3542,7 +3748,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "U?")
+					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -3558,7 +3764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bbcd924-0797-485d-a7f4-e56b21979aff")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0334"
 			(at 132.08 129.54 0)
 			(effects
 				(font
@@ -3568,12 +3774,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 124.4599 0)
+			(at 132.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3609,7 +3814,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR041")
+					(reference "#PWR0334")
 					(unit 1)
 				)
 			)
@@ -3625,7 +3830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2392f2cd-56f2-4fc2-9232-4be95fd390de")
-		(property "Reference" "IC?"
+		(property "Reference" "IC1"
 			(at 103.4481 100.33 90)
 			(effects
 				(font
@@ -3643,7 +3848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN50P400X400X100-25L-D"
+		(property "Footprint" "Project:QFN50P400X400X100-25L-D"
 			(at 15.57 132.08 0)
 			(effects
 				(font
@@ -3800,7 +4005,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "IC?")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -3816,7 +4021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d60c61a-3062-46f4-82a8-76037a93f47b")
-		(property "Reference" "C?"
+		(property "Reference" "C60"
 			(at 55.88 123.1899 0)
 			(effects
 				(font
@@ -3834,7 +4039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.0352 128.27 0)
 			(effects
 				(font
@@ -3897,7 +4102,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "C?")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -3914,7 +4119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f9a1f7c-462d-4f3c-9581-d961c4bfade2")
-		(property "Reference" "#PWR0330"
+		(property "Reference" "#PWR0324"
 			(at 50.8 95.25 0)
 			(effects
 				(font
@@ -3964,7 +4169,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR0330")
+					(reference "#PWR0324")
 					(unit 1)
 				)
 			)
@@ -3980,7 +4185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "329a4852-48e2-42b8-8a49-4f63d1430700")
-		(property "Reference" "#PWR0329"
+		(property "Reference" "#PWR0325"
 			(at 52.07 134.62 0)
 			(effects
 				(font
@@ -4030,7 +4235,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR0329")
+					(reference "#PWR0325")
 					(unit 1)
 				)
 			)
@@ -4046,7 +4251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32d06449-de74-46f1-97b4-7cba5ec2c781")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0326"
 			(at 60.96 113.03 0)
 			(effects
 				(font
@@ -4097,7 +4302,74 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR040")
+					(reference "#PWR0326")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 40.894 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3308352d-fa38-4e3b-9410-35dc4f9610c5")
+		(property "Reference" "#PWR0327"
+			(at 69.85 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b82df68c-ef1f-4490-b6f5-e2e5813cbac7")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
+					(reference "#PWR0327")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4240fcfd-2151-4802-9e6d-0f2c3a9581fd")
-		(property "Reference" "C?"
+		(property "Reference" "C62"
 			(at 104.14 85.09 90)
 			(effects
 				(font
@@ -4129,7 +4401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 107.95 91.7448 0)
 			(effects
 				(font
@@ -4192,7 +4464,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "C?")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -4209,7 +4481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f515f50-8c3f-4e3d-a1cc-59aaa8db6366")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0337"
 			(at 133.35 115.57 0)
 			(effects
 				(font
@@ -4260,7 +4532,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR030")
+					(reference "#PWR0337")
 					(unit 1)
 				)
 			)
@@ -4269,6 +4541,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 115.57 68.58 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4276,8 +4549,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5accd3b1-c83f-44ba-98d4-d55e248724f8")
-		(property "Reference" "R?"
-			(at 115.57 62.23 90)
+		(property "Reference" "R34"
+			(at 115.57 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,15 +4558,15 @@
 			)
 		)
 		(property "Value" "220Ω"
-			(at 115.57 64.77 90)
+			(at 115.57 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 115.57 66.802 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.57 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4601,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "R?")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4344,7 +4617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dae1f92-b463-4c4b-8ef4-2a017a10fb20")
-		(property "Reference" "#PWR0332"
+		(property "Reference" "#PWR0331"
 			(at 107.95 99.06 0)
 			(effects
 				(font
@@ -4354,12 +4627,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 93.9799 0)
+			(at 107.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4395,7 +4667,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR0332")
+					(reference "#PWR0331")
 					(unit 1)
 				)
 			)
@@ -4412,7 +4684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f8ef2ca-b148-4c5a-8c87-5371fe73d7b8")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0338"
 			(at 218.44 97.79 0)
 			(effects
 				(font
@@ -4463,7 +4735,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR029")
+					(reference "#PWR0338")
 					(unit 1)
 				)
 			)
@@ -4479,7 +4751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd20071-5aa3-4f86-848f-f46defae9b93")
-		(property "Reference" "U?"
+		(property "Reference" "U22"
 			(at 198.12 93.98 0)
 			(effects
 				(font
@@ -4495,7 +4767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TSNP-6-10_INF"
+		(property "Footprint" "Project:PG-TSNP-6-10_INF"
 			(at 218.44 121.92 0)
 			(effects
 				(font
@@ -4545,7 +4817,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "U?")
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -4561,7 +4833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71aae9a2-f4cf-493a-a9ee-c938b02dfa89")
-		(property "Reference" "C?"
+		(property "Reference" "C66"
 			(at 229.87 119.3799 0)
 			(effects
 				(font
@@ -4579,7 +4851,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 225.0948 116.84 0)
 			(effects
 				(font
@@ -4642,78 +4914,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_PMOS")
-		(at 55.88 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "750fc5f2-41da-49f3-87c8-2eb49b822129")
-		(property "Reference" "Q?"
-			(at 55.88 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_PMOS"
-			(at 55.88 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor"
-			(at 55.88 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "7549d2ee-b95c-4898-b5b2-72ed408b77b2")
-		)
-		(pin "G"
-			(uuid "7cde6480-7057-424e-940c-7c6c37d057ae")
-		)
-		(pin "D"
-			(uuid "bfbd2494-d568-4744-ba30-9ff34f85d0da")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "Q?")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -4729,7 +4930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c1cc2c9-c2e3-4160-8435-51d487e47ba1")
-		(property "Reference" "L?"
+		(property "Reference" "L8"
 			(at 134.62 107.9499 0)
 			(effects
 				(font
@@ -4747,7 +4948,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 135.89 109.22 0)
 			(effects
 				(font
@@ -4792,7 +4993,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "L?")
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -4808,7 +5009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "858103a4-557c-4172-8a15-6af0dfaa5887")
-		(property "Reference" "#PWR0327"
+		(property "Reference" "#PWR0333"
 			(at 124.46 91.44 0)
 			(effects
 				(font
@@ -4858,7 +5059,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR0327")
+					(reference "#PWR0333")
 					(unit 1)
 				)
 			)
@@ -4874,7 +5075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b3ab675-383b-43f0-9a98-aac07734ab4d")
-		(property "Reference" "#PWR0328"
+		(property "Reference" "#PWR0335"
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -4924,7 +5125,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR0328")
+					(reference "#PWR0335")
 					(unit 1)
 				)
 			)
@@ -4940,7 +5141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fa76e08-61e2-4d55-b387-c13f4b5b28da")
-		(property "Reference" "C?"
+		(property "Reference" "C61"
 			(at 107.95 60.9599 0)
 			(effects
 				(font
@@ -4958,7 +5159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 105.1052 66.04 0)
 			(effects
 				(font
@@ -4994,7 +5195,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "C?")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -5010,7 +5211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98b2df07-c19b-4965-adbd-3da53a1f5f1b")
-		(property "Reference" "#PWR0325"
+		(property "Reference" "#PWR0329"
 			(at 97.79 93.98 0)
 			(effects
 				(font
@@ -5060,7 +5261,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR0325")
+					(reference "#PWR0329")
 					(unit 1)
 				)
 			)
@@ -5076,8 +5277,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0e1f23d-b4b6-430a-ba66-b34ae5b845fd")
-		(property "Reference" "Y?"
-			(at 128.27 73.66 0)
+		(property "Reference" "Y4"
+			(at 128.27 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,14 +5286,14 @@
 			)
 		)
 		(property "Value" "NSC5359C-32M"
-			(at 128.27 76.2 0)
+			(at 128.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "NSC5359C:NSC5359C"
+		(property "Footprint" "Project:NSC5359C"
 			(at 129.54 67.31 0)
 			(effects
 				(font
@@ -5134,7 +5335,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "Y?")
+					(reference "Y4")
 					(unit 1)
 				)
 			)
@@ -5150,7 +5351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5ca5555-57dd-4352-8908-a43cc7472144")
-		(property "Reference" "C?"
+		(property "Reference" "C64"
 			(at 128.27 100.3299 0)
 			(effects
 				(font
@@ -5168,7 +5369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.4252 105.41 0)
 			(effects
 				(font
@@ -5231,7 +5432,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "C?")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -5248,7 +5449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae44748c-0671-4747-9116-5dc5b7c1ffde")
-		(property "Reference" "C?"
+		(property "Reference" "C67"
 			(at 238.76 123.19 90)
 			(effects
 				(font
@@ -5264,7 +5465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 234.95 129.8448 0)
 			(effects
 				(font
@@ -5327,7 +5528,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "C?")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -5335,7 +5536,8 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 50.8 63.5 0)
+		(at 39.37 30.734 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5343,8 +5545,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bff96424-467f-47ba-94c2-5ca6716f53c8")
-		(property "Reference" "#PWR024"
-			(at 50.8 67.31 0)
+		(property "Reference" "#PWR0323"
+			(at 39.37 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,16 +5555,15 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 48.26 62.2299 0)
+			(at 39.37 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 63.5 0)
+			(at 39.37 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +5572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 63.5 0)
+			(at 39.37 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 50.8 63.5 0)
+			(at 39.37 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5595,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR024")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -5410,7 +5611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c82708cb-8e1f-4656-b26b-ca4a376486ea")
-		(property "Reference" "#PWR0331"
+		(property "Reference" "#PWR0330"
 			(at 95.25 58.42 0)
 			(effects
 				(font
@@ -5420,11 +5621,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 54.61 90)
+			(at 97.79 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5460,7 +5662,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR0331")
+					(reference "#PWR0330")
 					(unit 1)
 				)
 			)
@@ -5476,7 +5678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5531a60-4b47-4f77-a347-e846aa648fff")
-		(property "Reference" "L?"
+		(property "Reference" "L7"
 			(at 52.07 111.7599 0)
 			(effects
 				(font
@@ -5494,7 +5696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 50.8 113.03 0)
 			(effects
 				(font
@@ -5539,7 +5741,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "L?")
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -5556,7 +5758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db0163de-3871-4252-99a8-641f3ec6c1c7")
-		(property "Reference" "C?"
+		(property "Reference" "C59"
 			(at 54.61 104.1399 0)
 			(effects
 				(font
@@ -5574,7 +5776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.8348 109.22 0)
 			(effects
 				(font
@@ -5637,7 +5839,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "C?")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -5654,7 +5856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db72b669-9b80-4fd4-86d2-f2d54ef0ea46")
-		(property "Reference" "ANT?"
+		(property "Reference" "ANT2"
 			(at 251.46 122.9994 0)
 			(effects
 				(font
@@ -5672,7 +5874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ANT-868-CHP-T:XDCR_ANT-868-CHP-T"
+		(property "Footprint" "Project:XTAL_ABS07-32.768KHZ-7-T"
 			(at 247.65 125.73 0)
 			(effects
 				(font
@@ -5826,7 +6028,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "ANT?")
+					(reference "ANT2")
 					(unit 1)
 				)
 			)
@@ -5842,7 +6044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e185a41c-da7d-45ac-9712-8a9aaf52585e")
-		(property "Reference" "#PWR0333"
+		(property "Reference" "#PWR0336"
 			(at 143.51 68.58 0)
 			(effects
 				(font
@@ -5893,7 +6095,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR0333")
+					(reference "#PWR0336")
 					(unit 1)
 				)
 			)
@@ -5909,7 +6111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e521dec8-fdd3-4c85-ab12-8a4fe76dd1d8")
-		(property "Reference" "#PWR0326"
+		(property "Reference" "#PWR0328"
 			(at 90.17 93.98 0)
 			(effects
 				(font
@@ -5959,7 +6161,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR0326")
+					(reference "#PWR0328")
 					(unit 1)
 				)
 			)
@@ -5975,7 +6177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6abb573-dc00-4419-8bb1-b380af6fd869")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0339"
 			(at 226.06 130.81 0)
 			(effects
 				(font
@@ -6025,7 +6227,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR026")
+					(reference "#PWR0339")
 					(unit 1)
 				)
 			)
@@ -6041,7 +6243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f83a79b2-27ce-4929-aad8-ce6d8fdee2cb")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0332"
 			(at 118.11 104.14 0)
 			(effects
 				(font
@@ -6092,7 +6294,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "#PWR042")
+					(reference "#PWR0332")
 					(unit 1)
 				)
 			)

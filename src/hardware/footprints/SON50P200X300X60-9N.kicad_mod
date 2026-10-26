@@ -1,5 +1,5 @@
 
-(footprint SON50P200X300X60-9N (layer F.Cu) (tedit 6ADA0F58)
+(footprint SON50P200X300X60-9N (layer F.Cu) (tedit 6ADEBA86)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at 0.785 -2.012 0) (layer F.SilkS)

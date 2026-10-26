@@ -9,6 +9,291 @@
 		(date "2026-10-21")
 	)
 	(lib_symbols
+		(symbol "ABS07-32.768KHZ-7-T:ABS07-32.768KHZ-7-T"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -5.0878 3.8159 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ABS07-32.768KHZ-7-T"
+				(at -5.0944 -5.0944 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ABS07-32.768KHZ-7-T:XTAL_ABS07-32.768KHZ-7-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Abracon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD-2 Abracon LLC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ABS07-32.768KHZ-7-T/Abracon/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "08.19.15"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ABS07-32.768KHZ-7-T/Abracon/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ABS07-32.768KHZ-7-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "32.768 kHz ±20ppm Crystal 7pF 70 kOhms 2-SMD, No Lead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Abracon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ABS07-32.768KHZ-7-T_0_0"
+				(polyline
+					(pts
+						(xy -2.3368 2.54) (xy -2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy 1.397 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 2.54) (xy 1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.3368 2.54) (xy 2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "C_1"
 			(pin_numbers
 				(hide yes)
@@ -408,444 +693,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two pin crystal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Crystal_GND24"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 3.175 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Crystal_GND24"
-				(at 3.175 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-				(at 0 -12.7 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND24_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.27) (xy -2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.27) (xy 2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND24_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(hide yes)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1441,6 +1288,267 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ECS-320-8-37B-CKY-TR:ECS-320-8-37B-CKY-TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -12.7159 5.8493 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ECS-320-8-37B-CKY-TR"
+				(at -12.73 -7.638 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ECS-320-8-37B-CKY-TR:XTAL_ECS-160-9-37-CKM-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "ECS Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "32 MHz ±10ppm Crystal 8pF 50 Ohms 4-SMD, No Lead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "SMD-4 ECX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "ECX-1637B2-37B2-4 ECS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ECS-320-8-37B-CKY-TR/ECS/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "2017"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-320-8-37B-CKY-TR/ECS/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ECS-320-8-37B-CKY-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "ECS INC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ECS-320-8-37B-CKY-TR_0_0"
+				(rectangle
+					(start -12.7 -5.08)
+					(end 12.7 5.08)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "IN/OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "OUT/IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3994,7 +4102,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 140.97) (xy 31.75 140.97)
+			(xy 44.45 147.32) (xy 40.64 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4011,16 +4119,6 @@
 			(type default)
 		)
 		(uuid "0ea697fb-5af8-4cd8-acc5-027fd027cf53")
-	)
-	(wire
-		(pts
-			(xy 57.15 137.16) (xy 45.72 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "102b6704-3559-4cb9-8149-aecc282bd040")
 	)
 	(wire
 		(pts
@@ -4111,26 +4209,6 @@
 			(type default)
 		)
 		(uuid "243c231c-9a82-45e7-90cb-de98fac964b7")
-	)
-	(wire
-		(pts
-			(xy 57.15 134.62) (xy 57.15 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24ab553f-46e3-46d6-9ada-4de0886edaf8")
-	)
-	(wire
-		(pts
-			(xy 57.15 129.54) (xy 57.15 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eaba1c6-5663-4395-9d3e-4ffb178470d9")
 	)
 	(wire
 		(pts
@@ -4304,6 +4382,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 81.28) (xy 110.49 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab99d0e-625d-4c86-8080-c7ef3ff92df5")
+	)
+	(wire
+		(pts
 			(xy 171.45 114.3) (xy 171.45 119.38)
 		)
 		(stroke
@@ -4344,7 +4432,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 154.94) (xy 41.91 140.97)
+			(xy 44.45 154.94) (xy 44.45 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4371,16 +4459,6 @@
 			(type default)
 		)
 		(uuid "6fe946f0-7ccf-4b41-95a1-a5d45556ff17")
-	)
-	(wire
-		(pts
-			(xy 31.75 140.97) (xy 31.75 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74d7ba6a-cd8f-42f2-885c-a67a21ccfe7f")
 	)
 	(wire
 		(pts
@@ -4504,16 +4582,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 129.54) (xy 57.15 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "850808fa-21cb-42e6-9878-2457409b2827")
-	)
-	(wire
-		(pts
 			(xy 143.51 167.64) (xy 160.02 167.64)
 		)
 		(stroke
@@ -4561,16 +4629,6 @@
 			(type default)
 		)
 		(uuid "90a8474d-ab9d-4dd9-8f43-6146cb640bf4")
-	)
-	(wire
-		(pts
-			(xy 31.75 157.48) (xy 33.02 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90f4642c-4e31-46b6-a118-a6ea38379883")
 	)
 	(wire
 		(pts
@@ -4694,17 +4752,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 157.48) (xy 40.64 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa609bb3-c577-4791-839d-039d194496d9")
-	)
-	(wire
-		(pts
-			(xy 62.23 154.94) (xy 41.91 154.94)
+			(xy 62.23 154.94) (xy 44.45 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4884,6 +4932,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 157.48) (xy 62.23 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e668d0-f0b0-4a8c-b3e8-f6de3df124a4")
+	)
+	(wire
+		(pts
 			(xy 130.81 100.33) (xy 130.81 102.87)
 		)
 		(stroke
@@ -4951,6 +5009,16 @@
 			(type default)
 		)
 		(uuid "e9254075-9e0b-44e2-8a6d-f8801faa5378")
+	)
+	(wire
+		(pts
+			(xy 64.77 81.28) (xy 74.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed68736c-00a5-484a-a18d-232753137d52")
 	)
 	(wire
 		(pts
@@ -5072,6 +5140,16 @@
 		)
 		(uuid "0c80769c-af25-498d-b9b6-bd95cad4ec6c")
 	)
+	(label "XC2"
+		(at 57.15 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15f79e2e-e836-46af-a77a-e96383b2c0d9")
+	)
 	(label "GPIO"
 		(at 160.02 132.08 180)
 		(effects
@@ -5081,26 +5159,6 @@
 			(justify right bottom)
 		)
 		(uuid "17f9418c-44b5-4841-9fb3-95989fd2c403")
-	)
-	(label "AIN"
-		(at 153.67 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b07330d-b0bf-49dd-aa3f-60e429ec99bb")
-	)
-	(label "AIN"
-		(at 50.8 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e284ec7-3a62-419b-91fb-b25624521b70")
 	)
 	(label "GPIO"
 		(at 160.02 147.32 180)
@@ -5121,6 +5179,16 @@
 			(justify left bottom)
 		)
 		(uuid "2751987e-fb2f-46db-b3aa-40fe70e8b4c6")
+	)
+	(label "XC2"
+		(at 115.57 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29ffc2fa-386c-4778-8089-daf6ad7f5559")
 	)
 	(label "GPIO"
 		(at 45.72 167.64 0)
@@ -5153,7 +5221,7 @@
 		(uuid "338a3229-8333-45d6-a7ea-01b8cf6f65cc")
 	)
 	(label "TAMPC"
-		(at 54.61 167.64 0)
+		(at 50.8 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5192,15 +5260,15 @@
 		)
 		(uuid "4e8ddf56-4ff0-4fea-872a-d6a2d10896ba")
 	)
-	(label "AIN"
-		(at 153.67 132.08 180)
+	(label "XC2"
+		(at 69.85 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "4fad12fe-b46c-467e-bbb4-058a0414ac0e")
+		(uuid "50739a2a-a4f2-47d3-868f-1823cab4076e")
 	)
 	(label "NFC1"
 		(at 45.72 160.02 0)
@@ -5253,7 +5321,7 @@
 		(uuid "6a02f82b-91d7-4dd5-962c-f550aaa60b26")
 	)
 	(label "TAMPC"
-		(at 54.61 172.72 0)
+		(at 50.8 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5262,15 +5330,15 @@
 		)
 		(uuid "6f45a64e-0523-4e67-a263-b89a388d1425")
 	)
-	(label "AIN"
-		(at 153.67 137.16 180)
+	(label "XC1"
+		(at 120.65 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "752869ca-2e79-4cbe-a64b-4fb83793c356")
+		(uuid "76e46bc0-a994-4ca7-9675-7bb4350d4bda")
 	)
 	(label "VSSPA"
 		(at 151.13 180.34 180)
@@ -5352,6 +5420,16 @@
 		)
 		(uuid "988aa911-4c41-44ab-8faf-e76b141d0467")
 	)
+	(label "XC1"
+		(at 64.77 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99124f01-3f0c-45d7-889e-35f11317a141")
+	)
 	(label "GPIO"
 		(at 45.72 165.1 0)
 		(effects
@@ -5373,7 +5451,7 @@
 		(uuid "a1cea6d4-0e0d-43bd-ad70-a36da911ef1d")
 	)
 	(label "TAMPC"
-		(at 54.61 165.1 0)
+		(at 50.8 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5383,7 +5461,7 @@
 		(uuid "a3bf0cc4-eb1f-4c98-85ea-37009b8bd1f5")
 	)
 	(label "TAMPC"
-		(at 54.61 170.18 0)
+		(at 50.8 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5391,16 +5469,6 @@
 			(justify left bottom)
 		)
 		(uuid "a7850cce-4d8f-4748-8e60-d9b70f897558")
-	)
-	(label "AIN"
-		(at 50.8 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "afb3e87b-3a57-4481-aedf-6d65b849a6e0")
 	)
 	(label "GPIO"
 		(at 160.02 144.78 180)
@@ -5442,16 +5510,6 @@
 		)
 		(uuid "c39e594a-96ec-458e-badb-efdfe69f935d")
 	)
-	(label "AIN"
-		(at 50.8 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c68f3ba8-34f0-4d01-ad86-6ad3f2745b0c")
-	)
 	(label "GPIO"
 		(at 160.02 170.18 180)
 		(effects
@@ -5492,6 +5550,16 @@
 		)
 		(uuid "ce0871ee-3294-4fdc-9206-f9ba4b4383ee")
 	)
+	(label "XC1"
+		(at 57.15 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d13668e9-564c-4bbd-997b-2d3aa640293a")
+	)
 	(label "GPIO"
 		(at 160.02 165.1 180)
 		(effects
@@ -5522,16 +5590,6 @@
 		)
 		(uuid "d95564ea-0de5-4b60-9807-cc99964154c9")
 	)
-	(label "AIN"
-		(at 50.8 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dca1c028-b5ba-48d1-b95e-91fe5d6a8018")
-	)
 	(label "GPIO"
 		(at 45.72 170.18 0)
 		(effects
@@ -5561,16 +5619,6 @@
 			(justify right bottom)
 		)
 		(uuid "e84a12cb-f8d4-4788-a023-71f4990d6baa")
-	)
-	(label "AIN"
-		(at 153.67 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f4998f02-7151-4f8d-a80f-b2d69491885d")
 	)
 	(label "ANT"
 		(at 148.59 121.92 180)
@@ -5977,7 +6025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04eac2a4-e62c-499a-8d03-4146df6ed1be")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR020"
 			(at 182.88 133.35 0)
 			(effects
 				(font
@@ -6027,7 +6075,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR013")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6044,7 +6092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04ef7380-dc1b-412e-9e39-3af01559c768")
-		(property "Reference" "ANT?"
+		(property "Reference" "ANT1"
 			(at 187.96 39.3699 90)
 			(effects
 				(font
@@ -6062,7 +6110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "W3102:IND_W3102"
+		(property "Footprint" "Project:WS2816C-1313-4P"
 			(at 185.42 40.64 0)
 			(effects
 				(font
@@ -6219,7 +6267,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "ANT?")
+					(reference "ANT1")
 					(unit 1)
 				)
 			)
@@ -6236,7 +6284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "057dd5d6-f42f-48f4-9d58-87a25499c99e")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 59.69 41.9099 0)
 			(effects
 				(font
@@ -6254,7 +6302,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.9148 46.99 0)
 			(effects
 				(font
@@ -6317,7 +6365,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6333,7 +6381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06f5051d-670d-44c0-b0b7-447114e75720")
-		(property "Reference" "C13"
+		(property "Reference" "C2"
 			(at 55.88 116.8399 0)
 			(effects
 				(font
@@ -6351,7 +6399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.0352 121.92 0)
 			(effects
 				(font
@@ -6387,7 +6435,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C13")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6403,7 +6451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a354497-033d-46c4-9a0f-282c5d1cdad2")
-		(property "Reference" "C?"
+		(property "Reference" "C8"
 			(at 175.26 35.5599 0)
 			(effects
 				(font
@@ -6421,7 +6469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 172.4152 40.64 0)
 			(effects
 				(font
@@ -6475,7 +6523,199 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C?")
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABS07-32.768KHZ-7-T:ABS07-32.768KHZ-7-T")
+		(at 40.64 152.4 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1055bcae-7eff-4773-8e33-6ca63cc5ba20")
+		(property "Reference" "Y1"
+			(at 36.83 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ABS07-32.768KHZ-7-T"
+			(at 36.83 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Project:XTAL_ABS07-32.768KHZ-7-T"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Abracon"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-2 Abracon LLC"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ABS07-32.768KHZ-7-T/Abracon/view-part/?ref=eda"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "08.19.15"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ABS07-32.768KHZ-7-T/Abracon/view-part/?ref=snap"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ABS07-32.768KHZ-7-T"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "32.768 kHz ±20ppm Crystal 7pF 70 kOhms 2-SMD, No Lead"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Abracon"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bece363-142f-40f3-8369-db9e1d11c587")
+		)
+		(pin "1"
+			(uuid "4aaae700-cf91-4afa-821a-f9a85af6df1f")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -6491,7 +6731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15657869-77be-45ab-ac37-932cdfeef30e")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR032"
 			(at 266.7 132.08 0)
 			(effects
 				(font
@@ -6542,7 +6782,202 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR037")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECS-320-8-37B-CKY-TR:ECS-320-8-37B-CKY-TR")
+		(at 92.71 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18d79434-598e-4802-86ee-d81c3a441e45")
+		(property "Reference" "Y2"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-320-8-37B-CKY-TR"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:XTAL_ECS-160-9-37-CKM-TR"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ECS Inc."
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "32 MHz ±10ppm Crystal 8pF 50 Ohms 4-SMD, No Lead"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "SMD-4 ECX"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "ECX-1637B2-37B2-4 ECS"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ECS-320-8-37B-CKY-TR/ECS/view-part/?ref=eda"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2017"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-320-8-37B-CKY-TR/ECS/view-part/?ref=snap"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ECS-320-8-37B-CKY-TR"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ECS INC"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1b76db3a-5175-4358-9fca-72e0db2cd801")
+		)
+		(pin "1"
+			(uuid "cec8b048-f04d-43ed-9073-4b66c189352c")
+		)
+		(pin "4"
+			(uuid "252f3b55-e1b9-4bbc-ae01-868aee5c4f76")
+		)
+		(pin "2"
+			(uuid "755b8aed-0d8b-478e-bc3c-1d3a07d2097a")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -6558,7 +6993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aab6ad6-5f8d-46aa-8cd5-567b2e10d7b9")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR05"
 			(at 95.25 53.34 0)
 			(effects
 				(font
@@ -6568,12 +7003,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 48.2599 0)
+			(at 95.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6609,7 +7043,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR021")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6625,7 +7059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c6c7de9-3fae-4969-b9a2-0c0afa167056")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 128.27 24.13 0)
 			(effects
 				(font
@@ -6641,7 +7075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SR4W035_4X6_ANT"
+		(property "Footprint" "Project:SR4W035_4X6_ANT"
 			(at 107.95 36.83 0)
 			(effects
 				(font
@@ -6691,7 +7125,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6708,7 +7142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f7f2c80-a5ff-472d-a247-57d9735d003d")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 161.29 88.8999 0)
 			(effects
 				(font
@@ -6726,7 +7160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 164.1348 93.98 0)
 			(effects
 				(font
@@ -6789,7 +7223,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6821,7 +7255,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 43.18 114.808 90)
 			(effects
 				(font
@@ -6874,7 +7308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d120264-4127-4d3b-bbfe-ffeacee85a79")
-		(property "Reference" "L3"
+		(property "Reference" "L2"
 			(at 49.53 31.75 90)
 			(effects
 				(font
@@ -6890,7 +7324,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 49.53 36.83 0)
 			(effects
 				(font
@@ -6926,7 +7360,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "L3")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -6943,7 +7377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3331fada-b8d2-4da7-a98c-d9ae7ace12d2")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 149.86 175.26 0)
 			(effects
 				(font
@@ -6994,7 +7428,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7011,7 +7445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35241149-d078-49f8-814b-4de9a433e73c")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 256.54 21.59 0)
 			(effects
 				(font
@@ -7027,7 +7461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCA9306DQER:SON35P140X100X40-8N"
+		(property "Footprint" "Project:SON35P140X100X40-8N"
 			(at 256.54 41.91 0)
 			(effects
 				(font
@@ -7162,7 +7596,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "U?")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7178,7 +7612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3815ccad-c6b2-479d-b48c-f810b5ff6261")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR025"
 			(at 203.2 100.33 0)
 			(effects
 				(font
@@ -7228,7 +7662,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR010")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7245,7 +7679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3919398e-5d45-455c-a409-888fa8b71b37")
-		(property "Reference" "C2"
+		(property "Reference" "C16"
 			(at 212.09 121.9199 0)
 			(effects
 				(font
@@ -7263,7 +7697,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 207.3148 127 0)
 			(effects
 				(font
@@ -7326,7 +7760,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C2")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7342,7 +7776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f99d263-fb71-47e2-b764-5bdd8b03030e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR015"
 			(at 171.45 26.67 0)
 			(effects
 				(font
@@ -7352,12 +7786,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 31.7499 0)
+			(at 171.45 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7393,7 +7826,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR025")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7411,7 +7844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41653667-fce1-48de-a12f-0d6f0533f40f")
-		(property "Reference" "C5"
+		(property "Reference" "C12"
 			(at 186.69 121.9199 0)
 			(effects
 				(font
@@ -7429,7 +7862,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.9148 127 0)
 			(effects
 				(font
@@ -7492,7 +7925,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7508,7 +7941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41ad88c9-c2bc-4ff6-870c-61e572a14037")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at 148.59 88.8999 0)
 			(effects
 				(font
@@ -7526,7 +7959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 145.7452 93.98 0)
 			(effects
 				(font
@@ -7589,7 +8022,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7606,7 +8039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46209cb1-1dbd-4979-974e-afca3a62db8b")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 46.99 41.9099 0)
 			(effects
 				(font
@@ -7624,7 +8057,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 42.2148 46.99 0)
 			(effects
 				(font
@@ -7687,7 +8120,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C6")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7704,7 +8137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "492bac67-8902-4716-a8ce-b55d88ce4105")
-		(property "Reference" "C1"
+		(property "Reference" "C10"
 			(at 175.26 121.9199 0)
 			(effects
 				(font
@@ -7722,7 +8155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.4848 127 0)
 			(effects
 				(font
@@ -7785,7 +8218,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C1")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7801,7 +8234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a896764-6c21-4484-8d44-6a5f33b6d0c7")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR06"
 			(at 101.6 49.53 0)
 			(effects
 				(font
@@ -7811,11 +8244,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 45.72 90)
+			(at 104.14 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7851,7 +8285,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR017")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7868,7 +8302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f497302-2e22-40a4-ace8-f1a1615edff7")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 171.45 133.35 0)
 			(effects
 				(font
@@ -7918,7 +8352,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7934,7 +8368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52ddd671-6dc2-4f82-a42f-671ac4db0a0b")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 256.54 143.51 90)
 			(effects
 				(font
@@ -7950,7 +8384,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 151.638 90)
 			(effects
 				(font
@@ -7986,7 +8420,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8003,7 +8437,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "54bcbd10-e891-4298-aa09-0370dc6c81a0")
-		(property "Reference" "L?"
+		(property "Reference" "L4"
 			(at 83.82 41.9099 0)
 			(effects
 				(font
@@ -8021,7 +8455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 82.55 43.18 0)
 			(effects
 				(font
@@ -8057,7 +8491,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "L?")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -8073,7 +8507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a0ad7dd-a5dd-4832-8c26-0d2909cbf720")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR01"
 			(at 52.07 107.95 0)
 			(effects
 				(font
@@ -8123,7 +8557,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR015")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8140,7 +8574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61bbedb4-21b3-4c22-8008-9a99a93191dd")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR013"
 			(at 165.1 90.17 0)
 			(effects
 				(font
@@ -8190,7 +8624,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR05")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8207,7 +8641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6362782b-3065-4d09-ad52-47ce902a9291")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 199.39 121.9199 0)
 			(effects
 				(font
@@ -8225,7 +8659,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 194.6148 127 0)
 			(effects
 				(font
@@ -8279,7 +8713,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8295,7 +8729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "691269ad-dd55-4ff1-92d4-6efbc8c55793")
-		(property "Reference" "C?"
+		(property "Reference" "C9"
 			(at 175.26 46.9899 0)
 			(effects
 				(font
@@ -8313,7 +8747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 172.4152 52.07 0)
 			(effects
 				(font
@@ -8367,7 +8801,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C?")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8384,7 +8818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c16ccc5-2c6e-409c-b175-66c6cb550d74")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 102.87 99.06 0)
 			(effects
 				(font
@@ -8400,7 +8834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NRF54L15-QFAA-R:QFN40P600X600X90-49N"
+		(property "Footprint" "Project:QFN40P600X600X90-49N"
 			(at 102.87 142.24 0)
 			(effects
 				(font
@@ -8698,7 +9132,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8714,7 +9148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fc9a0f9-4313-4171-862c-2c3edbb4f0f7")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 256.54 134.62 90)
 			(effects
 				(font
@@ -8730,7 +9164,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 142.748 90)
 			(effects
 				(font
@@ -8766,7 +9200,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8782,7 +9216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7093224d-c737-4371-9d7d-863730b18ae2")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR016"
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -8792,12 +9226,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 53.3399 0)
+			(at 171.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8833,7 +9266,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR023")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8850,7 +9283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71839e71-d159-4979-a537-18ff40b6ee6d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR022"
 			(at 189.23 100.33 0)
 			(effects
 				(font
@@ -8900,7 +9333,75 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR08")
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 33.02 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71fc386a-2549-4219-bd1c-364325da876c")
+		(property "Reference" "TP1"
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 33.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 33.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 33.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e72c31e-0701-4e11-8598-a469894fe07b")
+		)
+		(pin "2"
+			(uuid "adb40b8a-1aee-48c1-be12-91384ae3ca43")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8916,7 +9417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "738b2ad1-d919-4dae-addb-c5e8528a017b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR028"
 			(at 215.9 48.26 0)
 			(effects
 				(font
@@ -8966,7 +9467,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR034")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8982,7 +9483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75d7c5c2-528b-473f-8ea4-6233f31022d7")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 274.32 35.56 0)
 			(effects
 				(font
@@ -9033,7 +9534,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9049,7 +9550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7da8ee6d-f76d-4c7f-8e1e-92b3726590c1")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 256.54 125.73 90)
 			(effects
 				(font
@@ -9065,7 +9566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 133.858 90)
 			(effects
 				(font
@@ -9101,7 +9602,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9117,7 +9618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ed80476-cee5-48bf-a179-8c37ecbbf456")
-		(property "Reference" "C?"
+		(property "Reference" "C17"
 			(at 212.09 36.8299 0)
 			(effects
 				(font
@@ -9135,7 +9636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 216.8652 41.91 0)
 			(effects
 				(font
@@ -9171,7 +9672,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C?")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -9187,7 +9688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fa28e72-3a02-4d63-abde-2215ba3d068f")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR012"
 			(at 144.78 100.33 0)
 			(effects
 				(font
@@ -9237,7 +9738,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR04")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9254,7 +9755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80a6dd08-02c6-4185-9f09-9f7ab870379a")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 36.83 31.75 90)
 			(effects
 				(font
@@ -9270,7 +9771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 36.83 36.83 0)
 			(effects
 				(font
@@ -9306,7 +9807,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -9322,7 +9823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e73f3c2-7f54-4355-9f81-9397c2cda42f")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR033"
 			(at 266.7 140.97 0)
 			(effects
 				(font
@@ -9373,99 +9874,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND24")
-		(at 36.83 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97ecc36e-7a7d-4892-bcaf-a4fc17b3a989")
-		(property "Reference" "Y1"
-			(at 36.83 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "32.768kHz"
-			(at 36.83 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 36.83 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cl" "6~9pF"
-			(at 36.83 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "Total tol: 50ppm"
-			(at 36.83 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "87f5d058-8959-4454-bf99-795a76ddbf53")
-		)
-		(pin "1"
-			(uuid "a8f87a15-6fac-45da-91fc-d453e3a68216")
-		)
-		(pin "4"
-			(uuid "3e6ea9d9-1ad3-4ba9-8c1b-0d311ff70bd9")
-		)
-		(pin "3"
-			(uuid "70322e12-1124-4547-bf60-23b6a2559fc8")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "Y1")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9482,7 +9891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a03cb682-67d5-4c77-b8c1-9a5206536e33")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 88.9 29.21 90)
 			(effects
 				(font
@@ -9498,7 +9907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.71 37.7952 0)
 			(effects
 				(font
@@ -9561,7 +9970,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9577,7 +9986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1fc1db2-598d-418f-9a53-7015178caf95")
-		(property "Reference" "#PWR0247"
+		(property "Reference" "#PWR034"
 			(at 266.7 149.86 0)
 			(effects
 				(font
@@ -9628,7 +10037,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR0247")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9644,7 +10053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a21e6704-891b-4432-ae17-cf28ccf1b4d3")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 179.07 88.8999 0)
 			(effects
 				(font
@@ -9662,7 +10071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 174.2948 86.36 0)
 			(effects
 				(font
@@ -9725,95 +10134,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal")
-		(at 45.72 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4033e0b-db50-4ffc-9ee9-e52e96a47efc")
-		(property "Reference" "Y2"
-			(at 49.53 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "32MHz"
-			(at 49.53 134.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cl" "6~9pF"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "Total tol: 40ppm"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "430006c1-332a-4292-9336-87c3602a8024")
-		)
-		(pin "2"
-			(uuid "45a91871-ca10-4397-969c-2ce5c3563849")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "Y2")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9829,7 +10150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a44265cc-33c6-40ec-9cb5-ab85185a475d")
-		(property "Reference" "#PWR0248"
+		(property "Reference" "#PWR035"
 			(at 266.7 158.75 0)
 			(effects
 				(font
@@ -9880,7 +10201,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR0248")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9897,7 +10218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4dd9f81-c3e7-4087-a769-0e6b0475c3bf")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR023"
 			(at 195.58 133.35 0)
 			(effects
 				(font
@@ -9947,7 +10268,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR012")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9963,7 +10284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5d4d070-5248-47e6-9c40-84fa5cc03b05")
-		(property "Reference" "#PWR0318"
+		(property "Reference" "#PWR021"
 			(at 189.23 90.17 0)
 			(effects
 				(font
@@ -10013,7 +10334,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR0318")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10029,7 +10350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a624b138-f35b-4045-b335-d139a05b6995")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR04"
 			(at 82.55 53.34 0)
 			(effects
 				(font
@@ -10039,12 +10360,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 48.2599 0)
+			(at 82.55 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10080,7 +10400,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR020")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10097,7 +10417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7d4d035-6911-4d9d-b33e-87a0a8913fcc")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 68.58 53.34 0)
 			(effects
 				(font
@@ -10147,7 +10467,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10163,7 +10483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8a8f7b1-6d96-4070-bbd5-faf0216fc2eb")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR027"
 			(at 215.9 30.48 0)
 			(effects
 				(font
@@ -10173,12 +10493,11 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 218.44 25.3999 0)
+			(at 215.9 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10214,7 +10533,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR032")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10230,7 +10549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a95ec521-268a-4350-bbd4-5816d6de7ebb")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR07"
 			(at 101.6 52.07 0)
 			(effects
 				(font
@@ -10240,11 +10559,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 48.26 90)
+			(at 104.14 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -10280,7 +10600,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR018")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10296,7 +10616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af8cf6dd-333d-4e7a-8fc6-e912e976d0bb")
-		(property "Reference" "C7"
+		(property "Reference" "C13"
 			(at 193.04 88.8999 0)
 			(effects
 				(font
@@ -10314,7 +10634,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 188.2648 86.36 0)
 			(effects
 				(font
@@ -10377,7 +10697,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C7")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -10393,7 +10713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b26c532a-8dba-4ea3-af4d-e46ead30e7ce")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 218.44 29.2099 0)
 			(effects
 				(font
@@ -10411,7 +10731,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 217.678 30.48 90)
 			(effects
 				(font
@@ -10447,7 +10767,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10464,7 +10784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba0fe8c6-218d-4217-9233-91914e7bd783")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR026"
 			(at 208.28 133.35 0)
 			(effects
 				(font
@@ -10514,7 +10834,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR011")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10531,7 +10851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c208661d-1ae5-4033-a9fa-b45a6724e103")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR019"
 			(at 175.26 100.33 0)
 			(effects
 				(font
@@ -10581,7 +10901,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10597,7 +10917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2b2c92a-8806-4d61-8dd4-93b4e7658ab9")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR030"
 			(at 266.7 114.3 0)
 			(effects
 				(font
@@ -10648,7 +10968,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR035")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10665,7 +10985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c41d032c-29c6-4668-aabc-ba7decc231d0")
-		(property "Reference" "L?"
+		(property "Reference" "L5"
 			(at 96.52 41.9099 0)
 			(effects
 				(font
@@ -10683,7 +11003,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 95.25 43.18 0)
 			(effects
 				(font
@@ -10719,7 +11039,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "L?")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -10735,7 +11055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6227284-8997-49bb-8392-e3ad055bf043")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 256.54 152.4 90)
 			(effects
 				(font
@@ -10751,7 +11071,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 160.528 90)
 			(effects
 				(font
@@ -10787,7 +11107,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10804,7 +11124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c711f25c-97f7-4b53-a14b-d4b0da925fe0")
-		(property "Reference" "L1"
+		(property "Reference" "L6"
 			(at 167.64 104.14 90)
 			(effects
 				(font
@@ -10820,7 +11140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 167.64 109.22 0)
 			(effects
 				(font
@@ -10883,7 +11203,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "L1")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -10900,7 +11220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c94c0f63-8f81-4825-aba1-e3e8a0358e19")
-		(property "Reference" "L4"
+		(property "Reference" "L3"
 			(at 62.23 31.75 90)
 			(effects
 				(font
@@ -10916,7 +11236,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 62.23 36.83 0)
 			(effects
 				(font
@@ -10952,7 +11272,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "L4")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -10969,7 +11289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf2473d9-d74e-4038-b994-4484a82342ae")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR02"
 			(at 55.88 53.34 0)
 			(effects
 				(font
@@ -11019,7 +11339,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR016")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11035,7 +11355,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d0d6170c-3d86-423e-a26b-0622145dd199")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 43.18 115.57 90)
 			(effects
 				(font
@@ -11051,7 +11371,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 43.18 123.698 90)
 			(effects
 				(font
@@ -11087,7 +11407,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11103,7 +11423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d772b2ef-0f76-47fa-be67-495ac7230802")
-		(property "Reference" "#PWR0317"
+		(property "Reference" "#PWR024"
 			(at 203.2 90.17 0)
 			(effects
 				(font
@@ -11153,7 +11473,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR0317")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11169,7 +11489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df737144-0290-41bd-89ac-0eddfa2fb6c3")
-		(property "Reference" "#PWR0319"
+		(property "Reference" "#PWR011"
 			(at 144.78 90.17 0)
 			(effects
 				(font
@@ -11219,7 +11539,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR0319")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11236,7 +11556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e51e2ca6-2f2c-4fad-a9e1-3da28de18be4")
-		(property "Reference" "C11"
+		(property "Reference" "C4"
 			(at 72.39 41.9099 0)
 			(effects
 				(font
@@ -11254,7 +11574,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.6148 46.99 0)
 			(effects
 				(font
@@ -11317,7 +11637,73 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C11")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e537c341-73a7-4f18-bf6b-172c607e9fff")
+		(property "Reference" "#PWR09"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa354914-96e8-416f-b6e8-c403b714a299")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -11333,7 +11719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e55659a5-0464-4e03-a57d-e24f93ab27d9")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 256.54 107.95 90)
 			(effects
 				(font
@@ -11349,7 +11735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 116.078 90)
 			(effects
 				(font
@@ -11385,7 +11771,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11401,7 +11787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e71fa795-ec41-4df6-ae4d-f7124cb00af3")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR031"
 			(at 266.7 123.19 0)
 			(effects
 				(font
@@ -11452,7 +11838,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR036")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11469,7 +11855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea22bf08-2dee-4225-bdf2-b346f1fd5e0d")
-		(property "Reference" "C4"
+		(property "Reference" "C15"
 			(at 207.01 88.8999 0)
 			(effects
 				(font
@@ -11487,7 +11873,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 202.2348 93.98 0)
 			(effects
 				(font
@@ -11550,7 +11936,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "C4")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -11566,7 +11952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec80793d-8394-4515-9c02-11377d7d0165")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 256.54 116.84 90)
 			(effects
 				(font
@@ -11582,7 +11968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 124.968 90)
 			(effects
 				(font
@@ -11618,7 +12004,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11634,7 +12020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed9ae406-2ab7-4ed3-9ea7-a688f16a5f9d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR08"
 			(at 101.6 54.61 0)
 			(effects
 				(font
@@ -11644,11 +12030,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 50.8 90)
+			(at 104.14 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -11684,7 +12071,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR019")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11701,7 +12088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efa518cf-be6f-4e62-a4ef-82214b90c504")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR014"
 			(at 165.1 100.33 0)
 			(effects
 				(font
@@ -11751,7 +12138,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR09")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11767,7 +12154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f418a446-f2ff-49dc-8308-0eaaffaaa549")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 242.57 36.83 0)
 			(effects
 				(font
@@ -11777,11 +12164,12 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 237.49 34.29 90)
+			(at 234.95 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11817,7 +12205,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11911,141 +12299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 33.02 129.54 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8593260-cd20-41e1-a391-60c34e6c2e7e")
-		(property "Reference" "TP?"
-			(at 33.02 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 33.02 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9995ded-26c1-4727-a42e-158c07e28417")
-		)
-		(pin "2"
-			(uuid "9f6e9838-9932-4def-8b26-4b6295a44477")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 36.83 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa574dd2-5c6f-4e1e-9503-c2db4440ba18")
-		(property "Reference" "#PWR022"
-			(at 36.83 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0437a93b-9424-4932-a346-18270dc19399")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 175.26 86.36 0)
 		(unit 1)
@@ -12055,7 +12308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fee1efc9-4dc7-4a42-ad9a-2ca1c1fcbb0f")
-		(property "Reference" "#PWR0316"
+		(property "Reference" "#PWR018"
 			(at 175.26 90.17 0)
 			(effects
 				(font
@@ -12105,7 +12358,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658"
-					(reference "#PWR0316")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)

@@ -35,4 +35,8 @@
   (lib (name "TPS7A2033DQNR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS7A2033DQNR.kicad_sym")(options "")(descr ""))
   (lib (name "BM29B0.6-2DS_2-0.35V51")(type "KiCad")(uri "${KIPRJMOD}/symbols/BM29B0.6-2DS_2-0.35V51.kicad_sym")(options "")(descr ""))
   (lib (name "DSC6003CE2A-000.0000")(type "KiCad")(uri "${KIPRJMOD}/symbols/DSC6003CE2A-000.0000.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-320-8-37B-CKY-TR")(type "KiCad")(uri "${KIPRJMOD}/symbols/ECS-320-8-37B-CKY-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "ABS07-32.768KHZ-7-T")(type "KiCad")(uri "${KIPRJMOD}/symbols/ABS07-32.768KHZ-7-T.kicad_sym")(options "")(descr ""))
+  (lib (name "CSD83325L")(type "KiCad")(uri "${KIPRJMOD}/symbols/CSD83325L.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS22916BYFPR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS22916BYFPR.kicad_sym")(options "")(descr ""))
 )
