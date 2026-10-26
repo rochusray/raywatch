@@ -921,6 +921,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2e7317fe-c5ec-4b40-9eb0-e56c0dc2de82")
 		)
@@ -1049,6 +1058,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 134.62 97.79 0)
 			(effects
 				(font

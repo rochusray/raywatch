@@ -1109,6 +1109,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "625887fe-3ced-47be-8922-06cb3daee7eb")
 		)
@@ -1509,6 +1518,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 168.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "625887fe-3ced-47be-8922-06cb3daee7ec")
 		)
@@ -1765,6 +1783,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "a1a4720a-31ec-49cc-adb2-5bab938a10a0")
 		)
@@ -1857,6 +1884,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 180.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 180.34 96.52 0)
 			(effects
 				(font

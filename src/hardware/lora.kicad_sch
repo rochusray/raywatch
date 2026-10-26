@@ -3291,6 +3291,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 135.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3f335ec-e041-43a9-b422-ffc4d91359dc")
 		)
@@ -3500,6 +3509,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 54.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B1"
 			(uuid "65448193-0d3c-4b73-98d3-4f0fc9370a04")
 		)
@@ -3568,6 +3586,15 @@
 		)
 		(property "Description" "Unpolarized DC-cut capacitor"
 			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 107.95 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,6 +3672,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 64.77 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6a6e5a6-50d2-440d-a063-94a30a16a976")
 		)
@@ -3707,6 +3743,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 139.7 113.03 0)
 			(effects
 				(font
@@ -3927,6 +3972,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 100.33 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "18"
 			(uuid "f23eb457-a136-41fb-8729-dcc323ffad5a")
 		)
@@ -4085,6 +4139,15 @@
 			)
 		)
 		(property "Max Voltage" "10V"
+			(at 52.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 52.07 124.46 0)
 			(effects
 				(font
@@ -4455,6 +4518,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 104.14 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "90091743-0c82-43f7-b545-cbe509732165")
 		)
@@ -4585,6 +4657,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 115.57 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,6 +4877,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 218.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "76a23195-62e0-4f1c-81ae-c93df2212840")
 		)
@@ -4905,6 +4995,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 226.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3164d3f4-f93a-45e2-95e3-47bee8757c82")
 		)
@@ -4976,6 +5075,15 @@
 			)
 		)
 		(property "Tolerance" "5%"
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 135.89 109.22 0)
 			(effects
 				(font
@@ -5186,6 +5294,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 104.14 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c4b3f7c-64aa-4bc6-91fa-b3847fe81925")
 		)
@@ -5320,6 +5437,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "30985597-e46e-49d6-a72a-69bc9bfb38d1")
 		)
@@ -5423,6 +5549,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3f335ec-e041-43a9-b422-ffc4d91359dd")
 		)
@@ -5511,6 +5646,15 @@
 			)
 		)
 		(property "Max Voltage" "50V"
+			(at 238.76 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 238.76 130.81 90)
 			(effects
 				(font
@@ -5732,6 +5876,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 50.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "699d8a42-02d0-4dd7-9a89-7e545a091d17")
 		)
@@ -5822,6 +5975,15 @@
 			)
 		)
 		(property "Max Voltage" "10V"
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 50.8 105.41 0)
 			(effects
 				(font
@@ -6019,6 +6181,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

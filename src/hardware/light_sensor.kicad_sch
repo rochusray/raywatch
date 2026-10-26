@@ -803,6 +803,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7759c2a0-7cc5-44c6-bfff-b8baabf57dce")
 		)
@@ -1009,6 +1018,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

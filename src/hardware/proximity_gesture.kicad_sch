@@ -1908,6 +1908,12 @@
 		(uuid "1a8d4439-3715-40e7-b37d-38b528d79edb")
 	)
 	(junction
+		(at 140.97 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22f0699a-053a-4985-a3ad-070dc2d02ea8")
+	)
+	(junction
 		(at 194.31 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1942,12 +1948,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7158cb4a-48cf-4a89-8643-668b351f8fef")
-	)
-	(junction
-		(at 142.24 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1e386aa-d761-4ec6-af65-e672f7a5e2aa")
 	)
 	(junction
 		(at 220.98 100.33)
@@ -2075,16 +2075,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 97.79) (xy 156.21 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78d92543-b0b9-4097-8dc2-092d3a3915c0")
-	)
-	(wire
-		(pts
 			(xy 207.01 128.27) (xy 191.77 128.27)
 		)
 		(stroke
@@ -2102,6 +2092,16 @@
 			(type default)
 		)
 		(uuid "8cb6bd8b-492d-4aae-b5bf-4632e8084022")
+	)
+	(wire
+		(pts
+			(xy 140.97 97.79) (xy 156.21 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a242cd51-7c4b-41b3-baba-075ce06cd282")
 	)
 	(wire
 		(pts
@@ -2165,7 +2165,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 97.79) (xy 142.24 97.79)
+			(xy 138.43 97.79) (xy 140.97 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2305,7 +2305,7 @@
 	)
 	(global_label "IRINT"
 		(shape output)
-		(at 139.7 97.79 180)
+		(at 138.43 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2315,7 +2315,7 @@
 		)
 		(uuid "cb8921d3-a8d3-4152-9f4c-f5f883451833")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.9371 97.79 0)
+			(at 130.6671 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,6 +2998,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 209.55 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b88466a7-16d8-4551-b5ac-2392b2bb9792")
 		)
@@ -3069,6 +3078,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "17b90ddb-46d0-462e-a0b0-d946b60a4a07")
 		)
@@ -3132,6 +3150,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 222.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 222.25 91.44 0)
 			(effects
 				(font
@@ -3369,6 +3396,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 85.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "228887d2-7c16-4b62-8bf1-0064abe8a005")
 		)
@@ -3392,7 +3428,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 142.24 90.17 0)
+		(at 140.97 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3401,7 +3437,7 @@
 		(fields_autoplaced yes)
 		(uuid "750bb8e5-c9b4-4697-a307-274d51ddc9e4")
 		(property "Reference" "#PWR0419"
-			(at 142.24 93.98 0)
+			(at 140.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3410,7 +3446,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 142.24 85.09 0)
+			(at 140.97 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,7 +3454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 90.17 0)
+			(at 140.97 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +3463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 90.17 0)
+			(at 140.97 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3472,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 142.24 90.17 0)
+			(at 140.97 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,6 +3666,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "c53192df-c0d6-472d-a99f-4e575e3e8bda")
 		)
@@ -3758,6 +3803,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 194.31 134.62 0)
 			(effects
 				(font
@@ -3983,6 +4037,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "46ab00c6-e096-4df5-b0bf-4d3a20b7e75c")
 		)
@@ -4093,6 +4156,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 220.98 104.14 0)
 			(effects
 				(font
@@ -4229,6 +4301,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 207.01 134.62 0)
 			(effects
 				(font
@@ -4374,6 +4455,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 233.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f0223f7c-0f46-4b5d-aaef-21cbe673ee05")
 		)
@@ -4502,6 +4592,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 166.37 66.04 0)
 			(effects
 				(font
@@ -4646,6 +4745,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "00db50d6-c330-41df-bd35-3282dc1f6ee1")
 		)
@@ -4716,6 +4824,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 171.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3c596b61-4024-4486-aefb-155991bac1b1")
 		)
@@ -4733,7 +4850,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 93.98 0)
+		(at 140.97 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4742,7 +4859,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf237c08-b0fc-4215-a0c3-33e229be72bc")
 		(property "Reference" "R51"
-			(at 144.78 92.7099 0)
+			(at 143.51 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4751,7 +4868,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 144.78 95.2499 0)
+			(at 143.51 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4760,7 +4877,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 140.462 93.98 90)
+			(at 139.192 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +4886,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 93.98 0)
+			(at 140.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +4895,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 93.98 0)
+			(at 140.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 140.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,6 +5180,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 181.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a397240-23e2-4460-9960-6e49d4804ebb")
 		)
@@ -5182,6 +5317,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 109.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 109.22 107.95 0)
 			(effects
 				(font

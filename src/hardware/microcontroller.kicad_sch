@@ -6130,6 +6130,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 185.42 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3468d94-986a-4be5-b074-3b1431d503b7")
 		)
@@ -6228,6 +6237,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "753316fe-4de9-43af-b3ad-2ac3d7ab35f2")
 		)
@@ -6290,6 +6308,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 52.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 52.07 118.11 0)
 			(effects
 				(font
@@ -6378,6 +6405,15 @@
 			)
 		)
 		(property "Tolerance" "2%"
+			(at 171.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 171.45 36.83 0)
 			(effects
 				(font
@@ -6575,6 +6611,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 40.64 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6834,6 +6879,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1b76db3a-5175-4358-9fca-72e0db2cd801")
 		)
@@ -6976,6 +7030,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "9a8ff09f-508f-47ca-8041-28676a102f10")
 		)
@@ -7086,6 +7149,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcb2e00d-71f9-4162-be16-3cd945e3e776")
 		)
@@ -7147,6 +7219,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 43.18 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,6 +7297,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 49.53 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,6 +7531,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e89547a3-5b70-4713-a486-b8996294ddb2")
 		)
@@ -7623,6 +7722,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 209.55 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f92b6acb-5e57-4fe5-be13-04a1e38842f4")
 		)
@@ -7788,6 +7896,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b27e2373-17af-4b6f-b70e-7ca253ac87be")
 		)
@@ -7877,6 +7994,15 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 144.78 90.17 0)
 			(effects
 				(font
@@ -7983,6 +8109,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "753316fe-4de9-43af-b3ad-2ac3d7ab35f3")
 		)
@@ -8073,6 +8208,15 @@
 			)
 		)
 		(property "Tolerance" "20%"
+			(at 171.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 171.45 123.19 0)
 			(effects
 				(font
@@ -8283,6 +8427,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 256.54 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eea0666b-bdd1-4e23-882e-c0ce502bf94a")
 		)
@@ -8346,6 +8499,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 82.55 43.18 0)
 			(effects
 				(font
@@ -8576,6 +8738,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 196.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "beda5c32-c144-48a1-a154-2edb8ad98027")
 		)
@@ -8664,6 +8835,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 171.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e8a72651-86f6-48af-b037-e869719ee302")
 		)
@@ -8716,7 +8896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://docs.nordicsemi.com/viewer/book-attachment/xtYqc8FBbjZ9zOaVr~LAaw/8RdWaYUCDaBYOgTlHCv3aA-xtYqc8FBbjZ9zOaVr~LAaw"
 			(at 102.87 142.24 0)
 			(effects
 				(font
@@ -8851,6 +9031,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 102.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9063,6 +9252,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 256.54 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2ba2c57-c332-4096-a282-0eaacae1e852")
 		)
@@ -9256,6 +9454,15 @@
 			)
 		)
 		(property "Description" "2-polar test point"
+			(at 33.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 33.02 129.54 0)
 			(effects
 				(font
@@ -9465,6 +9672,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 256.54 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bac20295-e1f3-41fd-b3ea-8c11041416e5")
 		)
@@ -9527,6 +9743,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 215.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 215.9 38.1 0)
 			(effects
 				(font
@@ -9670,6 +9895,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 36.83 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e3a27e6-7b98-4695-99ea-6de9943d7d03")
 		)
@@ -9805,6 +10039,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 256.54 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "beeff79d-244f-4b38-87a7-7cccaf7cda11")
 		)
@@ -9894,6 +10137,15 @@
 		)
 		(property "Tolerance" "20%"
 			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 88.9 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,6 +10376,15 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 175.26 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 175.26 90.17 0)
 			(effects
 				(font
@@ -10695,6 +10956,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 189.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9d02e6cc-fcc9-4b73-9943-06bfa8c97550")
 		)
@@ -10757,6 +11027,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 215.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 215.9 30.48 0)
 			(effects
 				(font
@@ -11037,6 +11316,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22c07f81-0ac1-4054-84ec-57c734ee1746")
 		)
@@ -11098,6 +11386,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 256.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 256.54 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,6 +11498,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 167.64 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c727ccb-4e9a-4588-915c-d31ed5a4b165")
 		)
@@ -11263,6 +11569,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 62.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 62.23 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11398,6 +11713,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 43.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 43.18 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11635,6 +11959,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 68.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "753316fe-4de9-43af-b3ad-2ac3d7ab35f4")
 		)
@@ -11762,6 +12095,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 256.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 256.54 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11934,6 +12276,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6db4b522-53da-4565-b479-38a5ddb2ced4")
 		)
@@ -11995,6 +12346,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 256.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 256.54 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12282,6 +12642,15 @@
 			)
 		)
 		(property "Rated Current" "200mA"
+			(at 175.26 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 175.26 109.22 90)
 			(effects
 				(font

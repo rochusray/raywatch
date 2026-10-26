@@ -1913,6 +1913,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B1"
 			(uuid "071c8f32-a57f-46d4-966c-fc162f9f85a7")
 		)
@@ -2111,6 +2120,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "G4"
 			(uuid "e73f64af-9b4a-4312-8d30-e663f158e1bf")
 		)
@@ -2205,6 +2223,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 134.62 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 134.62 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,6 +2572,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 134.62 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48e4d0ce-192b-409d-a66b-91124d8e36a6")
 		)
@@ -2679,6 +2715,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 134.62 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c31fd7ca-b179-4ac0-b033-66409b7194bf")
 		)
@@ -2741,6 +2786,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 147.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 147.32 73.66 0)
 			(effects
 				(font
@@ -2817,6 +2871,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 134.62 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42d1aa5d-6386-4c8e-978d-a0d34691437d")
 		)
@@ -2879,6 +2942,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 158.75 73.66 0)
 			(effects
 				(font
@@ -3022,6 +3094,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 134.62 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "900276eb-78c2-4414-96d1-50f9532521be")
 		)
@@ -3083,6 +3164,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 134.62 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,6 +3248,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 134.62 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b8efe84-090c-4bbf-ba10-383ac9ce3c42")
 		)
@@ -3219,6 +3318,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 134.62 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)

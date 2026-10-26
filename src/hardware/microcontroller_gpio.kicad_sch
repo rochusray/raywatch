@@ -3970,6 +3970,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 234.95 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "ca90990e-f2f7-4b9d-b900-a8c3cfdfbade")
 		)
@@ -4242,6 +4251,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 210.82 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e6cc0aed-632a-42bc-8a99-75864133a61a")
 		)
@@ -4371,6 +4389,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 210.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 210.82 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,6 +5206,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

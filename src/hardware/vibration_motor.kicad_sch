@@ -1287,6 +1287,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3122ef9b-9eca-4dc5-a3f8-beb3cd51fe5a")
 		)
@@ -1724,6 +1733,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "P1"
 			(uuid "827da320-360f-43ee-9cca-759dffc94f6d")
 		)
@@ -1866,6 +1884,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 149.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "15f79db2-fdc6-4f94-8ebb-0d0df63a7a75")
 		)
@@ -1958,6 +1985,15 @@
 			)
 		)
 		(property "Class" "X5R or X7R"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 129.54 114.3 0)
 			(effects
 				(font

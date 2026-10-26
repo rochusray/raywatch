@@ -3797,6 +3797,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 107.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b598373-43df-43fd-965e-2a7142e134f3")
 		)
@@ -4267,6 +4276,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 107.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa9a252c-8630-49be-b00d-b2ebe6ddb792")
 		)
@@ -4341,6 +4359,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 232.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55cea762-1afa-4b28-b0f2-e4341aadcad6")
 		)
@@ -4407,6 +4434,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 143.51 109.22 0)
 			(effects
 				(font
@@ -4621,6 +4657,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 214.63 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57853245-36e3-4525-bf3f-714f1a955e07")
 		)
@@ -4695,6 +4740,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b9e21c7-ddba-4ce8-8a47-5af3577fec39")
 		)
@@ -4761,6 +4815,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 214.63 109.22 0)
 			(effects
 				(font
@@ -5437,6 +5500,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f03bf8e5-d1a4-4b5b-8133-f3e7f784db4f")
 		)
@@ -5577,6 +5649,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 90.17 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5995a0e4-46a4-4483-980e-e9d6835b1d3c")
 		)
@@ -5643,6 +5724,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 72.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 72.39 73.66 0)
 			(effects
 				(font
@@ -5857,6 +5947,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 196.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "020fefdc-7422-48c5-9a22-fe63833e5f84")
 		)
@@ -5990,6 +6089,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 125.73 55.88 0)
 			(effects
 				(font
@@ -6138,6 +6246,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 179.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3287efd-ad59-4e58-bffd-66ad4302c963")
 		)
@@ -6270,6 +6387,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 54.61 38.1 0)
 			(effects
 				(font
@@ -6881,6 +7007,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b788c7b-a19f-4878-b98f-be99a1ef2616")
 		)
@@ -7087,6 +7222,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5798e598-f272-4d8f-87ca-f2170dc01ba0")
 		)
@@ -7227,6 +7371,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 143.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e500689-8448-4a6b-9f93-a8e42e6b026e")
 		)
@@ -7296,6 +7449,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 101.6 168.91 0)
 			(effects
 				(font
@@ -7562,6 +7724,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 214.63 73.66 0)
 			(effects
 				(font
@@ -8042,6 +8213,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24fe6717-7d50-44b5-b44b-264f9ccf001b")
 		)
@@ -8108,6 +8288,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 90.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 90.17 73.66 0)
 			(effects
 				(font
@@ -8322,6 +8511,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 232.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28584675-6a8c-4d06-ae0f-39cf374366ab")
 		)
@@ -8454,6 +8652,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 250.19 55.88 0)
 			(effects
 				(font
@@ -8726,6 +8933,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 72.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 72.39 91.44 0)
 			(effects
 				(font
@@ -9138,6 +9354,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 143.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bfafc62-b6d5-4032-9a57-331e18b226c2")
 		)
@@ -9270,6 +9495,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 54.61 127 0)
 			(effects
 				(font
@@ -9814,6 +10048,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 179.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb298ade-24c9-49f5-bb83-bb4931dbec47")
 		)
@@ -9888,6 +10131,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 107.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e31750e-75ec-4927-b153-1ed06051fbee")
 		)
@@ -9954,6 +10206,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 214.63 38.1 0)
 			(effects
 				(font
@@ -10160,6 +10421,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 72.39 109.22 0)
 			(effects
 				(font
@@ -10440,6 +10710,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 161.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "822bb31c-eccf-4b4b-8318-83ce8901b6c4")
 		)
@@ -10712,6 +10991,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52ca36ad-30ae-4d9e-844a-afdd1ff637c7")
 		)
@@ -10778,6 +11066,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 107.95 55.88 0)
 			(effects
 				(font
@@ -11058,6 +11355,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9290cb3-9456-4c04-b320-a6bbe2f8c879")
 		)
@@ -11198,6 +11504,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "147f30e5-72e1-4cca-8db9-4f41aa3d1163")
 		)
@@ -11330,6 +11645,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 54.61 91.44 0)
 			(effects
 				(font
@@ -11610,6 +11934,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 161.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f43b5ff9-b8be-48a8-9a70-0ad713a5ba0f")
 		)
@@ -11676,6 +12009,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 179.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 179.07 127 0)
 			(effects
 				(font
@@ -11824,6 +12166,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 196.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be4fce76-c79f-4d56-9efe-842248442cc2")
 		)
@@ -11956,6 +12307,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 90.17 38.1 0)
 			(effects
 				(font
@@ -12104,6 +12464,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c038b20-1030-4b9e-a59e-f1ac0dd64aaa")
 		)
@@ -12170,6 +12539,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 125.73 109.22 0)
 			(effects
 				(font
@@ -12310,6 +12688,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 196.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 196.85 109.22 0)
 			(effects
 				(font
@@ -12590,6 +12977,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "783db06c-6837-4ee4-8508-f8a82522f5e8")
 		)
@@ -12656,6 +13052,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 232.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 232.41 91.44 0)
 			(effects
 				(font
@@ -13018,6 +13423,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a63b1486-2ed3-49f8-8c9f-a9113f0adae1")
 		)
@@ -13087,6 +13501,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 90.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 90.17 127 0)
 			(effects
 				(font
@@ -13499,6 +13922,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 72.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "804f6adf-4631-4762-8569-13b684d86b19")
 		)
@@ -13565,6 +13997,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 54.61 55.88 0)
 			(effects
 				(font
@@ -13713,6 +14154,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b915691d-b0ea-4392-b345-76353ef472c6")
 		)
@@ -13853,6 +14303,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 250.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "745b7ec2-9494-4938-97da-b82e01832410")
 		)
@@ -13985,6 +14444,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 107.95 38.1 0)
 			(effects
 				(font
@@ -14406,6 +14874,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B1"
 			(uuid "45a057fa-c638-4c6c-9c2a-5414a379f3ab")
 		)
@@ -14472,6 +14949,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 143.51 55.88 0)
 			(effects
 				(font
@@ -14612,6 +15098,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 196.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 196.85 38.1 0)
 			(effects
 				(font
@@ -14958,6 +15453,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca7bc6c2-b803-4fb6-9f17-e6827778c7e2")
 		)
@@ -15230,6 +15734,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 214.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95263092-6840-4491-8d47-7355f2753cfe")
 		)
@@ -15436,6 +15949,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b0f79e0-c614-4775-9bc8-c0ec0ea8dcca")
 		)
@@ -15576,6 +16098,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71fb6f6d-98eb-4a42-b7e3-d1647a58256d")
 		)
@@ -15708,6 +16239,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 196.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 196.85 73.66 0)
 			(effects
 				(font
@@ -16055,6 +16595,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 232.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73dd9255-e5ac-40ab-be6d-551765e65e22")
 		)
@@ -16187,6 +16736,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 196.85 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 196.85 127 0)
 			(effects
 				(font
@@ -16526,6 +17084,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 232.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 232.41 55.88 0)
 			(effects
 				(font
@@ -17137,6 +17704,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 250.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c41ecf04-838f-44a1-9916-49bab0baa658")
 		)
@@ -17203,6 +17779,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 214.63 55.88 0)
 			(effects
 				(font
@@ -17343,6 +17928,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 125.73 38.1 0)
 			(effects
 				(font
@@ -17623,6 +18217,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 90.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f740911-b779-4fb0-ad4f-07b823e95382")
 		)
@@ -17829,6 +18432,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 250.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "264ddf3d-2239-4bdf-ac14-4a92d9ea5fcf")
 		)
@@ -17895,6 +18507,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 143.51 73.66 0)
 			(effects
 				(font
@@ -18167,6 +18788,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 250.19 127 0)
 			(effects
 				(font
@@ -18513,6 +19143,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff19f1bb-c7d3-46da-ab25-91901f99e6f1")
 		)
@@ -18587,6 +19226,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d55c5ff5-93fe-455c-b0b6-72abb36a4ad6")
 		)
@@ -18653,6 +19301,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 161.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 161.29 127 0)
 			(effects
 				(font
@@ -18867,6 +19524,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e439a2a-a1ad-4e98-a275-69c3d29869c9")
 		)
@@ -19065,6 +19731,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "β(25/85)" ""
 			(at 125.73 91.44 0)
 			(effects
 				(font

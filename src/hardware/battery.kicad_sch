@@ -1767,6 +1767,15 @@
 				(hide yes)
 			)
 		)
+		(property "β(25/85)" ""
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S2"
 			(uuid "7fabcc1e-617a-4f9f-a7be-cf0290f83d68")
 		)
