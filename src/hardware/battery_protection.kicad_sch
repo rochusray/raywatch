@@ -2180,7 +2180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330Ω"
 			(at 123.19 88.8999 0)
 			(effects
 				(font
