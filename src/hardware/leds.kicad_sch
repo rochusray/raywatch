@@ -385,6 +385,286 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TPS22916BYFPR:TPS22916BYFPR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.1993 8.6391 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TPS22916BYFPR"
+				(at -10.2605 -10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TPS22916BYFPR:IC_TPS22916BYFPR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CREATOR" "DIZAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "DSBGA-4 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPS22916BYFPR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VERIFIER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22916BYFPR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TPS22916BYFPR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "5.5-V, 2-A, 60-mΩ, 10-nA leakage load switch with output discharge"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPS22916BYFPR_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "ON"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WS2816C:WS2816C-1313-4P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -853,6 +1133,131 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:LINE"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "LINE"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"LINE\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LINE_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LINE_1_1"
+				(pin power_in line
+					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -3185,6 +3590,28 @@
 			)
 		)
 	)
+	(global_label "LEDEN"
+		(shape input)
+		(at 129.54 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca3a96fb-c101-46d6-9a68-a7b8962d28bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.6282 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 48.26 72.39 0)
@@ -3195,7 +3622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "004adc82-9a39-4a11-849d-961ced05f98b")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0100"
 			(at 48.26 76.2 0)
 			(effects
 				(font
@@ -3204,7 +3631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 48.26 67.31 0)
 			(effects
 				(font
@@ -3245,7 +3672,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR099")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -3261,7 +3688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "008bf468-a5ca-4458-bb9e-9812e6a28679")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0145"
 			(at 114.3 81.28 0)
 			(effects
 				(font
@@ -3311,7 +3738,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0144")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -3401,7 +3828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02d1f3e5-e4e7-4a06-8da9-3681097b3438")
-		(property "Reference" "#PWR0230"
+		(property "Reference" "#PWR0234"
 			(at 238.76 116.84 0)
 			(effects
 				(font
@@ -3451,7 +3878,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0230")
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
@@ -3467,7 +3894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02fa3291-538d-4b23-a828-e155da9d6ec0")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0107"
 			(at 60.96 99.06 0)
 			(effects
 				(font
@@ -3517,7 +3944,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0106")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -3533,7 +3960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0626465c-049a-437b-8a1c-6ea6b05e2f71")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0215"
 			(at 208.28 93.98 0)
 			(effects
 				(font
@@ -3542,7 +3969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 208.28 85.09 0)
 			(effects
 				(font
@@ -3583,7 +4010,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0211")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -3599,7 +4026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "081d9b04-ab6b-4fa5-b50d-46d0095f9b0a")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0230"
 			(at 238.76 45.72 0)
 			(effects
 				(font
@@ -3649,7 +4076,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0226")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -3665,7 +4092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "091f4cff-3c0c-42ec-88b6-5bcb217e0494")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0126"
 			(at 83.82 93.98 0)
 			(effects
 				(font
@@ -3674,7 +4101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 83.82 85.09 0)
 			(effects
 				(font
@@ -3715,7 +4142,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0125")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -3731,7 +4158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "096db90f-9ccd-439c-9d7c-390309976a88")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR0203"
 			(at 190.5 93.98 0)
 			(effects
 				(font
@@ -3740,7 +4167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 190.5 85.09 0)
 			(effects
 				(font
@@ -3781,7 +4208,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0199")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -4019,7 +4446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cf27edc-d01d-4c5a-9aca-75e3a4eb1d18")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0165"
 			(at 137.16 93.98 0)
 			(effects
 				(font
@@ -4028,7 +4455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 137.16 85.09 0)
 			(effects
 				(font
@@ -4069,7 +4496,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0163")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -4085,7 +4512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d56ee41-2e8c-4da6-9784-882e33d42b4a")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0103"
 			(at 48.26 129.54 0)
 			(effects
 				(font
@@ -4094,7 +4521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 48.26 120.65 0)
 			(effects
 				(font
@@ -4135,7 +4562,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0102")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -4373,7 +4800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f412ff6-e6ab-48c4-bd7f-acfe2d4f912b")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0183"
 			(at 167.64 63.5 0)
 			(effects
 				(font
@@ -4423,7 +4850,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0179")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -4439,7 +4866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fa46d01-3d92-4ff2-ae1a-7a702e314609")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0208"
 			(at 203.2 81.28 0)
 			(effects
 				(font
@@ -4489,7 +4916,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0204")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -4505,7 +4932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "137e00af-ae53-4c43-9a29-e0471baa137a")
-		(property "Reference" "#PWR0242"
+		(property "Reference" "#PWR0246"
 			(at 256.54 116.84 0)
 			(effects
 				(font
@@ -4555,7 +4982,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0242")
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -4571,7 +4998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14684fd9-3eeb-44b4-9bb2-974690011b4f")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0213"
 			(at 208.28 58.42 0)
 			(effects
 				(font
@@ -4580,7 +5007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 208.28 49.53 0)
 			(effects
 				(font
@@ -4621,7 +5048,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0209")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -4637,7 +5064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16215679-7f5d-41cf-9313-dfde214a9f8b")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR0219"
 			(at 220.98 63.5 0)
 			(effects
 				(font
@@ -4687,7 +5114,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0215")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -4703,7 +5130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "168e338d-9217-4ef7-af0e-f6417ca9e083")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0108"
 			(at 60.96 116.84 0)
 			(effects
 				(font
@@ -4753,7 +5180,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0107")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -4769,7 +5196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "169f4f6a-ad0a-49fb-bb55-1bd8b9b38e38")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0105"
 			(at 60.96 63.5 0)
 			(effects
 				(font
@@ -4819,7 +5246,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0104")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -4835,7 +5262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17a90f08-daf3-49f3-bcee-322fd32c1db9")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR099"
 			(at 48.26 58.42 0)
 			(effects
 				(font
@@ -4844,7 +5271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 48.26 49.53 0)
 			(effects
 				(font
@@ -4885,7 +5312,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR098")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -4901,7 +5328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17f33762-3784-41ac-8488-90685fe1d8ae")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0143"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -4951,7 +5378,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0142")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -5041,7 +5468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b1099b1-4243-49e6-9f57-c3e38499c045")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0175"
 			(at 154.94 58.42 0)
 			(effects
 				(font
@@ -5050,7 +5477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 154.94 49.53 0)
 			(effects
 				(font
@@ -5091,7 +5518,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0173")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -5255,7 +5682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f0d3cd0-ce87-4e52-a624-d8ecf8575499")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0151"
 			(at 119.38 76.2 0)
 			(effects
 				(font
@@ -5264,7 +5691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 119.38 67.31 0)
 			(effects
 				(font
@@ -5305,7 +5732,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0150")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -5321,7 +5748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fa6d2d6-47be-4d40-86b9-e6397cf4fa57")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0171"
 			(at 149.86 99.06 0)
 			(effects
 				(font
@@ -5371,7 +5798,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0169")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -5461,7 +5888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20c4db6e-b281-41f0-8dae-beb4ce8351ea")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR098"
 			(at 48.26 40.64 0)
 			(effects
 				(font
@@ -5470,7 +5897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 45.72 35.5599 0)
 			(effects
 				(font
@@ -5512,7 +5939,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR097")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -5602,7 +6029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22509fc9-5ef6-4f19-a688-c20952cdcc44")
-		(property "Reference" "#PWR0239"
+		(property "Reference" "#PWR0243"
 			(at 256.54 63.5 0)
 			(effects
 				(font
@@ -5652,7 +6079,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0239")
+					(reference "#PWR0243")
 					(unit 1)
 				)
 			)
@@ -5742,7 +6169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24ec0a9c-8b3f-431e-828d-318fc31b1087")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0120"
 			(at 78.74 116.84 0)
 			(effects
 				(font
@@ -5792,7 +6219,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0119")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -5873,6 +6300,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 160.02 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "257c6158-98e5-4fe6-8462-531b79452abc")
+		(property "Reference" "#PWR0180"
+			(at 160.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED4V5"
+			(at 160.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 160.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09d5f143-3084-41a8-8f39-68807dd323be")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 114.3 57.15 0)
 		(unit 1)
@@ -5882,7 +6375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "284411e8-3121-49d5-b5be-1dfe199fc7b0")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0144"
 			(at 114.3 63.5 0)
 			(effects
 				(font
@@ -5932,7 +6425,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0143")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -5948,7 +6441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "291b18e1-efa9-4338-9fcd-87b95211ade1")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR0188"
 			(at 172.72 40.64 0)
 			(effects
 				(font
@@ -5957,7 +6450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 172.72 31.75 0)
 			(effects
 				(font
@@ -5998,7 +6491,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0184")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -6014,7 +6507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "292aa6fa-5e8b-4737-9f63-b729af12d9e2")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0205"
 			(at 190.5 129.54 0)
 			(effects
 				(font
@@ -6023,7 +6516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 190.5 120.65 0)
 			(effects
 				(font
@@ -6064,7 +6557,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0201")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -6081,7 +6574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a4c26b5-dc17-405d-8a47-fc5fae082da7")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0142"
 			(at 101.6 179.07 0)
 			(effects
 				(font
@@ -6131,7 +6624,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0141")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -6147,7 +6640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f7f89ba-e6ac-4744-b1cf-c37fd6c22bfa")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR0186"
 			(at 167.64 116.84 0)
 			(effects
 				(font
@@ -6197,7 +6690,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0182")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -6213,7 +6706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34aa9fab-606f-4c14-8561-daa623e097ca")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0214"
 			(at 208.28 76.2 0)
 			(effects
 				(font
@@ -6222,7 +6715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 208.28 67.31 0)
 			(effects
 				(font
@@ -6263,7 +6756,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0210")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -6279,7 +6772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36f28a0e-4f93-40c6-9941-4d17ac39a3a0")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0139"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -6288,7 +6781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 101.6 102.87 0)
 			(effects
 				(font
@@ -6329,7 +6822,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0138")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -6419,7 +6912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bc3a0f6-7534-4a52-b370-6c79e4f07029")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0221"
 			(at 220.98 99.06 0)
 			(effects
 				(font
@@ -6469,7 +6962,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0217")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -6485,7 +6978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d776990-d2be-4e28-bcfd-acf2eee525da")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0187"
 			(at 167.64 134.62 0)
 			(effects
 				(font
@@ -6535,7 +7028,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0183")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -6625,7 +7118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e6398e5-4e45-49f1-b34e-9dbb48dc262b")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0159"
 			(at 132.08 99.06 0)
 			(effects
 				(font
@@ -6675,7 +7168,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0157")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -6836,7 +7329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43b70b0e-9785-4ca0-ab46-4a214272c25c")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0118"
 			(at 78.74 81.28 0)
 			(effects
 				(font
@@ -6886,7 +7379,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0117")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -6902,7 +7395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "446ee799-1de6-4f27-a2d4-497ef14b95bf")
-		(property "Reference" "#PWR0237"
+		(property "Reference" "#PWR0241"
 			(at 243.84 129.54 0)
 			(effects
 				(font
@@ -6911,7 +7404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 243.84 120.65 0)
 			(effects
 				(font
@@ -6952,7 +7445,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0237")
+					(reference "#PWR0241")
 					(unit 1)
 				)
 			)
@@ -6968,7 +7461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "454e158d-42cc-4997-bd21-fc82603e2ac9")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0156"
 			(at 132.08 45.72 0)
 			(effects
 				(font
@@ -7018,7 +7511,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0154")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -7108,7 +7601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4751e5de-24bc-421e-bf6f-36d0623fff6e")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0134"
 			(at 96.52 134.62 0)
 			(effects
 				(font
@@ -7158,7 +7651,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0133")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -7174,7 +7667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48818142-76c7-42a8-9590-3d319a554ab8")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0101"
 			(at 48.26 93.98 0)
 			(effects
 				(font
@@ -7183,7 +7676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 48.26 85.09 0)
 			(effects
 				(font
@@ -7224,7 +7717,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0100")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -7240,7 +7733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "488d7958-f723-4334-b9d0-4ac515714cf7")
-		(property "Reference" "#PWR0241"
+		(property "Reference" "#PWR0245"
 			(at 256.54 99.06 0)
 			(effects
 				(font
@@ -7290,7 +7783,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0241")
+					(reference "#PWR0245")
 					(unit 1)
 				)
 			)
@@ -7306,7 +7799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49948330-f4f5-4170-887d-4e6dad67ca58")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR0201"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -7315,7 +7808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 190.5 49.53 0)
 			(effects
 				(font
@@ -7356,7 +7849,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0197")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -7373,7 +7866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d01ef52-fea2-4b68-8f66-123c1d6682fd")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR097"
 			(at 45.72 163.83 0)
 			(effects
 				(font
@@ -7424,7 +7917,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR096")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -7440,7 +7933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d3358e2-f4ba-45dd-a9a4-0447bee0add7")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0125"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -7449,7 +7942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 83.82 67.31 0)
 			(effects
 				(font
@@ -7490,7 +7983,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0124")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -7654,7 +8147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5088b76d-7c6e-4339-8ca4-217b40f57d44")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0146"
 			(at 114.3 99.06 0)
 			(effects
 				(font
@@ -7704,7 +8197,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0145")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -7720,7 +8213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51080832-c063-417c-82b5-49ccdf70d127")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR0190"
 			(at 172.72 76.2 0)
 			(effects
 				(font
@@ -7729,7 +8222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 172.72 67.31 0)
 			(effects
 				(font
@@ -7770,7 +8263,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0186")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -7860,7 +8353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "523d431b-6bf2-4500-9ed0-549418a69fa8")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0137"
 			(at 101.6 76.2 0)
 			(effects
 				(font
@@ -7869,7 +8362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 101.6 67.31 0)
 			(effects
 				(font
@@ -7910,7 +8403,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0136")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -8000,7 +8493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52fcf434-6905-4aad-b0ad-7ae971dd34b7")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0172"
 			(at 149.86 116.84 0)
 			(effects
 				(font
@@ -8050,7 +8543,73 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0170")
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:LINE")
+		(at 129.54 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52fd06ae-6266-4d1a-83a0-4d71b51c50c4")
+		(property "Reference" "#PWR0155"
+			(at 129.54 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+4V5"
+			(at 129.54 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"LINE\""
+			(at 129.54 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0227124-e518-4673-b45d-f07ce80283ca")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -8066,7 +8625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "534628c2-1f5b-4593-ae49-d92beff39619")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0114"
 			(at 66.04 111.76 0)
 			(effects
 				(font
@@ -8075,7 +8634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 66.04 102.87 0)
 			(effects
 				(font
@@ -8116,7 +8675,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0113")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -8206,7 +8765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5464593a-3ad7-4cbd-ae1e-6df4887b5c27")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0111"
 			(at 66.04 58.42 0)
 			(effects
 				(font
@@ -8215,7 +8774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 66.04 49.53 0)
 			(effects
 				(font
@@ -8256,7 +8815,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0110")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -8272,7 +8831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "547e11f3-a038-49d7-9c29-6d57bd577eab")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR0199"
 			(at 185.42 134.62 0)
 			(effects
 				(font
@@ -8322,7 +8881,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0195")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -8338,7 +8897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55b151d4-8f88-48ce-a9e7-8b31b37bc5ec")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR0177"
 			(at 154.94 93.98 0)
 			(effects
 				(font
@@ -8347,7 +8906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 154.94 85.09 0)
 			(effects
 				(font
@@ -8388,7 +8947,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0175")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -8404,7 +8963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58d369ab-640a-4dc4-b230-ac03ba705c22")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0112"
 			(at 66.04 76.2 0)
 			(effects
 				(font
@@ -8413,7 +8972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 66.04 67.31 0)
 			(effects
 				(font
@@ -8454,7 +9013,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0111")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -8470,7 +9029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "596f4e57-9f6e-4158-b9d7-114a43cfa729")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0128"
 			(at 83.82 129.54 0)
 			(effects
 				(font
@@ -8479,7 +9038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 83.82 120.65 0)
 			(effects
 				(font
@@ -8520,7 +9079,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0127")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -8610,7 +9169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59beea8e-0a68-4d11-9ca0-5398700baaf9")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR0193"
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -8619,7 +9178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 172.72 120.65 0)
 			(effects
 				(font
@@ -8660,7 +9219,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0189")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -8750,7 +9309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cf7cbd2-4464-407a-8259-f27c1ea17834")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0158"
 			(at 132.08 81.28 0)
 			(effects
 				(font
@@ -8800,7 +9359,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0156")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -8816,7 +9375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d1cc8f0-fca1-4f94-9ef1-66ceed3f12c1")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR0231"
 			(at 238.76 63.5 0)
 			(effects
 				(font
@@ -8866,7 +9425,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0227")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -8882,7 +9441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "602995aa-b9c6-440e-9457-ebf90f2222c5")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0225"
 			(at 226.06 58.42 0)
 			(effects
 				(font
@@ -8891,7 +9450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 226.06 49.53 0)
 			(effects
 				(font
@@ -8932,7 +9491,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0221")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -8948,7 +9507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6308cf29-bded-4207-be51-9e37853b5edb")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0124"
 			(at 83.82 58.42 0)
 			(effects
 				(font
@@ -8957,7 +9516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 83.82 49.53 0)
 			(effects
 				(font
@@ -8998,7 +9557,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0123")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -9014,7 +9573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "631cb852-a1fc-4d76-a8bd-adc71e38112e")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR0196"
 			(at 185.42 81.28 0)
 			(effects
 				(font
@@ -9064,7 +9623,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0192")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -9080,7 +9639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63ea1a66-2afe-4870-9b99-932e875e29aa")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR0198"
 			(at 185.42 116.84 0)
 			(effects
 				(font
@@ -9130,7 +9689,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0194")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -9146,7 +9705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65bf7b76-a1ba-415b-be58-ef7dc995c32c")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR0194"
 			(at 185.42 45.72 0)
 			(effects
 				(font
@@ -9196,7 +9755,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0190")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -9434,7 +9993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b4a583b-155e-48aa-a43e-30b54a0be37b")
-		(property "Reference" "#PWR0243"
+		(property "Reference" "#PWR0247"
 			(at 256.54 134.62 0)
 			(effects
 				(font
@@ -9484,7 +10043,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0243")
+					(reference "#PWR0247")
 					(unit 1)
 				)
 			)
@@ -9500,7 +10059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ba65e49-65e4-42bb-8862-82c547ba26e8")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0224"
 			(at 226.06 40.64 0)
 			(effects
 				(font
@@ -9509,7 +10068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 226.06 31.75 0)
 			(effects
 				(font
@@ -9550,7 +10109,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0220")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -9640,7 +10199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c30c40e-cf80-4b5e-ae94-691f6670de5b")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0140"
 			(at 101.6 129.54 0)
 			(effects
 				(font
@@ -9649,7 +10208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 101.6 120.65 0)
 			(effects
 				(font
@@ -9690,7 +10249,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0139")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -9706,7 +10265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d781f3f-4e89-4a7c-a526-8a60c01bc652")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0176"
 			(at 154.94 76.2 0)
 			(effects
 				(font
@@ -9715,7 +10274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 154.94 67.31 0)
 			(effects
 				(font
@@ -9756,7 +10315,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0174")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -9772,7 +10331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dd115b3-f13d-43d6-a8ba-580093df0f0b")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0115"
 			(at 66.04 129.54 0)
 			(effects
 				(font
@@ -9781,7 +10340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 66.04 120.65 0)
 			(effects
 				(font
@@ -9822,7 +10381,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0114")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -9912,7 +10471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fa6706b-c45e-40ea-b8ea-57a328647f80")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0211"
 			(at 203.2 134.62 0)
 			(effects
 				(font
@@ -9962,7 +10521,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0207")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -9978,7 +10537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fce8c37-110b-43e1-917d-ff0cf54660df")
-		(property "Reference" "#PWR0232"
+		(property "Reference" "#PWR0236"
 			(at 243.84 40.64 0)
 			(effects
 				(font
@@ -9987,7 +10546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 243.84 31.75 0)
 			(effects
 				(font
@@ -10028,7 +10587,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0232")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -10044,7 +10603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71914d64-a5dd-4b50-91ee-20ed8bd7e16e")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0152"
 			(at 119.38 93.98 0)
 			(effects
 				(font
@@ -10053,7 +10612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 119.38 85.09 0)
 			(effects
 				(font
@@ -10094,7 +10653,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0151")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -10258,7 +10817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72dab286-4e9d-464c-8fe5-a5789171fad4")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0157"
 			(at 132.08 63.5 0)
 			(effects
 				(font
@@ -10308,7 +10867,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0155")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -10324,7 +10883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77eae5fb-a44d-4c9a-9b0a-9009567248d9")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0153"
 			(at 119.38 111.76 0)
 			(effects
 				(font
@@ -10333,7 +10892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 119.38 102.87 0)
 			(effects
 				(font
@@ -10374,7 +10933,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0152")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -10390,7 +10949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79d8599f-446e-411f-8e9f-3cc68813c091")
-		(property "Reference" "#PWR0238"
+		(property "Reference" "#PWR0242"
 			(at 256.54 45.72 0)
 			(effects
 				(font
@@ -10440,7 +10999,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0238")
+					(reference "#PWR0242")
 					(unit 1)
 				)
 			)
@@ -10530,7 +11089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b5956ce-3a2d-4e4b-879e-e0843978b282")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0135"
 			(at 101.6 40.64 0)
 			(effects
 				(font
@@ -10539,7 +11098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 101.6 31.75 0)
 			(effects
 				(font
@@ -10580,7 +11139,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0134")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -10670,7 +11229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bbd13e3-ba22-4d28-81f9-991e99429ec9")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0229"
 			(at 226.06 129.54 0)
 			(effects
 				(font
@@ -10679,7 +11238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 226.06 120.65 0)
 			(effects
 				(font
@@ -10720,7 +11279,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0225")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -10810,7 +11369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e350a22-9ae3-48bd-8e40-1a6b61cfa95e")
-		(property "Reference" "#PWR0233"
+		(property "Reference" "#PWR0237"
 			(at 243.84 58.42 0)
 			(effects
 				(font
@@ -10819,7 +11378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 243.84 49.53 0)
 			(effects
 				(font
@@ -10860,7 +11419,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0233")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -10876,7 +11435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81157cb6-8979-41a8-b604-1d58195c4f83")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0174"
 			(at 154.94 40.64 0)
 			(effects
 				(font
@@ -10885,7 +11444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 154.94 31.75 0)
 			(effects
 				(font
@@ -10926,7 +11485,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0172")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -10942,7 +11501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "824f751c-ed0e-457d-9719-6696d314968c")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR0191"
 			(at 172.72 93.98 0)
 			(effects
 				(font
@@ -10951,7 +11510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 172.72 85.09 0)
 			(effects
 				(font
@@ -10992,7 +11551,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0187")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -11156,7 +11715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86bb21ac-6793-4cdb-955c-e2fa3d52347b")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0133"
 			(at 96.52 116.84 0)
 			(effects
 				(font
@@ -11206,7 +11765,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0132")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -11296,7 +11855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "898ac1cd-0781-4ec8-a3a0-693eb09bf161")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0166"
 			(at 137.16 111.76 0)
 			(effects
 				(font
@@ -11305,7 +11864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 137.16 102.87 0)
 			(effects
 				(font
@@ -11346,7 +11905,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0164")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -11436,7 +11995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c5f987e-1bcb-4f2b-8860-02ac63652149")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR0189"
 			(at 172.72 58.42 0)
 			(effects
 				(font
@@ -11445,7 +12004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 172.72 49.53 0)
 			(effects
 				(font
@@ -11486,7 +12045,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0185")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -11650,7 +12209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fbdefe6-7ba0-4d2a-baa3-d76d42d8abfb")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0147"
 			(at 114.3 116.84 0)
 			(effects
 				(font
@@ -11700,7 +12259,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0146")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -11790,7 +12349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "910c52ed-cb25-4fe5-856c-cd350e8b03ab")
-		(property "Reference" "#PWR0240"
+		(property "Reference" "#PWR0244"
 			(at 256.54 81.28 0)
 			(effects
 				(font
@@ -11840,7 +12399,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0240")
+					(reference "#PWR0244")
 					(unit 1)
 				)
 			)
@@ -11856,7 +12415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92376f6e-11fc-4b1e-913d-dd06a9571abd")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0131"
 			(at 96.52 81.28 0)
 			(effects
 				(font
@@ -11906,7 +12465,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0130")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -11922,7 +12481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93752337-9aae-4cff-9697-bb5186b6e925")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0162"
 			(at 137.16 40.64 0)
 			(effects
 				(font
@@ -11931,7 +12490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 137.16 31.75 0)
 			(effects
 				(font
@@ -11972,7 +12531,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0160")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -12136,7 +12695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95f9f656-d869-410b-85d8-7bfe86d3b651")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0210"
 			(at 203.2 116.84 0)
 			(effects
 				(font
@@ -12186,7 +12745,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0206")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -12202,7 +12761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9709178a-a5b7-4c01-bed4-c1d82368ac4f")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0160"
 			(at 132.08 116.84 0)
 			(effects
 				(font
@@ -12252,7 +12811,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0158")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -12268,7 +12827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "983e7a4a-8442-4698-a7d5-8753b25932b2")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0184"
 			(at 167.64 81.28 0)
 			(effects
 				(font
@@ -12318,7 +12877,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0180")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -12567,7 +13126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bfda8ef-2774-4682-9d8f-9825c736c46e")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0119"
 			(at 78.74 99.06 0)
 			(effects
 				(font
@@ -12617,7 +13176,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0118")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -12633,7 +13192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c570152-7e76-4f2b-b1f7-21b417dae23d")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR0200"
 			(at 190.5 40.64 0)
 			(effects
 				(font
@@ -12642,7 +13201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 190.5 31.75 0)
 			(effects
 				(font
@@ -12683,7 +13242,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0196")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -12699,7 +13258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d8b5e4f-6bef-40ac-aac5-cbb631b21cd6")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0173"
 			(at 149.86 134.62 0)
 			(effects
 				(font
@@ -12749,7 +13308,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0171")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -12765,7 +13324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e192479-e54c-4f18-a257-b9abfce6b357")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0222"
 			(at 220.98 116.84 0)
 			(effects
 				(font
@@ -12815,7 +13374,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0218")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -12831,7 +13390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0c27844-071c-4715-8f14-ad3ae0f81458")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0102"
 			(at 48.26 111.76 0)
 			(effects
 				(font
@@ -12840,7 +13399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 48.26 102.87 0)
 			(effects
 				(font
@@ -12881,7 +13440,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0101")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -13045,7 +13604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2c3e611-2f22-41b9-8ca3-aaab6bc0e102")
-		(property "Reference" "#PWR0234"
+		(property "Reference" "#PWR0238"
 			(at 243.84 76.2 0)
 			(effects
 				(font
@@ -13054,7 +13613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 243.84 67.31 0)
 			(effects
 				(font
@@ -13095,7 +13654,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0234")
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -13185,7 +13744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a42fc960-5574-43bd-9df0-8aa5a06a1ec9")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0129"
 			(at 96.52 45.72 0)
 			(effects
 				(font
@@ -13235,7 +13794,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0128")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -13325,7 +13884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a53f6d39-05fd-4677-b489-a74cf3548925")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0116"
 			(at 78.74 45.72 0)
 			(effects
 				(font
@@ -13375,7 +13934,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0115")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -13465,7 +14024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a831329a-9a4b-44e7-8b97-e6a9dd27194b")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0136"
 			(at 101.6 58.42 0)
 			(effects
 				(font
@@ -13474,7 +14033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 101.6 49.53 0)
 			(effects
 				(font
@@ -13515,7 +14074,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0135")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -13531,7 +14090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8452045-c2cc-4735-a4e6-7bdc7333dce0")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0148"
 			(at 114.3 134.62 0)
 			(effects
 				(font
@@ -13581,7 +14140,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0147")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -13597,7 +14156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9ae65f3-03e1-493c-aeb3-9931961b1ffa")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0138"
 			(at 101.6 93.98 0)
 			(effects
 				(font
@@ -13606,7 +14165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 101.6 85.09 0)
 			(effects
 				(font
@@ -13647,7 +14206,222 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0137")
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS22916BYFPR:TPS22916BYFPR")
+		(at 144.78 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa480897-0536-427e-9bc9-d29c6c5c7ffd")
+		(property "Reference" "U9"
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS22916BYFPR"
+			(at 144.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:IC_TPS22916BYFPR"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.5mm"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "DIZAR"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "DSBGA-4 Texas Instruments"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS22916BYFPR/Texas+Instruments/view-part/?ref=eda"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22916BYFPR/Texas+Instruments/view-part/?ref=snap"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS22916BYFPR"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "5.5-V, 2-A, 60-mΩ, 10-nA leakage load switch with output discharge"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "B1"
+			(uuid "45a057fa-c638-4c6c-9c2a-5414a379f3ab")
+		)
+		(pin "A2"
+			(uuid "790b7fec-a1b8-478f-b547-a8cb75072e61")
+		)
+		(pin "B2"
+			(uuid "adeb2cf6-bc08-4e63-b720-5b80849eae1c")
+		)
+		(pin "A1"
+			(uuid "10f4a634-42db-4cd4-bb7d-f2a051e8e193")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -13737,7 +14511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa72a0c7-124f-4e55-af93-622c68886c76")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0228"
 			(at 226.06 111.76 0)
 			(effects
 				(font
@@ -13746,7 +14520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 226.06 102.87 0)
 			(effects
 				(font
@@ -13787,7 +14561,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0224")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -13877,7 +14651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b059ca96-0500-45f6-8ddc-f887e7ff33ea")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0227"
 			(at 226.06 93.98 0)
 			(effects
 				(font
@@ -13886,7 +14660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 226.06 85.09 0)
 			(effects
 				(font
@@ -13927,7 +14701,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0223")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -13943,7 +14717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b21a2729-724c-4fba-9215-5321b6f4c4fe")
-		(property "Reference" "#PWR0191"
+		(property "Reference" "#PWR0195"
 			(at 185.42 63.5 0)
 			(effects
 				(font
@@ -13993,7 +14767,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0191")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -14009,7 +14783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b34e6d37-0a8a-4bbc-aaa2-1156963e2035")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0207"
 			(at 203.2 63.5 0)
 			(effects
 				(font
@@ -14059,7 +14833,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0203")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -14075,7 +14849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3637310-8eed-4d00-905a-40af1123e331")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR0192"
 			(at 172.72 111.76 0)
 			(effects
 				(font
@@ -14084,7 +14858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 172.72 102.87 0)
 			(effects
 				(font
@@ -14125,7 +14899,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0188")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -14215,7 +14989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b409c076-11ec-4081-92c0-3169f1b48da8")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0150"
 			(at 119.38 58.42 0)
 			(effects
 				(font
@@ -14224,7 +14998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 119.38 49.53 0)
 			(effects
 				(font
@@ -14265,7 +15039,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0149")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -14281,7 +15055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5b14497-ddec-4b20-9067-a183f2b15d41")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0168"
 			(at 149.86 45.72 0)
 			(effects
 				(font
@@ -14331,7 +15105,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0166")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -14347,7 +15121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5b339e8-e01e-4120-b9f9-520463ff82e8")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0130"
 			(at 96.52 63.5 0)
 			(effects
 				(font
@@ -14397,7 +15171,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0129")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -14487,7 +15261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8357520-823a-442d-a39c-890980ac1a37")
-		(property "Reference" "#PWR0235"
+		(property "Reference" "#PWR0239"
 			(at 243.84 93.98 0)
 			(effects
 				(font
@@ -14496,7 +15270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 243.84 85.09 0)
 			(effects
 				(font
@@ -14537,7 +15311,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0235")
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -14553,7 +15327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bffa4ecb-43e7-44ff-b68e-89fbaeb9c984")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0121"
 			(at 78.74 134.62 0)
 			(effects
 				(font
@@ -14603,7 +15377,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0120")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -14693,7 +15467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c17b7491-449b-4e76-93fc-13444c96911d")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0226"
 			(at 226.06 76.2 0)
 			(effects
 				(font
@@ -14702,7 +15476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 226.06 67.31 0)
 			(effects
 				(font
@@ -14743,7 +15517,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0222")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -14833,7 +15607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6bf94fa-9d1d-48ae-be4d-576610b9a1a6")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0170"
 			(at 149.86 81.28 0)
 			(effects
 				(font
@@ -14883,7 +15657,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0168")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -14973,7 +15747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c82e9ba3-ece9-4dc7-917e-f6cf6cceea59")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0149"
 			(at 119.38 40.64 0)
 			(effects
 				(font
@@ -14982,7 +15756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 119.38 31.75 0)
 			(effects
 				(font
@@ -15023,7 +15797,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0148")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -15040,7 +15814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c88d3cf9-a4af-4d1e-bb42-529b594583c1")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0141"
 			(at 101.6 168.91 0)
 			(effects
 				(font
@@ -15049,7 +15823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 101.6 160.02 0)
 			(effects
 				(font
@@ -15090,7 +15864,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0140")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -15106,7 +15880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8c36906-1185-4727-814d-6e1e146194e5")
-		(property "Reference" "#PWR0236"
+		(property "Reference" "#PWR0240"
 			(at 243.84 111.76 0)
 			(effects
 				(font
@@ -15115,7 +15889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 243.84 102.87 0)
 			(effects
 				(font
@@ -15156,7 +15930,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0236")
+					(reference "#PWR0240")
 					(unit 1)
 				)
 			)
@@ -15172,7 +15946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9656c23-041e-4980-8e6c-8e694c416956")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR0233"
 			(at 238.76 99.06 0)
 			(effects
 				(font
@@ -15222,7 +15996,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0229")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -15312,7 +16086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc359711-aea4-4f82-9afb-ad15644a2f7b")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR0202"
 			(at 190.5 76.2 0)
 			(effects
 				(font
@@ -15321,7 +16095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 190.5 67.31 0)
 			(effects
 				(font
@@ -15362,7 +16136,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0198")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -15452,7 +16226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cefbbefd-8d0c-4744-b974-a937c0c6882c")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0206"
 			(at 203.2 45.72 0)
 			(effects
 				(font
@@ -15502,7 +16276,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0202")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -15518,7 +16292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf27cc2d-27f2-4807-bd96-fe6780f0ac79")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0109"
 			(at 60.96 134.62 0)
 			(effects
 				(font
@@ -15568,7 +16342,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0108")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -15584,7 +16358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfa22462-86af-47be-8087-65de71884f63")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0161"
 			(at 132.08 134.62 0)
 			(effects
 				(font
@@ -15634,7 +16408,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0159")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -15651,7 +16425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfc6e4f4-d00d-424e-8fc3-690307413ddd")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0122"
 			(at 81.28 186.69 0)
 			(effects
 				(font
@@ -15701,7 +16475,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0121")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -15791,7 +16565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2325123-e765-4dac-8968-071b36e78ddc")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0169"
 			(at 149.86 63.5 0)
 			(effects
 				(font
@@ -15841,7 +16615,74 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0167")
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 180.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d540afaf-86e6-4422-b75b-a32ab2d83381")
+		(property "Reference" "#PWR0181"
+			(at 160.02 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "961c5e39-add8-45f9-a281-ea277d856113")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -15857,7 +16698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5df1e2b-4fcc-43f7-bd88-ca25bfe5f927")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0154"
 			(at 119.38 129.54 0)
 			(effects
 				(font
@@ -15866,7 +16707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 119.38 120.65 0)
 			(effects
 				(font
@@ -15907,7 +16748,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0153")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -15923,7 +16764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6866207-464a-4486-92c8-9f5c7ef4c9de")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0104"
 			(at 60.96 45.72 0)
 			(effects
 				(font
@@ -15973,7 +16814,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0103")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -15989,7 +16830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7574f9d-2a36-4432-8a2b-18310ef367c4")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0223"
 			(at 220.98 134.62 0)
 			(effects
 				(font
@@ -16039,7 +16880,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0219")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -16055,7 +16896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7b2ab3e-da4c-4208-99dc-872e471db74e")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0110"
 			(at 66.04 40.64 0)
 			(effects
 				(font
@@ -16064,7 +16905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 66.04 31.75 0)
 			(effects
 				(font
@@ -16105,7 +16946,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0109")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -16121,7 +16962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8e0ff8a-2fa7-4792-8f4b-c62980ca3d86")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0117"
 			(at 78.74 63.5 0)
 			(effects
 				(font
@@ -16171,7 +17012,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0116")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -16187,7 +17028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da4684b2-2fb1-4e3b-8367-a080d0e7d8a3")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR0185"
 			(at 167.64 99.06 0)
 			(effects
 				(font
@@ -16237,7 +17078,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0181")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -16401,7 +17242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc00fa91-d386-4f0d-b30d-65543b5eb38e")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0216"
 			(at 208.28 111.76 0)
 			(effects
 				(font
@@ -16410,7 +17251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 208.28 102.87 0)
 			(effects
 				(font
@@ -16451,7 +17292,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0212")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -16541,7 +17382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ded83e2a-91dc-4a36-a996-bd9512309def")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0106"
 			(at 60.96 81.28 0)
 			(effects
 				(font
@@ -16591,7 +17432,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0105")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -16607,7 +17448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e16e2b82-58c4-423d-a668-df88fa57d76b")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR0179"
 			(at 154.94 129.54 0)
 			(effects
 				(font
@@ -16616,7 +17457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 154.94 120.65 0)
 			(effects
 				(font
@@ -16657,7 +17498,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0177")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -16673,7 +17514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e26ff5cb-40b2-45df-90fb-5b33fc074bb4")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0123"
 			(at 83.82 40.64 0)
 			(effects
 				(font
@@ -16682,7 +17523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 83.82 31.75 0)
 			(effects
 				(font
@@ -16723,7 +17564,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0122")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -16813,7 +17654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e335f049-792d-4a7f-8e2b-ce81f3891633")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0164"
 			(at 137.16 76.2 0)
 			(effects
 				(font
@@ -16822,7 +17663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 137.16 67.31 0)
 			(effects
 				(font
@@ -16863,7 +17704,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0162")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -16879,7 +17720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5c5948e-e610-4cfb-b719-11978ff607eb")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR0178"
 			(at 154.94 111.76 0)
 			(effects
 				(font
@@ -16888,7 +17729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 154.94 102.87 0)
 			(effects
 				(font
@@ -16929,7 +17770,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0176")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -17093,7 +17934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8f488b6-40bf-4545-a7a9-5ec80987d37c")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0217"
 			(at 208.28 129.54 0)
 			(effects
 				(font
@@ -17102,7 +17943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 208.28 120.65 0)
 			(effects
 				(font
@@ -17143,7 +17984,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0213")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -17159,7 +18000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d64678-3944-45d7-8264-17f16eaab43e")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR0232"
 			(at 238.76 81.28 0)
 			(effects
 				(font
@@ -17209,7 +18050,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0228")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -17225,7 +18066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea32dc07-8b1d-4493-986f-0920113e9878")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0113"
 			(at 66.04 93.98 0)
 			(effects
 				(font
@@ -17234,7 +18075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 66.04 85.09 0)
 			(effects
 				(font
@@ -17275,7 +18116,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0112")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -17365,7 +18206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb39fce5-ac21-40f2-bf6f-03a2a0895433")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0220"
 			(at 220.98 81.28 0)
 			(effects
 				(font
@@ -17415,7 +18256,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0216")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -17431,7 +18272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed7cfe0d-97bc-47ac-a520-f552d52c5992")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0212"
 			(at 208.28 40.64 0)
 			(effects
 				(font
@@ -17440,7 +18281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 208.28 31.75 0)
 			(effects
 				(font
@@ -17481,7 +18322,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0208")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -17497,7 +18338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edd142fe-44e1-4185-822d-84171cfecfb0")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0182"
 			(at 167.64 45.72 0)
 			(effects
 				(font
@@ -17547,7 +18388,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0178")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -17563,7 +18404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f186f20a-f728-44ef-b267-3d75b2b0baf1")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR0197"
 			(at 185.42 99.06 0)
 			(effects
 				(font
@@ -17613,7 +18454,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0193")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -17851,7 +18692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4d68b45-517b-4b82-855f-09daf97ea338")
-		(property "Reference" "#PWR0231"
+		(property "Reference" "#PWR0235"
 			(at 238.76 134.62 0)
 			(effects
 				(font
@@ -17901,7 +18742,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0231")
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -17917,7 +18758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4f06228-e71a-4707-8c45-00f2a8aac662")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0132"
 			(at 96.52 99.06 0)
 			(effects
 				(font
@@ -17967,7 +18808,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0131")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -18057,7 +18898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7139dae-1c33-4e3e-9537-3bc15d4794f2")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0163"
 			(at 137.16 58.42 0)
 			(effects
 				(font
@@ -18066,7 +18907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 137.16 49.53 0)
 			(effects
 				(font
@@ -18107,7 +18948,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0161")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -18123,7 +18964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f82dcc70-ed5e-46cf-9a42-e33ac12185c7")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0127"
 			(at 83.82 111.76 0)
 			(effects
 				(font
@@ -18132,7 +18973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 83.82 102.87 0)
 			(effects
 				(font
@@ -18173,7 +19014,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0126")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -18263,7 +19104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc1f5b7f-01e6-4a1e-98a0-5f7d9c1775c1")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0209"
 			(at 203.2 99.06 0)
 			(effects
 				(font
@@ -18313,7 +19154,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0205")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -18329,7 +19170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcf31495-8a4d-451f-b8ca-f0b99259d2f3")
-		(property "Reference" "#PWR0200"
+		(property "Reference" "#PWR0204"
 			(at 190.5 111.76 0)
 			(effects
 				(font
@@ -18338,7 +19179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 190.5 102.87 0)
 			(effects
 				(font
@@ -18379,7 +19220,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0200")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -18395,7 +19236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdd60b9e-c92a-43c6-b798-8f57493f89ae")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0167"
 			(at 137.16 129.54 0)
 			(effects
 				(font
@@ -18404,7 +19245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+4V5"
+		(property "Value" "LED4V5"
 			(at 137.16 120.65 0)
 			(effects
 				(font
@@ -18445,7 +19286,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0165")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -18461,7 +19302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe2182d9-c093-4c06-97ce-483dc050f0be")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0218"
 			(at 220.98 45.72 0)
 			(effects
 				(font
@@ -18511,7 +19352,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0600b049-21d1-41d4-ba88-3a8142850263"
-					(reference "#PWR0214")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)

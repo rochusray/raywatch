@@ -220,6 +220,48 @@
 		)
 	)
 	(sheet
+		(at 21.59 183.896)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "90fe4b64-91c1-409c-8cd3-04dd0818d46c")
+		(property "Sheetname" "Proximity & Gesture Sensor"
+			(at 21.59 183.1844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "proximity_gesture.kicad_sch"
+			(at 21.59 188.2906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 114.3)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -425,6 +467,48 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 174.498)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d5a2fc90-5630-482b-949a-d1a5e12221d9")
+		(property "Sheetname" "Light Sensor"
+			(at 21.59 173.7864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "light_sensor.kicad_sch"
+			(at 21.59 178.8926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
+					(page "26")
 				)
 			)
 		)

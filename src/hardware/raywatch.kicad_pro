@@ -967,6 +967,14 @@
     [
       "f2f5da81-6e74-45e5-9c07-b66eda9b7e5d",
       "Microphone"
+    ],
+    [
+      "d5a2fc90-5630-482b-949a-d1a5e12221d9",
+      "Light Sensor"
+    ],
+    [
+      "90fe4b64-91c1-409c-8cd3-04dd0818d46c",
+      "Proximity & Gesture Sensor"
     ]
   ],
   "text_variables": {}

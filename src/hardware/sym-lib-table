@@ -40,4 +40,8 @@
   (lib (name "CSD83325L")(type "KiCad")(uri "${KIPRJMOD}/symbols/CSD83325L.kicad_sym")(options "")(descr ""))
   (lib (name "TPS22916BYFPR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS22916BYFPR.kicad_sym")(options "")(descr ""))
   (lib (name "IM72D128V01XTMA1")(type "KiCad")(uri "${KIPRJMOD}/symbols/IM72D128V01XTMA1.kicad_sym")(options "")(descr ""))
+  (lib (name "APDS-9500")(type "KiCad")(uri "${KIPRJMOD}/symbols/APDS-9500.kicad_sym")(options "")(descr ""))
+  (lib (name "LTR-329ALS-01")(type "KiCad")(uri "${KIPRJMOD}/symbols/LTR-329ALS-01.kicad_sym")(options "")(descr ""))
+  (lib (name "VSMY2850G")(type "KiCad")(uri "${KIPRJMOD}/symbols/VSMY2850G.kicad_sym")(options "")(descr ""))
+  (lib (name "SG-210STF_24.0000ML0")(type "KiCad")(uri "${KIPRJMOD}/symbols/SG-210STF_24.0000ML0.kicad_sym")(options "")(descr ""))
 )
