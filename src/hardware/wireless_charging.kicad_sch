@@ -2848,7 +2848,7 @@
 				)
 			)
 		)
-		(property "Value" "422"
+		(property "Value" "422Ω"
 			(at 116.84 116.84 90)
 			(effects
 				(font
@@ -4501,7 +4501,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 167.64 72.39 90)
 			(effects
 				(font
@@ -4785,7 +4785,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 167.64 81.28 90)
 			(effects
 				(font
@@ -5364,7 +5364,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 116.84 104.14 90)
 			(effects
 				(font

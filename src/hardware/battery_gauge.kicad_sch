@@ -1312,15 +1312,15 @@
 		(fields_autoplaced yes)
 		(uuid "21d89382-ed8e-4e65-809f-174fdf33fa23")
 		(property "Reference" "R8"
-			(at 113.03 116.84 90)
+			(at 113.03 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 113.03 119.38 90)
+		(property "Value" "10kΩ"
+			(at 113.03 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,7 +2149,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10m"
+		(property "Value" "10mΩ"
 			(at 172.72 99.0599 0)
 			(effects
 				(font
@@ -2185,7 +2185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sense" "1%"
+		(property "Tolerance" "1%"
 			(at 170.18 97.79 0)
 			(effects
 				(font
@@ -2228,7 +2228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 121.92 116.8399 0)
 			(effects
 				(font

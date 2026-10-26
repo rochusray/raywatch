@@ -1763,7 +1763,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100KΩ"
 			(at 175.26 110.4899 0)
 			(effects
 				(font
@@ -2187,7 +2187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "400K"
+		(property "Value" "400KΩ"
 			(at 175.26 102.8699 0)
 			(effects
 				(font

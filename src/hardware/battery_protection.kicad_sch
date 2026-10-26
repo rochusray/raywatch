@@ -2006,7 +2006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2.2kΩ"
 			(at 134.62 101.5999 0)
 			(effects
 				(font
@@ -2043,10 +2043,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ad6a6231-bd44-4cf8-b279-02620c3ae8fc")
+			(uuid "ad6a6231-bd44-4cf8-b279-02620c3ae8fd")
 		)
 		(pin "1"
-			(uuid "e4a2dfc0-dd1d-4086-a7f1-2a0bd12ac0a1")
+			(uuid "e4a2dfc0-dd1d-4086-a7f1-2a0bd12ac0a2")
 		)
 		(instances
 			(project "raywatch"

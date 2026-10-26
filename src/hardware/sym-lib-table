@@ -34,4 +34,5 @@
   (lib (name "WE-WPCC_RX_1COIL")(type "KiCad")(uri "${KIPRJMOD}/symbols/WE-WPCC_RX_1COIL.kicad_sym")(options "")(descr ""))
   (lib (name "TPS7A2033DQNR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS7A2033DQNR.kicad_sym")(options "")(descr ""))
   (lib (name "BM29B0.6-2DS_2-0.35V51")(type "KiCad")(uri "${KIPRJMOD}/symbols/BM29B0.6-2DS_2-0.35V51.kicad_sym")(options "")(descr ""))
+  (lib (name "DSC6003CE2A-000.0000")(type "KiCad")(uri "${KIPRJMOD}/symbols/DSC6003CE2A-000.0000.kicad_sym")(options "")(descr ""))
 )

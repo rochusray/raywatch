@@ -1966,7 +1966,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 134.62 116.84 90)
 			(effects
 				(font
@@ -2234,7 +2234,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 134.62 143.51 90)
 			(effects
 				(font
@@ -2368,7 +2368,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 134.62 107.95 90)
 			(effects
 				(font
@@ -2506,7 +2506,7 @@
 				)
 			)
 		)
-		(property "Value" "28"
+		(property "Value" "28Ω"
 			(at 134.62 86.36 90)
 			(effects
 				(font
@@ -2711,7 +2711,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 134.62 125.73 90)
 			(effects
 				(font
@@ -2779,7 +2779,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 134.62 99.06 90)
 			(effects
 				(font
@@ -2918,7 +2918,7 @@
 				)
 			)
 		)
-		(property "Value" "28"
+		(property "Value" "28Ω"
 			(at 134.62 134.62 90)
 			(effects
 				(font
@@ -2986,7 +2986,7 @@
 				)
 			)
 		)
-		(property "Value" "28"
+		(property "Value" "28Ω"
 			(at 134.62 77.47 90)
 			(effects
 				(font

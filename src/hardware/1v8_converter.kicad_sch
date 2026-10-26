@@ -1372,7 +1372,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "76098642-6b3b-49bc-b3ce-cac78e627163")
+			(uuid "76098642-6b3b-49bc-b3ce-cac78e627164")
 		)
 		(instances
 			(project "raywatch"
@@ -1440,10 +1440,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4955f78-0bcd-4171-979b-04ee47130902")
+			(uuid "a4955f78-0bcd-4171-979b-04ee47130903")
 		)
 		(pin "2"
-			(uuid "0fffe31c-ae98-45be-b0cf-a575375322f3")
+			(uuid "0fffe31c-ae98-45be-b0cf-a575375322f4")
 		)
 		(instances
 			(project "raywatch"

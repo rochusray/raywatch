@@ -3403,7 +3403,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100Ω"
 			(at 67.31 128.2699 0)
 			(effects
 				(font
@@ -4277,15 +4277,15 @@
 		(fields_autoplaced yes)
 		(uuid "5accd3b1-c83f-44ba-98d4-d55e248724f8")
 		(property "Reference" "R?"
-			(at 115.57 72.39 90)
+			(at 115.57 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 115.57 74.93 90)
+		(property "Value" "220Ω"
+			(at 115.57 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
