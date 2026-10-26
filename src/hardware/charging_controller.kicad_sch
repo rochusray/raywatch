@@ -687,51 +687,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Thermistor_NTC"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "NTCG103JF103FT1:NTCG103JF103FT1"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TH"
-				(at -4.445 0 90)
+			(property "Reference" "RT"
+				(at -5.091 2.5455 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "Thermistor_NTC"
-				(at 3.175 0 90)
+			(property "Value" "NTCG103JF103FT1"
+				(at -5.098 -5.098 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 1.27 0)
+			(property "Footprint" "NTCG103JF103FT1:THERM_NTCG103JF103FT1"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -740,7 +731,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -749,152 +740,131 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_* RV_*"
+			(property "MF" "TDK"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "Thermistor_NTC_0_1"
-				(arc
-					(start -3.175 2.413)
-					(mid -3.0506 2.3165)
-					(end -3.048 2.159)
-					(stroke
-						(width 0)
-						(type default)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.55 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(arc
-					(start -3.048 2.794)
-					(mid -2.9736 2.9736)
-					(end -2.794 3.048)
-					(stroke
-						(width 0)
-						(type default)
+			)
+			(property "Package" "1005 TDK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(arc
-					(start -2.794 3.048)
-					(mid -2.6144 2.9736)
-					(end -2.54 2.794)
-					(stroke
-						(width 0)
-						(type default)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(arc
-					(start -2.794 2.54)
-					(mid -2.9736 2.6144)
-					(end -3.048 2.794)
-					(stroke
-						(width 0)
-						(type default)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/NTCG103JF103FT1/TDK/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(arc
-					(start -2.794 1.905)
-					(mid -2.9736 1.9794)
-					(end -3.048 2.159)
-					(stroke
-						(width 0)
-						(type default)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(arc
-					(start -2.54 2.159)
-					(mid -2.6144 1.9794)
-					(end -2.794 1.905)
-					(stroke
-						(width 0)
-						(type default)
+			)
+			(property "PARTREV" "8/12/2022"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(arc
-					(start -2.159 2.794)
-					(mid -2.434 2.5608)
-					(end -2.794 2.54)
-					(stroke
-						(width 0)
-						(type default)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/NTCG103JF103FT1/TDK/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
+			)
+			(property "MP" "NTCG103JF103FT1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "NTC Thermistor 10k 0402 (1005 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TDK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "NTCG103JF103FT1_0_0"
 				(polyline
 					(pts
-						(xy -2.54 2.159) (xy -2.54 2.794)
+						(xy -3.81 -1.27) (xy -5.08 0)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
-						(xy -1.778 -3.429)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -903,40 +873,146 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Thermistor_NTC_1_1"
+				(polyline
+					(pts
+						(xy -3.302 -2.54) (xy -5.334 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -2.54) (xy 3.556 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at -7.62 0 0)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 7.62 0 180)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1728,16 +1804,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 106.68) (xy 191.77 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "450cf274-4107-4e7e-83cf-ba53a96f29ae")
-	)
-	(wire
-		(pts
 			(xy 172.72 74.93) (xy 179.07 74.93)
 		)
 		(stroke
@@ -2370,83 +2436,6 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/8b20ce3c-0acc-410e-a16d-32a077d218e5"
 					(reference "C81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 187.96 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "549e55b8-f8dc-4d5c-b2c5-a328cfc30e4b")
-		(property "Reference" "TH1"
-			(at 188.2775 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kΩ at 25°C"
-			(at 188.2775 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 187.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "β(25/85)" "3435K"
-			(at 187.96 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85bab1b3-b815-4883-848d-f286ba08a136")
-		)
-		(pin "2"
-			(uuid "2c4bd775-be0f-48c9-8aad-544768031ce8")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/8b20ce3c-0acc-410e-a16d-32a077d218e5"
-					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -3612,7 +3601,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 106.68 0)
+		(at 199.39 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3621,7 +3610,7 @@
 		(fields_autoplaced yes)
 		(uuid "c59addd4-f0ed-4e2c-86e5-75fe7ab84d79")
 		(property "Reference" "#PWR0389"
-			(at 195.58 113.03 0)
+			(at 199.39 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3619,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 111.76 0)
+			(at 199.39 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +3627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3645,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,6 +4594,195 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/8b20ce3c-0acc-410e-a16d-32a077d218e5"
 					(reference "#PWR0376")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NTCG103JF103FT1:NTCG103JF103FT1")
+		(at 191.77 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc97c324-ad31-4e04-af50-423d181e5434")
+		(property "Reference" "RT1"
+			(at 191.643 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NTCG103JF103FT1"
+			(at 191.643 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:THERM_NTCG103JF103FT1"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TDK"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.55 mm"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1005 TDK"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/NTCG103JF103FT1/TDK/view-part/?ref=eda"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "8/12/2022"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NTCG103JF103FT1/TDK/view-part/?ref=snap"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "NTCG103JF103FT1"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "NTC Thermistor 10k 0402 (1005 Metric)"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3447f14-bdf3-4621-a817-51e40b195dd1")
+		)
+		(pin "2"
+			(uuid "5a6cfc7c-76f4-4283-bece-b42c2054ec0b")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/8b20ce3c-0acc-410e-a16d-32a077d218e5"
+					(reference "RT1")
 					(unit 1)
 				)
 			)

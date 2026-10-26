@@ -271,50 +271,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_Shielded"
+		(symbol "EVQ-P7A01P:EVQ-P7A01P"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 4.318 2.032 0)
+			(property "Reference" "S"
+				(at -2.54 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "SW_Push_Shielded"
-				(at 0 4.572 0)
+			(property "Value" "EVQ-P7A01P"
+				(at -2.54 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
+			(property "Footprint" "EVQ-P7A01P:SW_EVQ-P7A01P"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -323,7 +315,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton momentary"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -332,140 +324,244 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_Shielded_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
+			(property "MF" "Panasonic Electronic Components"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
+					(justify bottom)
+					(hide yes)
 				)
 			)
-			(symbol "SW_Push_Shielded_1_1"
-				(rectangle
-					(start -3.048 2.54)
-					(end 3.048 -1.27)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "2022.4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "EVQ-P7A01P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Switch;Tactile;3.5x2.9mm;Right Angle;Light Touch Switch | Panasonic Electronic Components EVQ-P7A01P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Panasonic Electronic Components"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "EVQ-P7A01P_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
 					(stroke
-						(width -0.0254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.794 2.1336)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.921 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "B"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "SH"
+					(number "1_1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1381,88 +1477,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 113.03 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "067cbfbb-8bbd-41ee-a2ca-88ee3f79eca8")
-		(property "Reference" "SW1"
-			(at 113.03 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Grounded"
-			(at 113.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
-			(at 113.03 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SH"
-			(uuid "c0919437-c957-4354-bd77-0a1526e4cdaf")
-		)
-		(pin "1"
-			(uuid "bc52a5f4-42ad-433c-9342-5fb95360886a")
-		)
-		(pin "2"
-			(uuid "6fd31c6c-b2e0-4000-ad18-1c487997be0a")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 107.95 80.01 0)
+		(at 194.31 59.69 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "071400e7-a409-46da-b5f5-df14116e0f95")
-		(property "Reference" "#PWR051"
-			(at 107.95 86.36 0)
+		(uuid "05118944-d234-477f-9a51-282bfc55b053")
+		(property "Reference" "#PWR055"
+			(at 194.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1497,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 81.2799 0)
+			(at 196.85 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 80.01 0)
+			(at 194.31 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,7 +1515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 80.01 0)
+			(at 194.31 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +1524,74 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 80.01 0)
+			(at 194.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7436c42a-0ec6-458e-922e-5205b330f93e")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "071400e7-a409-46da-b5f5-df14116e0f95")
+		(property "Reference" "#PWR051"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,6 +1680,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 194.31 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f37402f-766a-4dfd-bf85-ba665653237c")
+		(property "Reference" "#PWR056"
+			(at 194.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "955dc473-8897-4080-8b15-08736cb5b411")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 132.08 53.34 180)
 		(unit 1)
@@ -1651,6 +1812,74 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11c4ba51-dcbb-4371-9b4d-c38460eb1b0c")
+		(property "Reference" "#PWR057"
+			(at 194.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dd5e589-11e1-4206-aa66-72ff6a40a119")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -1727,74 +1956,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 189.23 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ca641d4-84e4-45a7-8cfb-a002ab2a348d")
-		(property "Reference" "#PWR076"
-			(at 189.23 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4007ab05-5a56-4d78-9459-fe603446d434")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 171.45 99.06 270)
 		(mirror x)
@@ -1858,6 +2019,201 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVQ-P7A01P:EVQ-P7A01P")
+		(at 110.49 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25ff527c-f241-4fe2-8a20-05c5e7253702")
+		(property "Reference" "S2"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-P7A01P"
+			(at 110.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:SW_EVQ-P7A01P"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic Electronic Components"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=eda"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2022.4"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=snap"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVQ-P7A01P"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Switch;Tactile;3.5x2.9mm;Right Angle;Light Touch Switch | Panasonic Electronic Components EVQ-P7A01P"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_2"
+			(uuid "fb950c9b-71fd-4448-a88b-954b35975efc")
+		)
+		(pin "1_2"
+			(uuid "804860f0-c53c-49ce-99a2-8df996b76b5b")
+		)
+		(pin "1_1"
+			(uuid "228151a3-1d04-4989-8951-9098f290f908")
+		)
+		(pin "2_1"
+			(uuid "d8a1f4e1-875a-44b5-8c14-e79bd25a0e5e")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -1997,6 +2353,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3721a89f-1b4a-4263-a433-9185dfa7ec3e")
+		(property "Reference" "#PWR052"
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87315e5e-9a27-47ea-a253-3e1166a3cbed")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 125.73 99.06 90)
 		(unit 1)
@@ -2059,78 +2482,6 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 184.15 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ecd622b-0911-408d-b4ed-2f3ca685dfe5")
-		(property "Reference" "SW6"
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Grounded"
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
-			(at 184.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SH"
-			(uuid "89909e92-02bf-4d68-8dc3-866e3e6eb97a")
-		)
-		(pin "1"
-			(uuid "6afa2bb8-c8ad-4c0e-9cba-23a54a0659ff")
-		)
-		(pin "2"
-			(uuid "18b07b92-1dfb-40ef-81fd-725f52dabfab")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -2206,72 +2557,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 113.03 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54536236-8ea5-409e-aeeb-b0d2eb3c605e")
-		(property "Reference" "#PWR055"
-			(at 113.03 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "935b1610-bf66-4f6e-9000-d6814a77ba07")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 165.1 92.71 0)
 		(mirror x)
@@ -2337,72 +2622,6 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55915704-d152-4fb3-ab26-2d20436065c7")
-		(property "Reference" "#PWR056"
-			(at 113.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a9dcc1d-4aee-4a6e-a8fc-863b25c92e8f")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2542,74 +2761,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 189.23 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "597ea6c6-e6fc-4e7d-aef3-5d145191e72b")
-		(property "Reference" "#PWR075"
-			(at 189.23 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4e84fb6-d807-4597-8c93-9bb83b22c3c5")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 165.1 73.66 0)
 		(mirror x)
@@ -2675,73 +2826,6 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c1eb981-1c22-4be4-be61-5b5e0bbfc954")
-		(property "Reference" "#PWR053"
-			(at 107.95 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28a9ed2f-a75f-4a41-a4fb-d41ca494c886")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2817,115 +2901,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 113.03 80.01 0)
+		(lib_id "EVQ-P7A01P:EVQ-P7A01P")
+		(at 110.49 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "637ca2cc-9daa-4c96-b20a-2c477b72b2e2")
-		(property "Reference" "SW2"
-			(at 113.03 72.39 0)
+		(uuid "66301876-5706-4341-8364-bc00b6e0ea72")
+		(property "Reference" "S1"
+			(at 110.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push_Grounded"
-			(at 113.03 74.93 0)
+		(property "Value" "EVQ-P7A01P"
+			(at 110.49 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 113.03 74.93 0)
+		(property "Footprint" "Project:SW_EVQ-P7A01P"
+			(at 110.49 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
-			(at 113.03 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SH"
-			(uuid "bcfd9957-7d1a-4b31-9dca-c963113417f2")
-		)
-		(pin "1"
-			(uuid "2bff0565-1e06-455f-b80a-8d66330e04c8")
-		)
-		(pin "2"
-			(uuid "38e36e67-7d08-498f-95a2-f1e93bae764f")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b80687e-8552-42c6-b8d0-f1e9bcd17784")
-		(property "Reference" "#PWR052"
-			(at 107.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 99.06 0)
+			(at 110.49 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,8 +2945,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 99.06 0)
+		(property "Description" ""
+			(at 110.49 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,13 +2954,142 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2f896e4f-23db-4c4f-b034-8a45acbea3db")
+		(property "MF" "Panasonic Electronic Components"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=eda"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2022.4"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=snap"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVQ-P7A01P"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Switch;Tactile;3.5x2.9mm;Right Angle;Light Touch Switch | Panasonic Electronic Components EVQ-P7A01P"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_2"
+			(uuid "4000cf0a-f042-46d2-aac9-ecec9cb16f32")
+		)
+		(pin "1_2"
+			(uuid "437e41b4-9ffb-48b1-bc8f-1a57269e1c35")
+		)
+		(pin "1_1"
+			(uuid "4fdf0546-2993-4c20-8b8b-51e7181aeff7")
+		)
+		(pin "2_1"
+			(uuid "c5be2de8-2b18-4821-bd03-79411ad0aef0")
 		)
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR052")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -3026,17 +3167,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 121.92 0)
-		(mirror y)
+		(at 102.87 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7423a709-5f99-482a-8dc3-fe39e1047bbe")
-		(property "Reference" "#PWR073"
-			(at 184.15 128.27 0)
+		(uuid "76865272-aa7e-4daf-a2a1-b58db015ae4c")
+		(property "Reference" "#PWR050"
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3045,15 +3185,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 127 0)
+			(at 100.33 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 121.92 0)
+			(at 102.87 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 121.92 0)
+			(at 102.87 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3212,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 121.92 0)
+			(at 102.87 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,12 +3221,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff77e83b-1b60-478e-8113-c859528ec8e9")
+			(uuid "dba2a855-d551-4380-b3bd-b0930a390b22")
 		)
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR073")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3159,150 +3300,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 184.15 99.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78329563-f5e7-45a7-a427-90bb2423e427")
-		(property "Reference" "SW8"
-			(at 184.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Grounded"
-			(at 184.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
-			(at 184.15 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SH"
-			(uuid "181c4546-42a8-48be-8161-7c0a8a77a471")
-		)
-		(pin "1"
-			(uuid "db94e43a-50e3-4117-9822-3aa2a953d94c")
-		)
-		(pin "2"
-			(uuid "566ea8b8-b970-4cdd-a298-367d247cc08d")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 184.15 137.16 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "783bcd44-7772-4a9f-8416-5ddd9f1b6c94")
-		(property "Reference" "SW10"
-			(at 184.15 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Grounded"
-			(at 184.15 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
-			(at 184.15 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SH"
-			(uuid "701da7d9-525b-47ca-bc4d-b0439ff408a2")
-		)
-		(pin "1"
-			(uuid "b13715a5-d9c6-43fc-bb6a-95a55b58072b")
-		)
-		(pin "2"
-			(uuid "60836140-cf6b-4a38-9951-3d42a85f5426")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 165.1 111.76 0)
 		(mirror x)
@@ -3368,72 +3365,6 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7dc39bb5-afe6-49f5-ad2b-628fa728a0a7")
-		(property "Reference" "#PWR057"
-			(at 113.03 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ef54b69-7055-4aef-b25c-c6c7749c8058")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3647,6 +3578,141 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 194.31 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ed6b1e4-10ab-481d-bdc7-72b4256fbd54")
+		(property "Reference" "#PWR059"
+			(at 194.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53239620-4770-425e-9712-a4e6750f1311")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ed9420f-e9d2-4a20-a2f9-ada5a2d3b0aa")
+		(property "Reference" "#PWR053"
+			(at 102.87 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71329736-0d48-45d0-9321-9cbede3897d5")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 132.08 127 0)
 		(unit 1)
@@ -3707,6 +3773,201 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVQ-P7A01P:EVQ-P7A01P")
+		(at 110.49 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cf2f5f4-cb66-4176-97a3-0e737a5038d0")
+		(property "Reference" "S5"
+			(at 110.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-P7A01P"
+			(at 110.49 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:SW_EVQ-P7A01P"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic Electronic Components"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=eda"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2022.4"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=snap"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVQ-P7A01P"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Switch;Tactile;3.5x2.9mm;Right Angle;Light Touch Switch | Panasonic Electronic Components EVQ-P7A01P"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_2"
+			(uuid "c9c00a9c-16ce-42c0-8dfc-e5159d150d6e")
+		)
+		(pin "1_2"
+			(uuid "2f1526e4-cffa-43ff-a266-91c4d0549128")
+		)
+		(pin "1_1"
+			(uuid "07531699-93fa-42ab-9150-8e75d209bf30")
+		)
+		(pin "2_1"
+			(uuid "06616775-27b9-4dd6-98a3-2370f4e15704")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -3853,44 +4114,44 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 107.95 59.69 0)
+		(lib_id "EVQ-P7A01P:EVQ-P7A01P")
+		(at 186.69 118.11 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ae044d57-e83c-4b1d-8643-e2341287cd62")
-		(property "Reference" "#PWR050"
-			(at 107.95 66.04 0)
+		(uuid "b71b4482-cff3-4df2-adb7-01fc38ab7415")
+		(property "Reference" "S9"
+			(at 186.69 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 105.41 60.9599 0)
+		(property "Value" "EVQ-P7A01P"
+			(at 186.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 107.95 59.69 0)
+		(property "Footprint" "Project:SW_EVQ-P7A01P"
+			(at 186.69 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 59.69 0)
+			(at 186.69 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,8 +4159,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 59.69 0)
+		(property "Description" ""
+			(at 186.69 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,84 +4168,142 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "ca641ddc-7158-45a3-b4d9-bd60fdf3e553")
+		(property "MF" "Panasonic Electronic Components"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=eda"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2022.4"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=snap"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVQ-P7A01P"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Switch;Tactile;3.5x2.9mm;Right Angle;Light Touch Switch | Panasonic Electronic Components EVQ-P7A01P"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_2"
+			(uuid "0b561abe-f9b8-4bfe-aad6-7cdb5ed1c484")
+		)
+		(pin "1_2"
+			(uuid "23ac3162-c304-488d-a9bc-4d54b25f49f9")
+		)
+		(pin "1_1"
+			(uuid "36486141-fb55-426b-a44d-c080e725821d")
+		)
+		(pin "2_1"
+			(uuid "bfa86013-e3d8-4d0b-9816-b32eccd86bc8")
 		)
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 113.03 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1c03d09-8614-4b5f-bf11-771fcbb3ccf5")
-		(property "Reference" "SW4"
-			(at 113.03 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Grounded"
-			(at 113.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
-			(at 113.03 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SH"
-			(uuid "f55120f5-ee8e-414c-ae7e-b7b06df07107")
-		)
-		(pin "1"
-			(uuid "6aa1ed25-bbbd-45b0-9db3-7120001a0719")
-		)
-		(pin "2"
-			(uuid "ece0b2ed-09a4-43c3-8c16-a6fabcccdbbe")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW4")
+					(reference "S9")
 					(unit 1)
 				)
 			)
@@ -4059,8 +4378,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 189.23 137.16 0)
+		(lib_id "EVQ-P7A01P:EVQ-P7A01P")
+		(at 186.69 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4068,103 +4387,35 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf00d917-4f98-4451-b3ba-c76528f720f0")
-		(property "Reference" "#PWR079"
-			(at 189.23 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a4325f1-303a-49ea-b84a-5b573e9e2b69")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 63.5 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3f422c8-04cd-4590-aa0a-4ad90730854e")
-		(property "Reference" "#PWR070"
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 68.58 0)
+		(uuid "c28f55d0-ba91-4db5-b269-e7c6f77c42cf")
+		(property "Reference" "S8"
+			(at 186.69 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 184.15 63.5 0)
+		(property "Value" "EVQ-P7A01P"
+			(at 186.69 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Footprint" "Project:SW_EVQ-P7A01P"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 63.5 0)
+			(at 186.69 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4172,8 +4423,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 63.5 0)
+		(property "Description" ""
+			(at 186.69 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,148 +4432,142 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e78f513e-6cd1-4357-b6db-172583843af7")
+		(property "MF" "Panasonic Electronic Components"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=eda"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2022.4"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=snap"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVQ-P7A01P"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Switch;Tactile;3.5x2.9mm;Right Angle;Light Touch Switch | Panasonic Electronic Components EVQ-P7A01P"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_2"
+			(uuid "c6360c54-d983-4f6e-a2b2-344bcd1acc35")
+		)
+		(pin "1_2"
+			(uuid "934285e0-c010-48ef-81b4-aeca6e5b244b")
+		)
+		(pin "1_1"
+			(uuid "429b795a-2e76-4573-ba00-783a9963db20")
+		)
+		(pin "2_1"
+			(uuid "633d950c-9a62-45d5-bfde-548d7f0812e3")
 		)
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 99.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6fa93b3-fc94-4d22-8c04-ba5849477910")
-		(property "Reference" "#PWR077"
-			(at 189.23 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad61c14f-4b43-435d-8db6-dfd9ccff15f3")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c85de45e-dece-4b20-9bcb-5f1e0813181b")
-		(property "Reference" "#PWR071"
-			(at 184.15 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23754ac4-45b5-435e-b25f-bb99e174e877")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR071")
+					(reference "S8")
 					(unit 1)
 				)
 			)
@@ -4389,417 +4634,6 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc8c340c-ad50-4c5b-a565-15e72a98cc5f")
-		(property "Reference" "#PWR058"
-			(at 113.03 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d33b639-1bdc-47aa-b367-08c117812311")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd74dbd6-7a18-4346-b874-e89b5a06a26d")
-		(property "Reference" "#PWR078"
-			(at 189.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d8d5c67-f18c-49ac-b2e0-05e970511968")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 184.15 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce1fdad8-a116-49c8-907a-a00c3f805c94")
-		(property "Reference" "SW9"
-			(at 184.15 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Grounded"
-			(at 184.15 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
-			(at 184.15 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SH"
-			(uuid "d0bc0cc5-0b76-44e2-a8fc-5299b0da1f2a")
-		)
-		(pin "1"
-			(uuid "c629bcc7-8a46-466a-9b87-c97ea45b3a1e")
-		)
-		(pin "2"
-			(uuid "aae13078-8dad-4492-abf9-3308fed5bef6")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 184.15 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfd78e14-c562-4f1b-b482-4d21a1d57d30")
-		(property "Reference" "SW7"
-			(at 184.15 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Grounded"
-			(at 184.15 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
-			(at 184.15 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SH"
-			(uuid "110e4b75-5dff-4088-aa1a-2e07df115bee")
-		)
-		(pin "1"
-			(uuid "0633ff1a-1038-4c23-8a2e-0409c0b6a088")
-		)
-		(pin "2"
-			(uuid "549c3e9a-338e-4a58-86ec-99c86715839d")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 102.87 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1b45d14-a130-47ac-b7bc-d5432a0df59d")
-		(property "Reference" "#PWR072"
-			(at 184.15 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0684e8cd-feed-413e-b897-bc4514730df4")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d28895e5-1bcf-41a4-b50d-6555f4c9d3bd")
-		(property "Reference" "#PWR059"
-			(at 113.03 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fcf7578-fa76-41c3-886a-79e64766c064")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -5007,73 +4841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 184.15 140.97 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcb38229-9801-4884-b88e-6f37aaea30c0")
-		(property "Reference" "#PWR074"
-			(at 184.15 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d3afaee-3c25-43c7-9247-93385576f40f")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 165.1 88.9 0)
 		(mirror y)
@@ -5135,6 +4902,74 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfe3061b-aa8e-4207-a4d1-5f8bb477298b")
+		(property "Reference" "#PWR058"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "820acfce-98f2-4f07-826f-eec2d2155a7d")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -5212,6 +5047,592 @@
 		)
 	)
 	(symbol
+		(lib_id "EVQ-P7A01P:EVQ-P7A01P")
+		(at 186.69 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb4351aa-2b54-4bc8-b540-91cdf23ea55e")
+		(property "Reference" "S10"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-P7A01P"
+			(at 186.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:SW_EVQ-P7A01P"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic Electronic Components"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=eda"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2022.4"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=snap"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVQ-P7A01P"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Switch;Tactile;3.5x2.9mm;Right Angle;Light Touch Switch | Panasonic Electronic Components EVQ-P7A01P"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_2"
+			(uuid "c55bf898-f709-4022-99f0-607dd8d581c9")
+		)
+		(pin "1_2"
+			(uuid "a0467b53-f1a4-4784-ae49-b52c6e942718")
+		)
+		(pin "1_1"
+			(uuid "22199126-738f-4e3a-a15d-713884e02c6e")
+		)
+		(pin "2_1"
+			(uuid "72097a74-5c94-42bd-8042-8ffd0a65f708")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVQ-P7A01P:EVQ-P7A01P")
+		(at 110.49 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed195358-29c9-485d-8038-51eca10bfffe")
+		(property "Reference" "S4"
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-P7A01P"
+			(at 110.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:SW_EVQ-P7A01P"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic Electronic Components"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=eda"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2022.4"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=snap"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVQ-P7A01P"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Switch;Tactile;3.5x2.9mm;Right Angle;Light Touch Switch | Panasonic Electronic Components EVQ-P7A01P"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_2"
+			(uuid "2d690a2c-cf1a-4969-9d68-ee3b0b4fde47")
+		)
+		(pin "1_2"
+			(uuid "452c1588-ff1d-4a86-8e4a-061af15c281c")
+		)
+		(pin "1_1"
+			(uuid "fcd73aee-1818-4d77-a9f0-721f94ee8785")
+		)
+		(pin "2_1"
+			(uuid "6fe782cb-75ae-4ccf-9dfd-ee0bfa8e596f")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVQ-P7A01P:EVQ-P7A01P")
+		(at 110.49 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed8624d1-97cc-4fab-93a1-8d2f095e4125")
+		(property "Reference" "S3"
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-P7A01P"
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:SW_EVQ-P7A01P"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic Electronic Components"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=eda"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2022.4"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=snap"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVQ-P7A01P"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Switch;Tactile;3.5x2.9mm;Right Angle;Light Touch Switch | Panasonic Electronic Components EVQ-P7A01P"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_2"
+			(uuid "3dce0153-445d-4d02-bd44-742678741bdb")
+		)
+		(pin "1_2"
+			(uuid "14b0a799-4a5d-4009-a37d-dba4a8446977")
+		)
+		(pin "1_1"
+			(uuid "3d8f3f03-d6ab-4062-8093-f89dfd4c4df9")
+		)
+		(pin "2_1"
+			(uuid "08d77383-17fe-4807-9f97-780eb381defc")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 132.08 130.81 180)
 		(unit 1)
@@ -5282,88 +5703,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 113.03 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f52162fa-b9d9-4a51-9758-669a966ce678")
-		(property "Reference" "SW3"
-			(at 113.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Grounded"
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
-			(at 113.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SH"
-			(uuid "5a89e145-108a-40d7-b0fe-39b02494d2dd")
-		)
-		(pin "1"
-			(uuid "db1e5450-3cdb-4ae0-9c3b-7285d55fdbf8")
-		)
-		(pin "2"
-			(uuid "1ed2d067-0db5-4b8f-9d4b-7e329a1c7752")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 107.95 137.16 0)
+		(at 102.87 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fa8b5d2f-ff06-442a-97ae-cd17bf332db5")
+		(uuid "fbb01508-5c05-445c-bd7c-fb038d69a275")
 		(property "Reference" "#PWR054"
-			(at 107.95 143.51 0)
+			(at 102.87 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5722,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 138.4299 0)
+			(at 100.33 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,7 +5731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 137.16 0)
+			(at 102.87 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 137.16 0)
+			(at 102.87 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +5749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 137.16 0)
+			(at 102.87 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5758,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7dcac6c1-462c-472b-a559-ccaabbdee4cf")
+			(uuid "55b32c80-e0b4-4634-90ff-a9ae90774a1f")
 		)
 		(instances
 			(project "raywatch"
@@ -5420,33 +5770,44 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 113.03 137.16 0)
+		(lib_id "EVQ-P7A01P:EVQ-P7A01P")
+		(at 186.69 80.01 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ffda8091-0d55-4d13-bf6a-e093b0a2d8c4")
-		(property "Reference" "SW5"
-			(at 113.03 129.54 0)
+		(uuid "fd6d2be7-2374-44ca-a94f-92a6deba3c42")
+		(property "Reference" "S7"
+			(at 186.69 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push_Grounded"
-			(at 113.03 132.08 0)
+		(property "Value" "EVQ-P7A01P"
+			(at 186.69 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 113.03 132.08 0)
+		(property "Footprint" "Project:SW_EVQ-P7A01P"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,8 +5815,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 113.03 132.08 0)
+		(property "Description" ""
+			(at 186.69 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5463,28 +5824,338 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
-			(at 113.03 137.16 0)
+		(property "MF" "Panasonic Electronic Components"
+			(at 186.69 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "SH"
-			(uuid "ee52bf6c-051a-4417-ac75-0e4c8f6e6d03")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "fda9c0f6-7e62-4e53-9387-1a139c70c58d")
+		(property "Package" "None"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "2c5d92cf-3f95-49e7-a912-6a9d9e96f654")
+		(property "Price" "None"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=eda"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2022.4"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=snap"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVQ-P7A01P"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Switch;Tactile;3.5x2.9mm;Right Angle;Light Touch Switch | Panasonic Electronic Components EVQ-P7A01P"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_2"
+			(uuid "27428ae3-ff49-4cd8-8826-8d87c347f9ca")
+		)
+		(pin "1_2"
+			(uuid "fc0ea805-f485-4069-a932-3dc506195ac6")
+		)
+		(pin "1_1"
+			(uuid "786217a3-379b-4fc1-9a03-824959ff43d0")
+		)
+		(pin "2_1"
+			(uuid "6051033a-f684-469f-a23d-085c51c2c001")
 		)
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
-					(reference "SW5")
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVQ-P7A01P:EVQ-P7A01P")
+		(at 186.69 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff33537b-c57d-4fea-a9b3-296f8f3e0fe1")
+		(property "Reference" "S6"
+			(at 186.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-P7A01P"
+			(at 186.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:SW_EVQ-P7A01P"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic Electronic Components"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=eda"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2022.4"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7A01P/Panasonic+Electronic+Components/view-part/?ref=snap"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVQ-P7A01P"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Switch;Tactile;3.5x2.9mm;Right Angle;Light Touch Switch | Panasonic Electronic Components EVQ-P7A01P"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_2"
+			(uuid "a23eb33a-0008-4446-8b4e-062a4405084c")
+		)
+		(pin "1_2"
+			(uuid "77891dbb-7566-49d5-82a6-83042727251a")
+		)
+		(pin "1_1"
+			(uuid "623d2eb9-6b6e-4509-8e2f-841413fc6de9")
+		)
+		(pin "2_1"
+			(uuid "a792729c-b8ab-4cb0-b2ca-7b604bcb9560")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/dd50c693-c2d1-4da4-86ca-2eae732704f9"
+					(reference "S6")
 					(unit 1)
 				)
 			)

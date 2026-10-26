@@ -44,4 +44,6 @@
   (lib (name "LTR-329ALS-01")(type "KiCad")(uri "${KIPRJMOD}/symbols/LTR-329ALS-01.kicad_sym")(options "")(descr ""))
   (lib (name "VSMY2850G")(type "KiCad")(uri "${KIPRJMOD}/symbols/VSMY2850G.kicad_sym")(options "")(descr ""))
   (lib (name "SG-210STF_24.0000ML0")(type "KiCad")(uri "${KIPRJMOD}/symbols/SG-210STF_24.0000ML0.kicad_sym")(options "")(descr ""))
+  (lib (name "EVQ-P7A01P")(type "KiCad")(uri "${KIPRJMOD}/symbols/EVQ-P7A01P.kicad_sym")(options "")(descr ""))
+  (lib (name "NTCG103JF103FT1")(type "KiCad")(uri "${KIPRJMOD}/symbols/NTCG103JF103FT1.kicad_sym")(options "")(descr ""))
 )
