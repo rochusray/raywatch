@@ -11,7 +11,7 @@
 	(lib_symbols)
 	(text "+BATT"
 		(exclude_from_sim no)
-		(at 153.797 124.714 0)
+		(at 249.555 130.937 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21,7 +21,7 @@
 	)
 	(text "-BATT"
 		(exclude_from_sim no)
-		(at 145.923 124.714 0)
+		(at 257.429 130.937 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31,7 +31,7 @@
 	)
 	(text "VIN"
 		(exclude_from_sim no)
-		(at 151.765 72.39 0)
+		(at 251.587 78.613 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,18 +41,18 @@
 	)
 	(text "+3V0"
 		(exclude_from_sim no)
-		(at 226.187 80.772 0)
+		(at 177.165 86.995 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "540adf74-b9ea-4a7a-8ec8-11e6d6f4355f")
 	)
 	(text "VSOLAR"
 		(exclude_from_sim no)
-		(at 153.797 54.864 0)
+		(at 249.555 61.087 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,18 +62,18 @@
 	)
 	(text "+4V5"
 		(exclude_from_sim no)
-		(at 226.187 59.69 0)
+		(at 177.165 65.913 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "5f98e9d4-26a2-48a5-9162-9e22d2d12c2f")
 	)
 	(text "+BATT"
 		(exclude_from_sim no)
-		(at 153.797 108.458 0)
+		(at 249.555 114.681 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -83,18 +83,18 @@
 	)
 	(text "+3V3"
 		(exclude_from_sim no)
-		(at 226.187 70.358 0)
+		(at 177.165 76.581 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "64cd772d-5434-485a-a9b5-1ac1b9b71c3a")
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 139.827 114.554 0)
+		(at 263.525 120.777 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -104,7 +104,7 @@
 	)
 	(text "VBAT"
 		(exclude_from_sim no)
-		(at 152.527 90.932 0)
+		(at 250.825 97.155 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -114,7 +114,7 @@
 	)
 	(text "VSYS"
 		(exclude_from_sim no)
-		(at 187.071 80.01 0)
+		(at 216.281 86.233 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -124,18 +124,18 @@
 	)
 	(text "+1V8"
 		(exclude_from_sim no)
-		(at 226.187 90.932 0)
+		(at 177.165 97.155 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d1abc338-139f-4425-8a57-784ea53ae59b")
 	)
 	(text "Wireless Charging\nCoil"
 		(exclude_from_sim no)
-		(at 133.477 57.912 0)
+		(at 269.875 64.135 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -145,7 +145,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.225 110.49) (xy 139.827 110.49)
+			(xy 254.127 116.713) (xy 263.525 116.713)
 		)
 		(stroke
 			(width 0)
@@ -155,7 +155,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.225 120.904) (xy 149.225 126.492)
+			(xy 254.127 127.127) (xy 254.127 132.715)
 		)
 		(stroke
 			(width 0)
@@ -165,7 +165,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.239 63.5) (xy 134.747 63.5)
+			(xy 269.113 69.723) (xy 268.605 69.723)
 		)
 		(stroke
 			(width 0)
@@ -175,7 +175,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.749 103.886) (xy 150.749 112.522)
+			(xy 252.603 110.109) (xy 252.603 118.745)
 		)
 		(stroke
 			(width 0)
@@ -185,7 +185,7 @@
 	)
 	(polyline
 		(pts
-			(xy 182.753 80.772) (xy 182.753 59.69)
+			(xy 220.599 86.995) (xy 220.599 65.913)
 		)
 		(stroke
 			(width 0)
@@ -195,7 +195,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.207 59.69) (xy 134.747 59.69)
+			(xy 271.145 65.913) (xy 268.605 65.913)
 		)
 		(stroke
 			(width 0)
@@ -205,7 +205,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.881 70.612) (xy 190.881 90.932)
+			(xy 212.471 76.835) (xy 212.471 97.155)
 		)
 		(stroke
 			(width 0)
@@ -215,7 +215,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.715 60.198) (xy 134.239 60.198)
+			(xy 270.637 66.421) (xy 269.113 66.421)
 		)
 		(stroke
 			(width 0)
@@ -225,7 +225,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.987 49.53) (xy 149.987 58.674)
+			(xy 253.365 55.753) (xy 253.365 64.897)
 		)
 		(stroke
 			(width 0)
@@ -235,7 +235,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.225 112.522) (xy 149.225 110.49)
+			(xy 254.127 118.745) (xy 254.127 116.713)
 		)
 		(stroke
 			(width 0)
@@ -245,7 +245,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.207 66.04) (xy 132.207 59.69)
+			(xy 271.145 72.263) (xy 271.145 65.913)
 		)
 		(stroke
 			(width 0)
@@ -255,7 +255,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.747 62.23) (xy 143.383 62.23)
+			(xy 268.605 68.453) (xy 259.969 68.453)
 		)
 		(stroke
 			(width 0)
@@ -265,7 +265,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.461 59.944) (xy 132.461 65.786)
+			(xy 270.891 66.167) (xy 270.891 72.009)
 		)
 		(stroke
 			(width 0)
@@ -275,7 +275,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.747 62.23) (xy 134.747 63.5)
+			(xy 268.605 68.453) (xy 268.605 69.723)
 		)
 		(stroke
 			(width 0)
@@ -285,7 +285,7 @@
 	)
 	(polyline
 		(pts
-			(xy 139.827 110.49) (xy 139.827 113.03)
+			(xy 263.525 116.713) (xy 263.525 119.253)
 		)
 		(stroke
 			(width 0)
@@ -295,7 +295,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.749 126.492) (xy 150.749 127.254)
+			(xy 252.603 132.715) (xy 252.603 133.477)
 		)
 		(stroke
 			(width 0)
@@ -305,7 +305,7 @@
 	)
 	(polyline
 		(pts
-			(xy 207.391 70.358) (xy 226.187 70.358)
+			(xy 195.961 76.581) (xy 177.165 76.581)
 		)
 		(stroke
 			(width 0)
@@ -315,7 +315,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.987 67.31) (xy 149.987 76.2)
+			(xy 253.365 73.533) (xy 253.365 82.423)
 		)
 		(stroke
 			(width 0)
@@ -325,7 +325,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.749 120.904) (xy 150.749 126.492)
+			(xy 252.603 127.127) (xy 252.603 132.715)
 		)
 		(stroke
 			(width 0)
@@ -335,7 +335,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.239 65.532) (xy 132.715 65.532)
+			(xy 269.113 71.755) (xy 270.637 71.755)
 		)
 		(stroke
 			(width 0)
@@ -345,7 +345,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.811 113.03) (xy 140.843 113.03)
+			(xy 264.541 119.253) (xy 262.509 119.253)
 		)
 		(stroke
 			(width 0)
@@ -355,7 +355,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.461 59.944) (xy 134.493 59.944)
+			(xy 270.891 66.167) (xy 268.859 66.167)
 		)
 		(stroke
 			(width 0)
@@ -365,7 +365,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.747 59.69) (xy 134.747 62.23)
+			(xy 268.605 65.913) (xy 268.605 68.453)
 		)
 		(stroke
 			(width 0)
@@ -375,7 +375,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.239 62.23) (xy 134.747 62.23)
+			(xy 269.113 68.453) (xy 268.605 68.453)
 		)
 		(stroke
 			(width 0)
@@ -385,7 +385,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.881 90.932) (xy 194.183 90.932)
+			(xy 212.471 97.155) (xy 209.169 97.155)
 		)
 		(stroke
 			(width 0)
@@ -395,7 +395,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.239 60.198) (xy 134.239 65.532)
+			(xy 269.113 66.421) (xy 269.113 71.755)
 		)
 		(stroke
 			(width 0)
@@ -405,7 +405,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.183 70.612) (xy 190.881 70.612)
+			(xy 209.169 76.835) (xy 212.471 76.835)
 		)
 		(stroke
 			(width 0)
@@ -415,7 +415,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.747 63.5) (xy 134.747 66.04)
+			(xy 268.605 69.723) (xy 268.605 72.263)
 		)
 		(stroke
 			(width 0)
@@ -425,7 +425,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.987 85.09) (xy 149.987 95.504)
+			(xy 253.365 91.313) (xy 253.365 101.727)
 		)
 		(stroke
 			(width 0)
@@ -435,7 +435,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.747 66.04) (xy 132.207 66.04)
+			(xy 268.605 72.263) (xy 271.145 72.263)
 		)
 		(stroke
 			(width 0)
@@ -445,7 +445,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.225 126.492) (xy 149.225 127.254)
+			(xy 254.127 132.715) (xy 254.127 133.477)
 		)
 		(stroke
 			(width 0)
@@ -455,7 +455,7 @@
 	)
 	(polyline
 		(pts
-			(xy 143.383 63.5) (xy 134.747 63.5)
+			(xy 259.969 69.723) (xy 268.605 69.723)
 		)
 		(stroke
 			(width 0)
@@ -465,7 +465,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.715 65.532) (xy 132.715 60.198)
+			(xy 270.637 71.755) (xy 270.637 66.421)
 		)
 		(stroke
 			(width 0)
@@ -475,7 +475,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.493 59.944) (xy 134.493 65.786)
+			(xy 268.859 66.167) (xy 268.859 72.009)
 		)
 		(stroke
 			(width 0)
@@ -485,7 +485,7 @@
 	)
 	(polyline
 		(pts
-			(xy 207.391 90.932) (xy 226.187 90.932)
+			(xy 195.961 97.155) (xy 177.165 97.155)
 		)
 		(stroke
 			(width 0)
@@ -495,7 +495,7 @@
 	)
 	(polyline
 		(pts
-			(xy 156.591 80.772) (xy 194.183 80.772)
+			(xy 246.761 86.995) (xy 209.169 86.995)
 		)
 		(stroke
 			(width 0)
@@ -505,7 +505,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.493 65.786) (xy 132.461 65.786)
+			(xy 268.859 72.009) (xy 270.891 72.009)
 		)
 		(stroke
 			(width 0)
@@ -515,7 +515,7 @@
 	)
 	(polyline
 		(pts
-			(xy 182.753 59.69) (xy 226.187 59.69)
+			(xy 220.599 65.913) (xy 177.165 65.913)
 		)
 		(stroke
 			(width 0)
@@ -525,7 +525,7 @@
 	)
 	(polyline
 		(pts
-			(xy 207.391 80.772) (xy 226.187 80.772)
+			(xy 195.961 86.995) (xy 177.165 86.995)
 		)
 		(stroke
 			(width 0)
@@ -534,7 +534,7 @@
 		(uuid "faaed4fa-0e11-4b28-a927-d0ac8dc97e57")
 	)
 	(sheet
-		(at 21.59 72.39)
+		(at 26.67 50.8)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -550,7 +550,7 @@
 		)
 		(uuid "0522506d-d6b7-4115-aecc-a1b886294452")
 		(property "Sheetname" "Display"
-			(at 21.59 71.6784 0)
+			(at 26.67 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,7 +559,7 @@
 			)
 		)
 		(property "Sheetfile" "display.kicad_sch"
-			(at 21.59 76.7846 0)
+			(at 26.67 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -576,7 +576,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 83.185)
+		(at 26.67 61.595)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -592,7 +592,7 @@
 		)
 		(uuid "0600b049-21d1-41d4-ba88-3a8142850263")
 		(property "Sheetname" "LEDs"
-			(at 21.59 82.4734 0)
+			(at 26.67 60.8834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -601,7 +601,7 @@
 			)
 		)
 		(property "Sheetfile" "leds.kicad_sch"
-			(at 21.59 87.5796 0)
+			(at 26.67 65.9896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -618,7 +618,7 @@
 		)
 	)
 	(sheet
-		(at 194.437 68.58)
+		(at 196.215 74.803)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -634,7 +634,7 @@
 		)
 		(uuid "1d8b2961-678d-411b-851f-e266eaec5e93")
 		(property "Sheetname" "3.3V Converter"
-			(at 194.437 67.8684 0)
+			(at 196.215 74.0914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -643,7 +643,7 @@
 			)
 		)
 		(property "Sheetfile" "3v3_converter.kicad_sch"
-			(at 194.437 72.9746 0)
+			(at 196.215 79.1976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -660,7 +660,7 @@
 		)
 	)
 	(sheet
-		(at 194.437 78.74)
+		(at 196.215 84.963)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -676,7 +676,7 @@
 		)
 		(uuid "2714add3-2889-4ca2-9511-f797ac8197f4")
 		(property "Sheetname" "3.0V Converter"
-			(at 194.437 78.0284 0)
+			(at 196.215 84.2514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -685,7 +685,7 @@
 			)
 		)
 		(property "Sheetfile" "3v0_converter.kicad_sch"
-			(at 194.437 83.1346 0)
+			(at 196.215 89.3576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -702,7 +702,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 144.78)
+		(at 26.67 123.19)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -718,7 +718,7 @@
 		)
 		(uuid "34ecb33f-48ad-4657-abe2-b4caffc19e6d")
 		(property "Sheetname" "Vibration Motor"
-			(at 21.59 144.0684 0)
+			(at 26.67 122.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -727,7 +727,7 @@
 			)
 		)
 		(property "Sheetfile" "vibration_motor.kicad_sch"
-			(at 21.59 149.1746 0)
+			(at 26.67 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +744,7 @@
 		)
 	)
 	(sheet
-		(at 143.637 97.79)
+		(at 247.015 104.013)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -760,7 +760,7 @@
 		)
 		(uuid "354d9a88-ab50-41ba-b40e-476fe78e4ce7")
 		(property "Sheetname" "Battery Gauge"
-			(at 143.637 97.0784 0)
+			(at 247.015 103.3014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +769,7 @@
 			)
 		)
 		(property "Sheetfile" "battery_gauge.kicad_sch"
-			(at 143.637 102.1846 0)
+			(at 247.015 108.4076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,7 +786,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 154.94)
+		(at 26.67 133.35)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -802,7 +802,7 @@
 		)
 		(uuid "500b48f3-f083-4626-a865-624bdd615c7c")
 		(property "Sheetname" "LoRa"
-			(at 21.59 154.2284 0)
+			(at 26.67 132.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,7 +811,7 @@
 			)
 		)
 		(property "Sheetfile" "lora.kicad_sch"
-			(at 21.59 159.3346 0)
+			(at 26.67 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,7 +828,7 @@
 		)
 	)
 	(sheet
-		(at 143.51 60.96)
+		(at 247.142 67.183)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -844,7 +844,7 @@
 		)
 		(uuid "734975a0-8e02-4bc7-a8c1-1ee108565e38")
 		(property "Sheetname" "Wireless Charging"
-			(at 143.51 60.2484 0)
+			(at 247.142 66.4714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,7 +853,7 @@
 			)
 		)
 		(property "Sheetfile" "wireless_charging.kicad_sch"
-			(at 143.51 65.3546 0)
+			(at 247.142 71.5776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +870,7 @@
 		)
 	)
 	(sheet
-		(at 143.637 114.935)
+		(at 247.015 121.158)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -886,7 +886,7 @@
 		)
 		(uuid "78c9fb69-bd8b-4be2-a858-27c158c5dba8")
 		(property "Sheetname" "Battery Protection"
-			(at 143.637 114.2234 0)
+			(at 247.015 120.4464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,7 +895,7 @@
 			)
 		)
 		(property "Sheetfile" "battery_protection.kicad_sch"
-			(at 143.637 119.3296 0)
+			(at 247.015 125.5526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +912,7 @@
 		)
 	)
 	(sheet
-		(at 148.082 129.667)
+		(at 251.46 135.89)
 		(size 3.81 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -928,7 +928,7 @@
 		)
 		(uuid "81388ce1-b713-4a4d-a62f-b5a425cee66d")
 		(property "Sheetname" "Battery"
-			(at 148.082 128.9554 0)
+			(at 251.46 135.1784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +937,7 @@
 			)
 		)
 		(property "Sheetfile" "battery.kicad_sch"
-			(at 148.082 142.9516 0)
+			(at 251.46 149.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,7 +954,7 @@
 		)
 	)
 	(sheet
-		(at 143.637 78.74)
+		(at 247.015 84.963)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -970,7 +970,7 @@
 		)
 		(uuid "8b20ce3c-0acc-410e-a16d-32a077d218e5")
 		(property "Sheetname" "Charging Controller"
-			(at 143.637 78.0284 0)
+			(at 247.015 84.2514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,7 +979,7 @@
 			)
 		)
 		(property "Sheetfile" "charging_controller.kicad_sch"
-			(at 143.637 83.1346 0)
+			(at 247.015 89.3576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -996,7 +996,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 183.896)
+		(at 26.67 162.306)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1012,7 +1012,7 @@
 		)
 		(uuid "90fe4b64-91c1-409c-8cd3-04dd0818d46c")
 		(property "Sheetname" "Proximity & Gesture Sensor"
-			(at 21.59 183.1844 0)
+			(at 26.67 161.5944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1021,7 @@
 			)
 		)
 		(property "Sheetfile" "proximity_gesture.kicad_sch"
-			(at 21.59 188.2906 0)
+			(at 26.67 166.7006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,13 +1032,13 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
-					(page "27")
+					(page "26")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 21.59 114.3)
+		(at 26.67 92.71)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1054,7 +1054,7 @@
 		)
 		(uuid "92973ecd-838d-4692-844f-05a1efeb365a")
 		(property "Sheetname" "Heartrate & O₂"
-			(at 21.59 113.5884 0)
+			(at 26.67 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1063,7 +1063,7 @@
 			)
 		)
 		(property "Sheetfile" "heartrate_and_o2.kicad_sch"
-			(at 21.59 118.6946 0)
+			(at 26.67 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1080,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 124.46)
+		(at 26.67 102.87)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1096,7 +1096,7 @@
 		)
 		(uuid "9d8e2113-86ca-4807-a845-38f03d871655")
 		(property "Sheetname" "Magnetometer"
-			(at 21.59 123.7484 0)
+			(at 26.67 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,7 +1105,7 @@
 			)
 		)
 		(property "Sheetfile" "magnetometer.kicad_sch"
-			(at 21.59 128.8546 0)
+			(at 26.67 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,7 +1122,7 @@
 		)
 	)
 	(sheet
-		(at 194.437 88.9)
+		(at 196.215 95.123)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1138,7 +1138,7 @@
 		)
 		(uuid "b8c5e1e6-da5e-4fb2-8283-82eb932a0e50")
 		(property "Sheetname" "1.8V Converter"
-			(at 194.437 88.1884 0)
+			(at 196.215 94.4114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1147,7 +1147,7 @@
 			)
 		)
 		(property "Sheetfile" "1v8_converter.kicad_sch"
-			(at 194.437 93.2946 0)
+			(at 196.215 99.5176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,7 +1164,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 134.62)
+		(at 26.67 113.03)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1180,7 +1180,7 @@
 		)
 		(uuid "bf067082-8f07-4e2a-8f09-1edc4b312956")
 		(property "Sheetname" "Humidity"
-			(at 21.59 133.9084 0)
+			(at 26.67 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +1189,7 @@
 			)
 		)
 		(property "Sheetfile" "humidity.kicad_sch"
-			(at 21.59 139.0146 0)
+			(at 26.67 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1206,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 62.23)
+		(at 26.67 172.466)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1222,7 +1222,7 @@
 		)
 		(uuid "c299ec72-43a6-4199-adeb-adf28eb4e762")
 		(property "Sheetname" "GPIO"
-			(at 63.5 61.5184 0)
+			(at 26.67 171.7544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1231,7 +1231,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller_gpio.kicad_sch"
-			(at 63.5 66.6246 0)
+			(at 26.67 176.8606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1248,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 93.98)
+		(at 26.67 72.39)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1264,7 +1264,7 @@
 		)
 		(uuid "c58842ef-bbc7-4a1c-9e43-553d6f1a9ffd")
 		(property "Sheetname" "Accelerometer"
-			(at 21.59 93.2684 0)
+			(at 26.67 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1273,7 @@
 			)
 		)
 		(property "Sheetfile" "accelerometer.kicad_sch"
-			(at 21.59 98.3746 0)
+			(at 26.67 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1290,7 +1290,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 104.14)
+		(at 26.67 82.55)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1306,7 +1306,7 @@
 		)
 		(uuid "d3a87cc9-ac13-45e7-bf56-8d3ed6c53cc2")
 		(property "Sheetname" "microSD"
-			(at 21.59 103.4284 0)
+			(at 26.67 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,7 +1315,7 @@
 			)
 		)
 		(property "Sheetfile" "microsd.kicad_sch"
-			(at 21.59 108.5346 0)
+			(at 26.67 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1332,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 174.498)
+		(at 26.67 152.908)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1348,7 +1348,7 @@
 		)
 		(uuid "d5a2fc90-5630-482b-949a-d1a5e12221d9")
 		(property "Sheetname" "Light Sensor"
-			(at 21.59 173.7864 0)
+			(at 26.67 152.1964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +1357,7 @@
 			)
 		)
 		(property "Sheetfile" "light_sensor.kicad_sch"
-			(at 21.59 178.8926 0)
+			(at 26.67 157.3026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,13 +1368,13 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
-					(page "26")
+					(page "15")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 21.59 62.23)
+		(at 26.67 40.64)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1390,7 +1390,7 @@
 		)
 		(uuid "dd50c693-c2d1-4da4-86ca-2eae732704f9")
 		(property "Sheetname" "Buttons"
-			(at 21.59 61.5184 0)
+			(at 26.67 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1399,7 @@
 			)
 		)
 		(property "Sheetfile" "buttons.kicad_sch"
-			(at 21.59 66.6246 0)
+			(at 26.67 45.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1416,7 @@
 		)
 	)
 	(sheet
-		(at 143.764 43.18)
+		(at 246.888 49.403)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1432,7 +1432,7 @@
 		)
 		(uuid "e90fef96-f7b6-4971-b8da-32a927b888f0")
 		(property "Sheetname" "Solar"
-			(at 143.764 42.4684 0)
+			(at 246.888 48.6914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,7 +1441,7 @@
 			)
 		)
 		(property "Sheetfile" "solar.kicad_sch"
-			(at 143.764 47.5746 0)
+			(at 246.888 53.7976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +1458,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 71.12)
+		(at 26.67 182.372)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1474,7 +1474,7 @@
 		)
 		(uuid "f081a1f8-fc4b-4b06-b900-3123b3d09078")
 		(property "Sheetname" "TPM"
-			(at 63.5 70.4084 0)
+			(at 26.67 181.6604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +1483,7 @@
 			)
 		)
 		(property "Sheetfile" "tpm.kicad_sch"
-			(at 63.5 75.5146 0)
+			(at 26.67 186.7666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +1500,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 164.846)
+		(at 26.67 143.256)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1516,7 +1516,7 @@
 		)
 		(uuid "f2f5da81-6e74-45e5-9c07-b66eda9b7e5d")
 		(property "Sheetname" "Microphone"
-			(at 21.59 164.1344 0)
+			(at 26.67 142.5444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +1525,7 @@
 			)
 		)
 		(property "Sheetfile" "microphone.kicad_sch"
-			(at 21.59 169.2406 0)
+			(at 26.67 147.6506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,13 +1536,13 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
-					(page "26")
+					(page "25")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 21.59 52.07)
+		(at 26.67 30.48)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1558,7 +1558,7 @@
 		)
 		(uuid "fa39c797-7f88-47af-b50c-765e69cbd658")
 		(property "Sheetname" "MC: Microcontroller"
-			(at 21.59 51.3584 0)
+			(at 26.67 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,7 +1567,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 21.59 56.4646 0)
+			(at 26.67 34.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
