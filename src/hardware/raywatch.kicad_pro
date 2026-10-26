@@ -877,7 +877,7 @@
       "MC: Microcontroller"
     ],
     [
-      "fbcfcd28-2a3e-42e7-898f-b06e02d68038",
+      "c299ec72-43a6-4199-adeb-adf28eb4e762",
       "GPIO"
     ],
     [
@@ -893,7 +893,7 @@
       "LEDs"
     ],
     [
-      "c4ab4722-2dd5-484a-86b3-dc6635eabcb4",
+      "f081a1f8-fc4b-4b06-b900-3123b3d09078",
       "TPM"
     ],
     [
@@ -925,44 +925,40 @@
       "LoRa"
     ],
     [
-      "6e6a70ea-4db2-4b59-a2d7-c468f9b8b5a6",
-      "Power"
-    ],
-    [
-      "94d294dd-af54-43f7-9e9b-15472c788437",
-      "Solar"
-    ],
-    [
-      "d00e072b-2be1-497b-8423-3eead973d996",
-      "Wireless Charging"
-    ],
-    [
-      "b445ea2b-ce97-4fc9-a9bc-efa2f143df72",
-      "3.3V Converter"
-    ],
-    [
-      "965e2c2b-77bd-439d-8b14-adaa270f722d",
-      "3.0V Converter"
-    ],
-    [
-      "07fbbbca-9aa4-472c-8a7d-14bd6423f6c5",
+      "b8c5e1e6-da5e-4fb2-8283-82eb932a0e50",
       "1.8V Converter"
     ],
     [
-      "e601ae13-e808-457e-9f3e-dffc594463cc",
-      "Charging Controller"
+      "2714add3-2889-4ca2-9511-f797ac8197f4",
+      "3.0V Converter"
     ],
     [
-      "7d73f677-e1d3-42ef-8813-aac813c5814d",
-      "Battery Protection"
+      "1d8b2961-678d-411b-851f-e266eaec5e93",
+      "3.3V Converter"
     ],
     [
-      "27d482b0-7b63-432c-88d1-098048a1418a",
+      "81388ce1-b713-4a4d-a62f-b5a425cee66d",
+      "Battery"
+    ],
+    [
+      "354d9a88-ab50-41ba-b40e-476fe78e4ce7",
       "Battery Gauge"
     ],
     [
-      "0e8527e5-475a-4be8-8e89-500ec2c68fe4",
-      "Battery"
+      "78c9fb69-bd8b-4be2-a858-27c158c5dba8",
+      "Battery Protection"
+    ],
+    [
+      "8b20ce3c-0acc-410e-a16d-32a077d218e5",
+      "Charging Controller"
+    ],
+    [
+      "e90fef96-f7b6-4971-b8da-32a927b888f0",
+      "Solar"
+    ],
+    [
+      "734975a0-8e02-4bc7-a8c1-1ee108565e38",
+      "Wireless Charging"
     ],
     [
       "f2f5da81-6e74-45e5-9c07-b66eda9b7e5d",

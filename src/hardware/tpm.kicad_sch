@@ -789,11 +789,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "da09cd49-8457-4818-bc10-7761a6303465")
+			(uuid "d82f0b37-2e33-40d2-838b-de703f81587f")
 		)
 		(instances
 			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/c4ab4722-2dd5-484a-86b3-dc6635eabcb4"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/f081a1f8-fc4b-4b06-b900-3123b3d09078"
 					(reference "#PWR0249")
 					(unit 1)
 				)
@@ -855,11 +855,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d40b5099-b24a-4fd5-8761-cfee0809defd")
+			(uuid "1375b07a-c450-491a-bc9a-955d480cee05")
 		)
 		(instances
 			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/c4ab4722-2dd5-484a-86b3-dc6635eabcb4"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/f081a1f8-fc4b-4b06-b900-3123b3d09078"
 					(reference "#PWR0250")
 					(unit 1)
 				)
@@ -922,14 +922,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "51492960-1884-406e-b759-112f667d882c")
+			(uuid "2e7317fe-c5ec-4b40-9eb0-e56c0dc2de82")
 		)
 		(pin "1"
-			(uuid "2215a61f-a06d-428a-951e-6e5fbc2b6bb3")
+			(uuid "964e9b9a-7ab4-4e61-9828-1ac2c4129e81")
 		)
 		(instances
 			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/c4ab4722-2dd5-484a-86b3-dc6635eabcb4"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/f081a1f8-fc4b-4b06-b900-3123b3d09078"
 					(reference "C31")
 					(unit 1)
 				)
@@ -991,11 +991,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "883d351d-95ee-462f-a7d7-786d899db316")
+			(uuid "b46b3ccb-65b3-4c98-969a-981063eb33e0")
 		)
 		(instances
 			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/c4ab4722-2dd5-484a-86b3-dc6635eabcb4"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/f081a1f8-fc4b-4b06-b900-3123b3d09078"
 					(reference "#PWR0248")
 					(unit 1)
 				)
@@ -1058,32 +1058,32 @@
 			)
 		)
 		(pin "6"
-			(uuid "ed4d3e79-6982-492d-a1b1-78f761d8cc9e")
+			(uuid "88ef0a45-f0a6-4c91-b6d5-dbdeb48f2f54")
 		)
 		(pin "4"
-			(uuid "af2fda49-d522-4b2c-b6a9-71d1ada24427")
+			(uuid "fde9f16e-4c40-4b15-9df8-18d9f63c4400")
 		)
 		(pin "8"
-			(uuid "16dd2ad4-e59d-437c-b723-e3eaccea1fde")
+			(uuid "0855f835-54de-41b5-9303-cd7e197176df")
 		)
 		(pin "5"
-			(uuid "da8082c7-1a90-43d1-950c-e3f33e76146f")
+			(uuid "9983b94e-de84-49d2-8b91-67a73d3ca1a0")
 		)
 		(pin "1"
-			(uuid "4a66edf5-48ca-423e-9f95-119835297936")
+			(uuid "8f45b6c1-f174-46d4-889a-42e23fc0037c")
 		)
 		(pin "7"
-			(uuid "9787345c-6860-40d2-8e65-deceaef19664")
+			(uuid "4e3aa3be-004c-40f9-86f7-d1b6f8b24f15")
 		)
 		(pin "3"
-			(uuid "4bf77a5c-7f37-4fac-9b6b-211e1a55489a")
+			(uuid "df7ef086-0c7d-4930-b7e6-92bcbfb4f996")
 		)
 		(pin "2"
-			(uuid "737f2d90-36fb-44bc-be42-44afcd2bf655")
+			(uuid "55aaa167-2ab7-44dc-b8e3-8848bdb23b7f")
 		)
 		(instances
 			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/fa39c797-7f88-47af-b50c-765e69cbd658/c4ab4722-2dd5-484a-86b3-dc6635eabcb4"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/f081a1f8-fc4b-4b06-b900-3123b3d09078"
 					(reference "U10")
 					(unit 1)
 				)
