@@ -1,4 +1,4 @@
 src/hardware/raywatch-backups*
 src/hardware/#auto_saved_files#*
 src/hardware/fp-info-cache*
-src/hardware/~raywatch.kicad_sch.lck
+src/hardware/~raywatch*.lck
