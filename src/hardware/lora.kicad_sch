@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Project:QFP20P0X0X31-0_JOT"
+			(property "Footprint" "QFP20P0X0X31-0_JOT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -291,14 +291,14 @@
 				(pin output line
 					(at 38.1 -5.08 180)
 					(length 7.62)
-					(name "8"
+					(name "SW_RFO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "SW_RF0"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -307,16 +307,16 @@
 					)
 				)
 				(pin input line
-					(at 38.1 -10.16 180)
+					(at 38.1 -7.62 180)
 					(length 7.62)
-					(name "6"
+					(name "SW_RFI"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "SW_RFI"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3136,16 +3136,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 128.27) (xy 177.8 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "398a1d68-fcbb-4102-93bc-6a668b1362b7")
-	)
-	(wire
-		(pts
 			(xy 135.89 24.13) (xy 147.32 24.13)
 		)
 		(stroke
@@ -4346,7 +4336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:QFP20P0X0X31-0_JOT"
+		(property "Footprint" "QFP20P0X0X31-0_JOT"
 			(at 139.7 118.11 0)
 			(effects
 				(font
@@ -4390,7 +4380,7 @@
 		(pin "3"
 			(uuid "c559c5cf-9abc-4495-80b2-8e3a6caaf3f1")
 		)
-		(pin "SW_RF0"
+		(pin "8"
 			(uuid "81f879da-f085-472d-9cc6-cacf1fddb90d")
 		)
 		(pin "4"
@@ -4402,7 +4392,7 @@
 		(pin "2"
 			(uuid "c944ed5b-a81a-4b6e-a922-ca06872c0027")
 		)
-		(pin "SW_RFI"
+		(pin "6"
 			(uuid "954f72e3-164c-40f4-80fb-463ab05ca537")
 		)
 		(pin "9"
