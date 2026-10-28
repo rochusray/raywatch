@@ -2510,7 +2510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX30101EFD_T:PSON80P560X330X165-14N"
+		(property "Footprint" "Project:PSON80P560X330X165-14N"
 			(at 147.32 96.52 0)
 			(effects
 				(font
