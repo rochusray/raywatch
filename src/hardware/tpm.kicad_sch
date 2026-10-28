@@ -1592,7 +1592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON50P200X300X60-9N"
+		(property "Footprint" "Project:SON50P200X300X60-9N"
 			(at 134.62 97.79 0)
 			(effects
 				(font
