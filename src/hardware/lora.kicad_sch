@@ -549,6 +549,24 @@
 						(type none)
 					)
 				)
+				(pin output line
+					(at 0 16.51 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 0 -5.08 90)
 					(length 2.54)
@@ -5578,6 +5596,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 247.65 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63f594b6-f785-4548-a211-a3e838f1aabb")
+		(property "Reference" "#PWR0497"
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5b72ac8-eee2-47b6-bcf6-6fa4f5f8a973")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
+					(reference "#PWR0497")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 102.87 33.02 270)
 		(mirror x)
@@ -6933,7 +7017,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project:XTAL_ABS07-32.768KHZ-7-T"
+		(property "Footprint" "ANT-868-CHP-T:XDCR_ANT-868-CHP-T"
 			(at 247.65 129.54 0)
 			(effects
 				(font
@@ -7092,6 +7176,9 @@
 		)
 		(pin "1"
 			(uuid "2a1a1cdc-08ec-4406-9599-0f32e15e8d09")
+		)
+		(pin "2"
+			(uuid "cbd0e7ea-8f32-4b24-9296-a12efa25b6e8")
 		)
 		(instances
 			(project "raywatch"
