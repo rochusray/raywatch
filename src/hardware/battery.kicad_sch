@@ -1210,10 +1210,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "S1"
+		(exclude_from_sim no)
+		(at 151.892 67.056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53b4f7c6-824b-478c-a352-a351aa8d805b")
 	)
 	(text "Battery: CS-OPW190SH"
 		(exclude_from_sim no)
-		(at 151.892 81.026 0)
+		(at 151.892 83.312 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1221,25 +1332,117 @@
 		)
 		(uuid "53f1bf76-c0b5-40d0-816d-479dabbca3a1")
 	)
-	(text "Pinout currently unknown"
-		(exclude_from_sim no)
-		(at 128.524 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6048647f-396f-492a-afee-f35d957e5b16")
-	)
 	(text "Battery Connector Reference"
 		(exclude_from_sim no)
-		(at 152.146 66.548 0)
+		(at 152.146 65.024 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "63d8bcff-4f14-4162-bcf7-8155069f2be3")
+	)
+	(text "NTC Thermistor\n10k"
+		(exclude_from_sim no)
+		(at 173.482 73.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c1e988a1-5cb2-4a8b-9d49-35d8b5536a15")
+	)
+	(text "S2"
+		(exclude_from_sim no)
+		(at 151.892 80.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d45c9874-c05c-4f8d-851e-05482f44e669")
+	)
+	(text "P1\nBATT+"
+		(exclude_from_sim no)
+		(at 143.002 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ddd1cdef-3685-4844-a748-218bbdb19223")
+	)
+	(text "P2\nBATT-"
+		(exclude_from_sim no)
+		(at 161.036 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7aa7428-a642-4a12-ac4f-25995c347ef8")
+	)
+	(junction
+		(at 143.51 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b60abc86-5ebb-4c89-8749-9cb438b70707")
+	)
+	(junction
+		(at 143.51 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed44d3c4-ce95-484b-821b-94141e101bd6")
+	)
+	(wire
+		(pts
+			(xy 137.16 105.41) (xy 143.51 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8bf858-786a-40df-8ffd-32d6e5578194")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 143.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a6c2b7-c8e5-4dff-8952-9dd666449a86")
+	)
+	(wire
+		(pts
+			(xy 143.51 102.87) (xy 143.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488e14f9-99fa-4128-9a65-21f094b45dd1")
+	)
+	(polyline
+		(pts
+			(xy 173.228 66.802) (xy 153.416 66.802)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523a5eaf-e5c2-4a24-bcc6-73b05c146bf8")
+	)
+	(polyline
+		(pts
+			(xy 173.228 80.518) (xy 173.228 75.692)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dec008b-0488-400e-abf5-cea6ed557aba")
 	)
 	(wire
 		(pts
@@ -1249,17 +1452,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "652d72a5-0c85-44b4-91dd-7415d344a103")
+		(uuid "840ece2b-a128-4a3a-88f8-f899a8260491")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 143.51 100.33) (xy 143.51 102.87)
+			(xy 153.416 80.518) (xy 173.228 80.518)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e953dec-8bec-4e7f-988e-88a7f1ca960d")
+		(uuid "b3dd46de-1d0d-4099-a47d-6444d33100c7")
+	)
+	(polyline
+		(pts
+			(xy 173.228 70.612) (xy 173.228 66.802)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d1ed60-6b32-424b-9744-c7ab481ddde6")
 	)
 	(image
 		(at 151.892 73.66)
@@ -1710,6 +1923,95 @@
 			"C8T53ovAcf5/vSy5r69bFAsAAAAASUVORK5CYII="
 		)
 	)
+	(global_label "BATTERM"
+		(shape input)
+		(at 143.51 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1409930-1864-49ca-839a-ef552486d421")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.3606 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c378454-3071-4b13-ba7a-9f3b708de6c2")
+		(property "Reference" "#PWR072"
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c1a9803-b385-4e30-9fb9-cf35f8b6010c")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/81388ce1-b713-4a4d-a62f-b5a425cee66d"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "BM29B0.6-2DS_2-0.35V51:BM29B0.6-2DS_2-0.35V51")
 		(at 143.51 95.25 0)
@@ -1804,83 +2106,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 138.43 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a96dbd70-832b-40d2-87e0-596831971650")
-		(property "Reference" "#PWR0353"
-			(at 138.43 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 138.43 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 138.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c7af0d7-7716-42bc-8bd6-a33a4b12890e")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/81388ce1-b713-4a4d-a62f-b5a425cee66d"
-					(reference "#PWR0353")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-BATT")
-		(at 138.43 107.95 180)
+		(at 137.16 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b97ed87e-60ea-416b-92fd-7d66f2326c6f")
-		(property "Reference" "#PWR0354"
-			(at 138.43 104.14 0)
+		(uuid "97676be2-1cf2-4082-9ebf-fee9e85d8f30")
+		(property "Reference" "#PWR070"
+			(at 140.97 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,15 +2125,16 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 138.43 113.03 0)
+			(at 133.35 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 107.95 0)
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +2143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 107.95 0)
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +2152,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 138.43 107.95 0)
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,12 +2161,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5584910-bfbd-4b4e-851b-988592c8ea6b")
+			(uuid "e2c416d1-9da2-4f1f-8271-4db35632bd2b")
 		)
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/81388ce1-b713-4a4d-a62f-b5a425cee66d"
-					(reference "#PWR0354")
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 137.16 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0d98917-ac1f-4d01-a83c-b37dd9e382b3")
+		(property "Reference" "#PWR071"
+			(at 140.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 133.35 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e006a240-2659-4c8b-8005-ce03b2847153")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/81388ce1-b713-4a4d-a62f-b5a425cee66d"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
