@@ -4354,7 +4354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFP20P0X0X31-0_JOT"
+		(property "Footprint" "Project:QFP20P0X0X31-0_JOT"
 			(at 139.7 118.11 0)
 			(effects
 				(font
