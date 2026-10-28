@@ -744,48 +744,6 @@
 		)
 	)
 	(sheet
-		(at 247.015 104.013)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "354d9a88-ab50-41ba-b40e-476fe78e4ce7")
-		(property "Sheetname" "Battery Gauge"
-			(at 247.015 103.3014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "battery_gauge.kicad_sch"
-			(at 247.015 108.4076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
-					(page "20")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 26.67 133.35)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -865,48 +823,6 @@
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
 					(page "24")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 247.015 121.158)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "78c9fb69-bd8b-4be2-a858-27c158c5dba8")
-		(property "Sheetname" "Battery Protection"
-			(at 247.015 120.4464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "battery_protection.kicad_sch"
-			(at 247.015 125.5526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed"
-					(page "21")
 				)
 			)
 		)
