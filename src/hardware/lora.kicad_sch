@@ -4489,7 +4489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2392f2cd-56f2-4fc2-9232-4be95fd390de")
-		(property "Reference" "IC1"
+		(property "Reference" "U?"
 			(at 103.4481 100.33 90)
 			(effects
 				(font
@@ -4673,7 +4673,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/500b48f3-f083-4626-a865-624bdd615c7c"
-					(reference "IC1")
+					(reference "U?")
 					(unit 1)
 				)
 			)
