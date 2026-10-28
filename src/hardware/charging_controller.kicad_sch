@@ -5774,7 +5774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BQ25185DLHR:IC_BQ25185DLHR"
+		(property "Footprint" "Project:IC_BQ25185DLHR"
 			(at 147.32 101.6 0)
 			(effects
 				(font
