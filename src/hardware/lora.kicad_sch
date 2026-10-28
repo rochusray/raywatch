@@ -7017,7 +7017,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ANT-868-CHP-T:XDCR_ANT-868-CHP-T"
+		(property "Footprint" "Project:XDCR_ANT-868-CHP-T"
 			(at 247.65 129.54 0)
 			(effects
 				(font
