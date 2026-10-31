@@ -646,4 +646,15 @@
 		(uuid "fe279cb1-ce0e-48c5-8cff-b9520ee09d38")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D models/BQ25185DLHR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

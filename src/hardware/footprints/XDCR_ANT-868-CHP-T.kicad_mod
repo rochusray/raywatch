@@ -1,53 +1,270 @@
-
-(footprint XDCR_ANT-868-CHP-T (layer F.Cu) (tedit 6ADA1B53)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at -5.325 -2.635 0) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text value XDCR_ANT-868-CHP-T (at 2.93 2.635 0) (layer F.Fab)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -8.0 0.0) (size 1.0 3.3) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 8.0 0.0) (size 1.0 3.3) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -8.0 -1.55) (end 8.0 -1.55) (layer F.Fab) (width 0.127))
-  (fp_line (start 8.0 -1.55) (end 8.0 1.55) (layer F.Fab) (width 0.127))
-  (fp_line (start 8.0 1.55) (end -8.0 1.55) (layer F.Fab) (width 0.127))
-  (fp_line (start -8.0 1.55) (end -8.0 -1.55) (layer F.Fab) (width 0.127))
-  (fp_line (start -7.173 -1.55) (end 7.173 -1.55) (layer F.SilkS) (width 0.127))
-  (fp_line (start 7.173 1.55) (end -7.173 1.55) (layer F.SilkS) (width 0.127))
-  (fp_line (start -8.75 -1.9) (end 8.75 -1.9) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 8.75 -1.9) (end 8.75 1.9) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 8.75 1.9) (end -8.75 1.9) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -8.75 1.9) (end -8.75 -1.9) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center -9.1 0.0) (end -9.0 0.0) (layer F.SilkS) (width 0.2))
-  (fp_circle (center -9.1 0.0) (end -9.0 0.0) (layer F.Fab) (width 0.2))
-  (zone (net 0) (net_name "") (layer F.Cu) (hatch full 0.508)
-    (connect_pads (clearance 0))
-    (min_thickness 0.01)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints allowed))
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy -7.5 -1.65)
-        (xy 7.5 -1.65)
-        (xy 7.5 1.65)
-        (xy -7.5 1.65)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layers *.Cu) (hatch full 0.508)
-    (connect_pads (clearance 0))
-    (min_thickness 0.01)
-    (keepout (tracks allowed) (vias not_allowed) (pads allowed ) (copperpour allowed) (footprints allowed))
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy -7.5 -1.65)
-        (xy 7.5 -1.65)
-        (xy 7.5 1.65)
-        (xy -7.5 1.65)
-      )
-    )
-  )
+(footprint "XDCR_ANT-868-CHP-T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.325 -2.635 0)
+		(layer "F.SilkS")
+		(uuid "361d81d3-de5c-4a3a-9e46-5904bdaef89e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XDCR_ANT-868-CHP-T"
+		(at 2.93 2.635 0)
+		(layer "F.Fab")
+		(uuid "0a227ab0-e907-4f0c-8c92-a919bb0e0614")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96ff8951-0fa9-4a74-bdbc-8564bddf4527")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9413ce5a-672a-4f55-b021-859b1534bc06")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.173 -1.55)
+		(end 7.173 -1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6463af0-8d8c-42c2-bdee-5c596002f87b")
+	)
+	(fp_line
+		(start 7.173 1.55)
+		(end -7.173 1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe2983af-1827-4309-9f1f-bb81cd7b8d9e")
+	)
+	(fp_circle
+		(center -9.1 0)
+		(end -9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6a78056e-933a-45e8-87b1-aa42dea7caf6")
+	)
+	(fp_line
+		(start -8.75 -1.9)
+		(end 8.75 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc010163-a430-472a-86b6-1ff17a25575d")
+	)
+	(fp_line
+		(start -8.75 1.9)
+		(end -8.75 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13c6f1dd-80cf-4dbc-b3d9-7ea619852ca1")
+	)
+	(fp_line
+		(start 8.75 -1.9)
+		(end 8.75 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "32e38686-3cb6-464f-93f8-fd04f79d74cb")
+	)
+	(fp_line
+		(start 8.75 1.9)
+		(end -8.75 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4de50af2-04f4-4975-9b2a-4ed6cce4faec")
+	)
+	(fp_line
+		(start -8 -1.55)
+		(end 8 -1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40efd236-59b6-4d98-85c7-3ba80145338d")
+	)
+	(fp_line
+		(start -8 1.55)
+		(end -8 -1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "efe5804a-a762-4dc1-a3b6-049e9a838e4d")
+	)
+	(fp_line
+		(start 8 -1.55)
+		(end 8 1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3449c244-080f-498b-bebc-fccd3027e1a6")
+	)
+	(fp_line
+		(start 8 1.55)
+		(end -8 1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "168893fd-c21e-4909-ada3-3d52188b9002")
+	)
+	(fp_circle
+		(center -9.1 0)
+		(end -9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5edab60c-7ed4-43a9-bd19-e5d06fb78870")
+	)
+	(pad "1" smd rect
+		(at -8 0)
+		(size 1 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "555a53a8-f102-4894-a245-c5c8a2bfbacc")
+	)
+	(pad "2" smd rect
+		(at 8 0)
+		(size 1 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "29410659-484f-49cf-ac3e-a223fcda2e6b")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "87074faa-7425-4617-b9e7-cc0d8d55b2ae")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -7.5 -1.65) (xy 7.5 -1.65) (xy 7.5 1.65) (xy -7.5 1.65)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "2d4875b1-21ab-474f-9f79-f2725d4ea0c6")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -7.5 -1.65) (xy 7.5 -1.65) (xy 7.5 1.65) (xy -7.5 1.65)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D models/ANT-868-CHP-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
