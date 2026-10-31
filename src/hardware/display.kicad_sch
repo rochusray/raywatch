@@ -396,128 +396,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -2530,16 +2408,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 90.17) (xy 106.68 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f483238-1a6f-410b-a5a8-714c8ad1871d")
-	)
-	(wire
-		(pts
 			(xy 172.72 97.79) (xy 186.69 97.79)
 		)
 		(stroke
@@ -2610,7 +2478,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 90.17) (xy 186.69 90.17)
+			(xy 179.07 90.17) (xy 186.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2620,7 +2488,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 87.63) (xy 186.69 87.63)
+			(xy 179.07 87.63) (xy 186.69 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2697,16 +2565,6 @@
 			(type default)
 		)
 		(uuid "6907777c-956b-4356-b72d-0b029b45c261")
-	)
-	(wire
-		(pts
-			(xy 64.77 80.01) (xy 77.47 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d56e1ad-2d03-47bf-ad42-d875007ab8c8")
 	)
 	(wire
 		(pts
@@ -2870,16 +2728,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 77.47) (xy 77.47 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6b3a9ab-5462-4b57-a730-d5d0e1f9f4e8")
-	)
-	(wire
-		(pts
 			(xy 95.25 80.01) (xy 106.68 80.01)
 		)
 		(stroke
@@ -2887,16 +2735,6 @@
 			(type default)
 		)
 		(uuid "ef71f39c-0413-4503-bb5e-55b581ffe664")
-	)
-	(wire
-		(pts
-			(xy 157.48 87.63) (xy 147.32 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5d23ace-9b9b-4796-841c-00b36c37b238")
 	)
 	(wire
 		(pts
@@ -3078,26 +2916,6 @@
 		)
 		(uuid "7a400efc-5438-4d1b-a3ad-81c07c661211")
 	)
-	(label "HRINT"
-		(at 77.47 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e796d8c-3345-42dd-8d4a-2fe266afd95c")
-	)
-	(label "HRINT1V8"
-		(at 157.48 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f08cc9b-a309-4f39-96bd-df05b9594cd9")
-	)
 	(label "LCD\\RESET"
 		(at 74.93 119.38 180)
 		(effects
@@ -3137,26 +2955,6 @@
 			(justify right bottom)
 		)
 		(uuid "a1d0768c-ebbf-4641-b2eb-e5b6aeee5120")
-	)
-	(label "HRINT"
-		(at 95.25 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aab14041-a403-421c-90fc-2f298ba49f61")
-	)
-	(label "HRINT1V8"
-		(at 77.47 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "abc703e3-66e8-48b0-9cd0-466d31544030")
 	)
 	(label "LCDCMD"
 		(at 95.25 77.47 0)
@@ -3238,7 +3036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03393df0-522c-4bcd-bfa7-aed34db18b5e")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR077"
 			(at 90.17 130.81 0)
 			(effects
 				(font
@@ -3288,7 +3086,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR075")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -3304,7 +3102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08f92eec-0100-492d-bdd9-4cbf71d076be")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR092"
 			(at 215.9 69.85 0)
 			(effects
 				(font
@@ -3355,7 +3153,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR090")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -3509,7 +3307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15ff3e37-7480-40d1-8e19-f4cde5012a48")
-		(property "Reference" "J29"
+		(property "Reference" "J27"
 			(at 60.325 85.09 0)
 			(effects
 				(font
@@ -3525,7 +3323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 59.69 90.17 0)
 			(effects
 				(font
@@ -3561,72 +3359,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "J29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 152.4 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20297a7b-de84-41bd-acc2-bd90dd6e68c4")
-		(property "Reference" "J33"
-			(at 151.765 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 151.765 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 152.4 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 152.4 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b554f8aa-c2b9-45c0-a8b1-4ffa4cbe2da1")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "J33")
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -3642,7 +3375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f99cb6c-2f9a-4b27-a466-198af90234b3")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR080"
 			(at 110.49 40.64 0)
 			(effects
 				(font
@@ -3693,7 +3426,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR078")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -3710,7 +3443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35700bac-5906-40d9-a512-513de6fb880d")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 102.87 63.5 90)
 			(effects
 				(font
@@ -3771,7 +3504,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3787,7 +3520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3605882b-9b95-47b6-a8bf-ec6591004240")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR078"
 			(at 90.17 140.97 0)
 			(effects
 				(font
@@ -3837,7 +3570,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR076")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -3853,7 +3586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d2b69c6-4b84-4463-8ef9-720547bae1b5")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR085"
 			(at 106.68 138.43 0)
 			(effects
 				(font
@@ -3904,7 +3637,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR083")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -3912,7 +3645,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 172.72 87.63 90)
+		(at 179.07 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3920,8 +3653,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f88f7a2-e837-4285-b84a-145aab324982")
-		(property "Reference" "#PWR086"
-			(at 176.53 87.63 0)
+		(property "Reference" "#PWR090"
+			(at 182.88 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +3663,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 168.91 87.6299 90)
+			(at 175.26 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +3672,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 87.63 0)
+			(at 179.07 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +3681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 87.63 0)
+			(at 179.07 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +3690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 172.72 87.63 0)
+			(at 179.07 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +3704,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR086")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -3987,7 +3720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "401b73d6-63f1-45c7-b447-50fea938fd98")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR086"
 			(at 153.67 114.3 0)
 			(effects
 				(font
@@ -4038,72 +3771,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 101.6 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ddf6d62-bdcb-4547-8b94-e270be4dee6d")
-		(property "Reference" "J32"
-			(at 102.235 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 102.235 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 101.6 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 101.6 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a386037a-6971-4d82-b467-ef4d15257366")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "J32")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -4119,7 +3787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c48eb51-2944-4f74-b4fa-89a8b82406f9")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR081"
 			(at 110.49 43.18 0)
 			(effects
 				(font
@@ -4170,72 +3838,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 59.69 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61bfd728-462f-45a1-9f48-42892191469f")
-		(property "Reference" "J27"
-			(at 60.325 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 60.325 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 59.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 59.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c6c3718-68da-4989-87cb-6bd9c23a8a1b")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "J27")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -4251,7 +3854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "658c98de-eab9-457c-a30c-316ec5362cae")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR082"
 			(at 100.33 48.26 0)
 			(effects
 				(font
@@ -4302,74 +3905,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 59.69 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6eecaded-749d-4e05-8ce8-cd8c0f48570c")
-		(property "Reference" "J28"
-			(at 58.42 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 58.42 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c6c3718-68da-4989-87cb-6bd9c23a8a1b")
-		)
-		(instances
-			(project "raywatch"
-				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "J28")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -4385,7 +3921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70d94b16-e38d-46e8-970e-a4c8e12cbb8d")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR087"
 			(at 165.1 93.98 0)
 			(effects
 				(font
@@ -4435,7 +3971,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR085")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -4452,7 +3988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "724d787e-ce22-407d-979a-ecf543aecc3f")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR072"
 			(at 71.12 48.26 0)
 			(effects
 				(font
@@ -4503,7 +4039,78 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR070")
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 152.4 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c93d3bf-f783-4226-911a-bf9147d3bc81")
+		(property "Reference" "J31"
+			(at 153.67 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 153.67 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e5e113a-0bf1-4703-8473-46b806ffa28a")
+		)
+		(pin "1"
+			(uuid "45a4ef7f-d53f-4a56-8e32-1d41c5449b47")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
+					(reference "J31")
 					(unit 1)
 				)
 			)
@@ -4761,7 +4368,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 59.69 57.15 0)
 			(effects
 				(font
@@ -4789,10 +4396,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f1e8ab56-c3d6-4a60-ac67-a76f9e3e2722")
+			(uuid "f1e8ab56-c3d6-4a60-ac67-a76f9e3e2723")
 		)
 		(pin "1"
-			(uuid "7b973b33-df2d-4daa-afb0-3829de3a1b3f")
+			(uuid "7b973b33-df2d-4daa-afb0-3829de3a1b40")
 		)
 		(instances
 			(project "raywatch"
@@ -4814,7 +4421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9884f59e-2d69-4172-b79c-0142f2a2b5f2")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR071"
 			(at 60.96 45.72 0)
 			(effects
 				(font
@@ -4865,7 +4472,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR069")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -4882,7 +4489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a60ff980-c543-42cd-9047-b1f06743c8fc")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR075"
 			(at 60.96 67.31 0)
 			(effects
 				(font
@@ -4933,7 +4540,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR073")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -4950,7 +4557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a93d8529-db9f-4a4f-b7f8-ba017980c135")
-		(property "Reference" "J34"
+		(property "Reference" "J32"
 			(at 198.12 62.23 0)
 			(effects
 				(font
@@ -5119,7 +4726,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "J34")
+					(reference "J32")
 					(unit 1)
 				)
 			)
@@ -5233,7 +4840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3a323e3-b929-400a-a788-a355b3758024")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR079"
 			(at 92.71 69.85 0)
 			(effects
 				(font
@@ -5284,7 +4891,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR077")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -5300,7 +4907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc0d16f2-7abd-4f3b-bf7f-9662c12e899a")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR083"
 			(at 100.33 50.8 0)
 			(effects
 				(font
@@ -5351,7 +4958,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR081")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -5385,7 +4992,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 59.69 67.31 0)
 			(effects
 				(font
@@ -5413,10 +5020,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f1e8ab56-c3d6-4a60-ac67-a76f9e3e2722")
+			(uuid "f1e8ab56-c3d6-4a60-ac67-a76f9e3e2724")
 		)
 		(pin "1"
-			(uuid "7b973b33-df2d-4daa-afb0-3829de3a1b3f")
+			(uuid "7b973b33-df2d-4daa-afb0-3829de3a1b41")
 		)
 		(instances
 			(project "raywatch"
@@ -5429,7 +5036,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 90.17 270)
+		(at 179.07 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5437,8 +5044,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4a39440-4433-4c94-a75f-62c60fbdec5c")
-		(property "Reference" "#PWR087"
-			(at 166.37 90.17 0)
+		(property "Reference" "#PWR091"
+			(at 172.72 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5054,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 90.1699 90)
+			(at 175.26 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 90.17 0)
+			(at 179.07 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 90.17 0)
+			(at 179.07 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5081,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 90.17 0)
+			(at 179.07 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5095,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR087")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -5583,7 +5190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8db2e98-4358-426e-8c57-e1451ba04178")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR093"
 			(at 215.9 72.39 0)
 			(effects
 				(font
@@ -5634,7 +5241,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR091")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -5651,7 +5258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caf83db1-93c9-4dc6-b24b-8dca5f9060c4")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR074"
 			(at 71.12 59.69 0)
 			(effects
 				(font
@@ -5702,7 +5309,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR072")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5718,7 +5325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc1489c3-9dd7-48a8-ae38-e45ceccafd6f")
-		(property "Reference" "J31"
+		(property "Reference" "J29"
 			(at 60.325 111.76 0)
 			(effects
 				(font
@@ -5734,7 +5341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
 			(at 59.69 119.38 0)
 			(effects
 				(font
@@ -5776,7 +5383,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "J31")
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -5792,7 +5399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d447b207-8718-413f-b948-60db8763719d")
-		(property "Reference" "J30"
+		(property "Reference" "J28"
 			(at 60.325 96.52 0)
 			(effects
 				(font
@@ -5808,7 +5415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
 			(at 59.69 104.14 0)
 			(effects
 				(font
@@ -5836,21 +5443,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "6e3861c1-e55a-489b-8a16-2666af7620b9")
+			(uuid "6e3861c1-e55a-489b-8a16-2666af7620ba")
 		)
 		(pin "3"
-			(uuid "d9607f09-1e0f-4ae3-a492-b5ea3bfe233f")
+			(uuid "d9607f09-1e0f-4ae3-a492-b5ea3bfe2340")
 		)
 		(pin "1"
-			(uuid "c99b5693-86ca-45a7-bdfc-da85162b25c4")
+			(uuid "c99b5693-86ca-45a7-bdfc-da85162b25c5")
 		)
 		(pin "4"
-			(uuid "390042aa-e74f-4bf1-8921-9e44a3e28b45")
+			(uuid "390042aa-e74f-4bf1-8921-9e44a3e28b46")
 		)
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "J30")
+					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -5866,7 +5473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d878e67c-99e2-4d19-b39f-8a253f2f5c07")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR084"
 			(at 100.33 121.92 0)
 			(effects
 				(font
@@ -5917,7 +5524,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR082")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5934,7 +5541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d96af977-e3ff-489f-bcf6-51edcce085ad")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR076"
 			(at 71.12 69.85 0)
 			(effects
 				(font
@@ -5985,7 +5592,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR074")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -6134,7 +5741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa204f2e-a284-440f-942d-9c998ca8623c")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR073"
 			(at 60.96 57.15 0)
 			(effects
 				(font
@@ -6185,7 +5792,77 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
-					(reference "#PWR071")
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 101.6 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fce42855-f2c3-45dd-9dc9-e2b68e6b7605")
+		(property "Reference" "J30"
+			(at 100.33 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 100.33 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9db64350-40c5-4f51-b708-6dce323a6bf1")
+		)
+		(pin "1"
+			(uuid "d458c2b7-23b5-476d-9a5a-0c6f424fc0c5")
+		)
+		(instances
+			(project "raywatch"
+				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/0522506d-d6b7-4115-aecc-a1b886294452"
+					(reference "J30")
 					(unit 1)
 				)
 			)
@@ -6219,7 +5896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 59.69 45.72 0)
 			(effects
 				(font
@@ -6247,10 +5924,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f1e8ab56-c3d6-4a60-ac67-a76f9e3e2722")
+			(uuid "f1e8ab56-c3d6-4a60-ac67-a76f9e3e2725")
 		)
 		(pin "1"
-			(uuid "7b973b33-df2d-4daa-afb0-3829de3a1b3f")
+			(uuid "7b973b33-df2d-4daa-afb0-3829de3a1b42")
 		)
 		(instances
 			(project "raywatch"

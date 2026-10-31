@@ -863,7 +863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "161bb965-826f-462a-ae3b-ca240087ddd3")
-		(property "Reference" "J92"
+		(property "Reference" "J90"
 			(at 80.01 86.3599 0)
 			(effects
 				(font
@@ -881,7 +881,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 81.28 86.36 0)
 			(effects
 				(font
@@ -917,7 +917,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/f2f5da81-6e74-45e5-9c07-b66eda9b7e5d"
-					(reference "J92")
+					(reference "J90")
 					(unit 1)
 				)
 			)
@@ -1021,7 +1021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a45aa61-0704-4cde-a7b9-71322c0c34f4")
-		(property "Reference" "#PWR0473"
+		(property "Reference" "#PWR0475"
 			(at 127 96.52 0)
 			(effects
 				(font
@@ -1072,7 +1072,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/f2f5da81-6e74-45e5-9c07-b66eda9b7e5d"
-					(reference "#PWR0473")
+					(reference "#PWR0475")
 					(unit 1)
 				)
 			)
@@ -1088,7 +1088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ef71061-1840-4725-9483-08dc0c58628f")
-		(property "Reference" "#PWR0470"
+		(property "Reference" "#PWR0472"
 			(at 92.71 88.9 0)
 			(effects
 				(font
@@ -1139,7 +1139,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/f2f5da81-6e74-45e5-9c07-b66eda9b7e5d"
-					(reference "#PWR0470")
+					(reference "#PWR0472")
 					(unit 1)
 				)
 			)
@@ -1155,7 +1155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a40bc61-a1bb-4628-ab52-99857c34d54d")
-		(property "Reference" "#PWR0474"
+		(property "Reference" "#PWR0476"
 			(at 133.35 115.57 0)
 			(effects
 				(font
@@ -1205,7 +1205,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/f2f5da81-6e74-45e5-9c07-b66eda9b7e5d"
-					(reference "#PWR0474")
+					(reference "#PWR0476")
 					(unit 1)
 				)
 			)
@@ -1221,7 +1221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70e78ff7-dfce-4a94-93c1-8aefda1d06c9")
-		(property "Reference" "J93"
+		(property "Reference" "J91"
 			(at 80.01 93.9799 0)
 			(effects
 				(font
@@ -1239,7 +1239,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 81.28 93.98 0)
 			(effects
 				(font
@@ -1275,7 +1275,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/f2f5da81-6e74-45e5-9c07-b66eda9b7e5d"
-					(reference "J93")
+					(reference "J91")
 					(unit 1)
 				)
 			)
@@ -1291,7 +1291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81d20d2d-59e7-40c4-88ce-b0064b07647c")
-		(property "Reference" "#PWR0472"
+		(property "Reference" "#PWR0474"
 			(at 121.92 118.11 0)
 			(effects
 				(font
@@ -1341,7 +1341,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/f2f5da81-6e74-45e5-9c07-b66eda9b7e5d"
-					(reference "#PWR0472")
+					(reference "#PWR0474")
 					(unit 1)
 				)
 			)
@@ -1357,7 +1357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4b07452-2fae-4f76-8c5b-c6f99dac43dc")
-		(property "Reference" "#PWR0469"
+		(property "Reference" "#PWR0471"
 			(at 82.55 86.36 0)
 			(effects
 				(font
@@ -1408,7 +1408,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/f2f5da81-6e74-45e5-9c07-b66eda9b7e5d"
-					(reference "#PWR0469")
+					(reference "#PWR0471")
 					(unit 1)
 				)
 			)
@@ -1503,7 +1503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e08a0140-0c6b-49e6-ad3f-5cae8c484177")
-		(property "Reference" "#PWR0471"
+		(property "Reference" "#PWR0473"
 			(at 121.92 107.95 0)
 			(effects
 				(font
@@ -1553,7 +1553,7 @@
 		(instances
 			(project "raywatch"
 				(path "/7b654ee8-2a53-4d39-8b7d-32c7bb3cb0ed/f2f5da81-6e74-45e5-9c07-b66eda9b7e5d"
-					(reference "#PWR0471")
+					(reference "#PWR0473")
 					(unit 1)
 				)
 			)
